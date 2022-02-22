@@ -57,7 +57,7 @@ def get_string_ids(genes, species, identity):
     
     return string_identifiers
 
-def get_PPI_network(genes, species, identity):
+def get_PPI_network(genes, species, identity, disease):
         
     '''
     For the given list of proteins print out only the interactions between these
@@ -92,21 +92,21 @@ def get_PPI_network(genes, species, identity):
 
     print('Interactions between these genes:', string_ppis.shape[0])
 
-    get_interacting_proteins(string_ppis)
-    make_edge_list(string_ppis)
+    get_interacting_proteins(string_ppis, disease)
+    make_edgelist(string_ppis, disease)
 
-def get_interacting_proteins(ppin):
+def get_interacting_proteins(ppin, disease):
 
     uniques = np.unique(ppin[['preferredName_A', 'preferredName_B']].values)
     interacting_proteins = list(uniques)
 
-    with open(f'data/{DIS}_PPI_intprots.txt', 'w') as f:
+    with open(f'data/{disease}_STRING_PPI_intprots.txt', 'w') as f:
         for item in interacting_proteins:
             f.write("%s\n" % item)
 
     print('Proteins interacting at least with another one:', len(interacting_proteins))
 
-def make_edge_list(ppin):
+def make_edgelist(ppin, disease):
 
     '''
     Format PPIN data to obtain a list of protein interactions identified by their
@@ -118,26 +118,8 @@ def make_edge_list(ppin):
 
     ppin.drop(columns=cols_to_drop, axis=1, inplace=True)
 
-    ppin.to_csv(f'data/{DIS}_PPI_edgelist.txt',
+    ppin.to_csv(f'data/{disease}_STRING_PPI_edgelist.txt',
                 sep=' ',
                 header=False,
                 index=False)
-
-def main():
-
-    input_file = f'data/{DIS}_GDAs.tsv'
-
-    species = 9606
-    identity = 'lhlorenzo'
-
-    genes_of_interest = load_GDAs(input_file)
-    string_ids = get_string_ids(genes_of_interest, species, identity)
-    get_PPI_network(string_ids, species, identity)
-
-
-if __name__ == "__main__":
-    
-    DIS = 'AD' # or ND
-    # os.chdir('ppa-graphs')
-    main()
 

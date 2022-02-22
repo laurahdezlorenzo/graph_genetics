@@ -137,7 +137,7 @@ def add_graph_features(g, s, label, labels_df):
                 g.graph['graph_label'] = torch.tensor([1])
                 return g
 
-def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diagnosis):
+def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diagnosis, target):
 
     '''
     Create a graph for each sample in the dataset, using nodes and edges 
@@ -158,7 +158,7 @@ def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diag
         sample_graph = original_graph.copy()
 
         # Add graph features
-        sample_graph = add_graph_features(sample_graph, sample, TAR, diagnosis)
+        sample_graph = add_graph_features(sample_graph, sample, target, diagnosis)
 
         if sample_graph == None:
             continue
@@ -174,7 +174,7 @@ def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diag
         graphs_list.append(sample_graph)
         # print('Sample graph used:', '# nodes =', nx.number_of_nodes(sample_graph), '# edges =', nx.number_of_edges(sample_graph))
 
-    print(f'Class: {TAR}. Found {counter} positive subjects out of {len(graphs_list)}')
+    print(f'Class: {target}. Found {counter} positive subjects out of {len(graphs_list)}')
 
     return graphs_list
 
@@ -196,7 +196,7 @@ def delete_small_components(graphs, thres_nodes):
 
     return graphs
 
-def main(mode):
+def main(indir, dataset, target, disease, network, mode, number):
 
 
     '''
@@ -209,33 +209,36 @@ def main(mode):
         - giant_brain: brain-specific functional network from GIANT
     '''
 
-    if RAN == 'original':
-        ppin_file_path      = f'{INDIR}/{DIS}_{NET}_edgelist.txt'
+    if network == 'original':
+        ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist.txt'
         print(ppin_file_path)
 
-    elif RAN == 'noAPOE':
-        ppin_file_path      = f'{INDIR}/{DIS}_{NET}_edgelist_noAPOE.txt'
+    elif network == 'noAPOE':
+        ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist_noAPOE.txt'
     
-    elif RAN == 'biogrid':
-        ppin_file_path      = f'{INDIR}/{DIS}_BioGrid_{NET}.edgelist'
+    elif network == 'biogrid':
+        ppin_file_path      = f'{indir}/{disease}_BioGrid_PPI.edgelist'
 
-    elif RAN == 'huri':
-        ppin_file_path      = f'{INDIR}/{DIS}_HuRI_{NET}.edgelist'
+    elif network == 'huri':
+        ppin_file_path      = f'{indir}/{disease}_HuRI_PPI.edgelist'
 
-    elif RAN == 'snap_brain':
-        ppin_file_path      = f'{INDIR}/{DIS}_SNAP_{NET}_brain.edgelist'
+    elif network == 'snap_brain':
+        ppin_file_path      = f'{indir}/{disease}_SNAP_PPI_brain.edgelist'
 
-    elif RAN == 'giant_brain':
-        ppin_file_path      = f'{INDIR}/{DIS}_GIANT_brain.edgelist' # it is not simply a PPI
+    elif network == 'giant_brain':
+        ppin_file_path      = f'{indir}/{disease}_GIANT_brain.edgelist' # it is not simply a PPI
 
-    else:
-        ppin_file_path      = f'{INDIR}/REWIRED/{DIS}_{NET}_random_edgelists/{DIS}_{NET}_{RAN}_edgelist.txt'
+    elif network == 'shuffled':
+        ppin_file_path      = f'{indir}/random_networks/shuffled/{disease}_PPI_rand{number}_edgelist.txt'
+    
+    elif network == 'rewired':
+        ppin_file_path      = f'{indir}/random_networks/rewired/{disease}_PPI_rand{number}_edgelist.txt'
     
     ppi_graph = nx.read_edgelist(ppin_file_path)
     nodes = list(ppi_graph)
     edges = ppi_graph.edges
 
-    print('Network used:', DIS, NET, RAN)
+    print('Network used:', disease, network)
     print('# nodes =', nx.number_of_nodes(ppi_graph))
     print('# edges =', nx.number_of_edges(ppi_graph))
     print()
@@ -247,18 +250,18 @@ def main(mode):
         - LOAD: GWAS data from T Gen II dataset from NIAGDS
     '''
 
-    if DS == 'ADNI': # Use ADNI data
-        print('Dataset used: adni')
-        header = f'{INDIR}/ADNI/field_names.txt'
-        missense_file_path  = f'{INDIR}/ADNI/{DIS}_{NET}_worst_missense.tsv'
-        diagnosis_file_path = f'{INDIR}/ADNI/ADNIMERGE_genetics_biomarkers.csv'
+    if dataset == 'ADNI': # Use ADNI data
+        print('Dataset used: ADNI')
+        header = f'{indir}/ADNI/field_names.txt'
+        missense_file_path  = f'{indir}/ADNI/{disease}_PPI_worst_missense.tsv'
+        diagnosis_file_path = f'{indir}/ADNI/ADNIMERGE_genetics_biomarkers.csv'
         diagnosis = pd.read_csv(diagnosis_file_path, index_col=0)
 
-    elif DS == 'LOAD': # Use LOAD data
+    elif dataset == 'LOAD': # Use LOAD data
         print('Dataset used: LOAD')
-        header = f'{INDIR}/LOAD/field_names.txt'
-        missense_file_path  = f'{INDIR}/LOAD/{DIS}_{NET}_worst_missense.tsv'
-        diagnosis_file_path = f'{INDIR}/LOAD/LOAD_metadata.tsv'
+        header = f'{indir}/LOAD/field_names.txt'
+        missense_file_path  = f'{indir}/LOAD/{disease}_PPI_worst_missense.tsv'
+        diagnosis_file_path = f'{indir}/LOAD/LOAD_metadata.tsv'
         diagnosis = pd.read_csv(diagnosis_file_path, sep='\t', index_col=1)
 
     missense = process_variants(missense_file_path, header)
@@ -283,7 +286,7 @@ def main(mode):
         nodes_attr = per_node(mode, missense, nodes)
         edges_attr = None
 
-        result_graphs = create_samples_graphs('missense', nodes_attr, None, ppi_graph, diagnosis)
+        result_graphs = create_samples_graphs('missense', nodes_attr, None, ppi_graph, diagnosis, target)
         result_graphs = delete_small_components(result_graphs, 4)
 
         return result_graphs
@@ -300,20 +303,16 @@ if __name__ == '__main__':
     RAN = str(sys.argv[4])
     TAR = str(sys.argv[5])
 
-    # DS = 'ADNI' # or 'LOAD'
-    # DIS = 'ND' 
-    # NET = 'PPI'
-    # RAN = 'original'
-    # TAR = 'LOAD'
     
-    # Input and output directories
-    if not os.path.exists(f'results/graph_datasets/{TAR}'):
-        os.makedirs(f'results/graph_datasets/{TAR}')
-    INDIR = 'data'
-    OUTDIR = f'results/graph_datasets/{TAR}'
 
-    print('Input directory:', INDIR)
-    print('Output directory:', OUTDIR)
+    # Input and output directories
+    if not os.path.exists(f'results/graph_datasets/{target}'):
+        os.makedirs(f'results/graph_datasets/{target}')
+    indir = 'data'
+    outdir = f'results/graph_datasets/{target}'
+
+    print('Input directory:', indir)
+    print('Output directory:', outdir)
     print()
 
     start_time = datetime.datetime.now()
@@ -322,9 +321,20 @@ if __name__ == '__main__':
     result_nodes = main('missense')
     print('Coding: number of missense variants per node')
 
-    outfile = f'{OUTDIR}/{DIS}_{NET}_{RAN}_missense.pkl'
-    print('Resulting dataset saved at:', outfile)
-    print()
+    if random == 'shuffled':
+        outfile = f'{outdir}/shuffled/{disease}_{network}_rand{number}_missense.pkl'
+        print('Resulting dataset saved at:', outfile)
+        print()
+
+    elif random == 'rewired':
+        outfile = f'{outdir}/{disease}_{network}_{random}_rand{number}_missense.pkl'
+        print('Resulting dataset saved at:', outfile)
+        print()
+
+    else:
+        outfile = f'{outdir}/{disease}_{network}_{random}_missense.pkl'
+        print('Resulting dataset saved at:', outfile)
+        print()
 
     with open(outfile, 'wb') as f:
     	pickle.dump(result_nodes, f)
