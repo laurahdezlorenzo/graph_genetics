@@ -1,8 +1,7 @@
 # graph-genetics
 <div id="top"></div>
 
-### Description
-<div id="top"></div>
+## Description
 
 This is the code repository for the paper entitled "Graph classification for phenotype prediction in neurodegenerative diseases". The repository follows the methodology and results presented in the abovementioned work. 
 
@@ -17,8 +16,7 @@ This is the code repository for the paper entitled "Graph classification for phe
 * [data](data) contains several data files used in this work. Please note genetic data coming from the cohorts employed is not available due to privacy reasons.
 * [results](results) contains several files with the results presented in this work
 
-### Implementation
-<div id="top"></div>
+## Implementation
 
 The code in this work was built using:
 
@@ -31,6 +29,5 @@ The code in this work was built using:
 * [SciPy]() for statistical analyses.
 
 ## Contact
-<div id="top"></div>
 Please refer any questions to:
 Laura Hernández-Lorenzo - [GitHub](https://github.com/laurahdezlorenzo) - [email](laurahl@ucm.es)
