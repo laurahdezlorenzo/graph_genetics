@@ -1,4 +1,4 @@
-# graph-genetics
+# graph_genetics
 <div id="top"></div>
 
 ## Description
