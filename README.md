@@ -33,6 +33,6 @@ The code in this repo was built using:
 
 ## Contact
 Please refer any questions to:
-Laura Hernández Lorenzo [laurahdezlorenzo](https://github.com/laurahdezlorenzo) - [laurahl@ucm.es](laurahl@ucm.es)
+Laura Hernández-Lorenzo - [GitHub](https://github.com/laurahdezlorenzo) - [email](laurahl@ucm.es)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
