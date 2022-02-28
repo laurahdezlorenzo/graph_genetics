@@ -3,7 +3,7 @@
 
 ## Description
 
-This is the code repository for the paper entitled "Graph classification for phenotype prediction in neurodegenerative diseases". The repository follows the methodology and results presented in the abovementioned work. 
+This is the code repository for the paper entitled *Graph classification for phenotype prediction in neurodegenerative diseases*. The repository follows the methodology and results presented in the abovementioned work. 
 
 ![Image](figure1.png)
 
@@ -20,13 +20,13 @@ This is the code repository for the paper entitled "Graph classification for phe
 
 The code in this work was built using:
 
-* [disgenet2r](https://nextjs.org/) for obtaining GDAs from DisGeNET.
-* [biomaRt](https://reactjs.org/) for obtaining genomic coordinates of the genes of interest.
-* [VCFTools](https://vuejs.org/) and [Ensemble's Variant Effect Predictor (VEP)](https://angular.io/) for extracting and annotating missense variants.
-* [NetworkX]() for networks' manipulation and building graph datasets.
-* [GraphGym]() for evaluating and testing GNN models on graph datasets.
-* [Scikit-Learn]() for building non-GNN models.
-* [SciPy]() for statistical analyses.
+* [disgenet2r](https://www.disgenet.org/disgenet2r) for obtaining GDAs from DisGeNET.
+* [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html) for obtaining genomic coordinates of the genes of interest.
+* [VCFTools](http://vcftools.sourceforge.net/) and [Ensemble's Variant Effect Predictor (VEP)](https://www.ensembl.org/info/docs/tools/vep/index.html) for extracting and annotating missense variants.
+* [NetworkX](https://networkx.org/) for networks' manipulation and building graph datasets.
+* [GraphGym](https://github.com/snap-stanford/GraphGym) for evaluating and testing GNN models on graph datasets.
+* [Scikit-Learn](https://scikit-learn.org/stable/) for building non-GNN models.
+* [SciPy](https://scipy.org/) for statistical analyses.
 
 ## Contact
 Please refer any questions to:
