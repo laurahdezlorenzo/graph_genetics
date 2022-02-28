@@ -28,10 +28,6 @@ The code in this work was built using:
 * [Scikit-Learn]() for building non-GNN models.
 * [SciPy]() for statistical analyses.
 
-<p align="center">(<a href="#top">back to top</a>)</p>
-
 ## Contact
 Please refer any questions to:
 Laura Hernández-Lorenzo - [GitHub](https://github.com/laurahdezlorenzo) - [email](laurahl@ucm.es)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
