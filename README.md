@@ -5,7 +5,7 @@
 
 This is the code repository for the paper entitled *Graph classification for phenotype prediction in neurodegenerative diseases*. The repository follows the methodology and results presented in the abovementioned work. 
 
-![Image](figure1.png)
+![Image](figures/figure1.png)
 
 * [genes_of_interest](genes_of_interest) obtain Gene-Disease Associations from DisGeNET using an R script.
 * [networks](networks) contains several Python scripts for building different networks (PPIs from different sources, random networks).

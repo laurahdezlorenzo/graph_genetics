@@ -57,7 +57,7 @@ def same_lists(mode, genes_variants, genes_graph):
                 genes_variants.loc[node] = [[0]*19] * genes_variants.shape[1]
             else:
                 genes_variants.loc[node] = [0] * genes_variants.shape[1]
-
+    print(genes_variants.shape)
     return genes_variants
 
 def per_node(mode, df_original, nodes):
@@ -287,57 +287,8 @@ def main(indir, dataset, target, disease, network, mode, number):
         print('Sample graph used:', '# nodes =', nx.number_of_nodes(result_graphs[0]), '# edges =', nx.number_of_edges(result_graphs[0]))
 
         return result_graphs
-
-
-if __name__ == '__main__':
-
-    import sys
-
-    # Options
-    DS = str(sys.argv[1]) 
-    DIS = str(sys.argv[2]) 
-    NET = str(sys.argv[3])
-    RAN = str(sys.argv[4])
-    TAR = str(sys.argv[5])
-
     
 
-    # Input and output directories
-    if not os.path.exists(f'results/graph_datasets/{target}'):
-        os.makedirs(f'results/graph_datasets/{target}')
-    indir = 'data'
-    outdir = f'results/graph_datasets/{target}'
 
-    print('Input directory:', indir)
-    print('Output directory:', outdir)
-    print()
-
-    start_time = datetime.datetime.now()
-    print()
-
-    result_nodes = main('missense')
-    print('Coding: number of missense variants per node')
-
-    if random == 'shuffled':
-        outfile = f'{outdir}/shuffled/{disease}_{network}_rand{number}_missense.pkl'
-        print('Resulting dataset saved at:', outfile)
-        print()
-
-    elif random == 'rewired':
-        outfile = f'{outdir}/{disease}_{network}_{random}_rand{number}_missense.pkl'
-        print('Resulting dataset saved at:', outfile)
-        print()
-
-    else:
-        outfile = f'{outdir}/{disease}_{network}_{random}_missense.pkl'
-        print('Resulting dataset saved at:', outfile)
-        print()
-
-    with open(outfile, 'wb') as f:
-    	pickle.dump(result_nodes, f)
-    
-    result_nodes_time = datetime.datetime.now()
-    print('Processing time:', result_nodes_time - start_time)
-    print('\n\n')
 
 

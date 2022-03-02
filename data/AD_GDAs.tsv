@@ -1,102 +1,102 @@
-disease_class	disease_name	disease_type	diseaseid	gene_dpi	geneid	year_initial	uniprotid	gene_pli	year_final	disease_class_name	disease_semantic_type	gene_dsi	ei	protein_class	el	gene_symbol	protein_class_name	score	source
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	1636	1998	P12821	1.0344e-37	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.328	0.915	DTO_05007624	strong	ACE	Enzyme	0.9	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	351	1987	P05067	0.046544	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.422	0.981	DTO_05007584		APP	Enzyme modulator	0.9	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	102	2000	O14672	1	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.489	0.986			ADAM10		0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	2932	2000	P49841	0.95571	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.43	0.982	DTO_03300101		GSK3B	Kinase	0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	3077	2001	Q30201	2.5587e-08	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.436	0.963		strong	HFE		0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.962	348	1991	P02649	0.0018685	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.338	0.946			APOE		0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	4137	1988	P10636	0.0060258	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.446	0.99			MAPT		0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	54209	2007	Q9NZC2	3.2892e-09	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.519	0.977		limited	TREM2		0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	5663	1990	P49768	0.97322	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.469	0.971	DTO_05007624		PSEN1	Enzyme	0.7	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	5328	2002	P00749	2.3058e-06	2013	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.425	1	DTO_05007624		PLAU	Enzyme	0.68	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	23621	1999	P56817	0.87888	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.559	0.985	DTO_05007624		BACE1	Enzyme	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.577	3416	2000	P14735	0.0066309	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.604	0.955	DTO_05007624		IDE	Enzyme	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.962	3553	1989	P01584	0.13005	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.276	0.966			IL1B		0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	3643	2002	P06213	3.6145e-05	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.432	1	DTO_03300101		INSR	Kinase	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	3952	2004	P41159	0.46491	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.349	0.944			LEP		0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	4852	2000	P01303	0.14294	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.447	0.833	DTO_05007599		NPY	Signaling	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	596	1996	P10415	0.55903	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.291	1	DTO_05007599		BCL2	Signaling	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	627	1991	P23560	0.65626	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.345	0.958	DTO_05007599		BDNF	Signaling	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	836	1999	P42574	0.10017	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.351	0.98	DTO_05007624		CASP3	Enzyme	0.6	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	3481	2002	P01344	0.044127	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.39	1			IGF2		0.57	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	3480	2005	P08069	0.96799	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.399	1	DTO_03300101		IGF1R	Kinase	0.56	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	498	2003	P25705	0.99945	2017	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.604	1	DTO_05007405		ATP5F1A	Transporter	0.54	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	3630	1991	P01308	0.30091	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.445	1			INS		0.53	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	581	1997	Q07812	0.31746	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.417	1	DTO_05007599		BAX	Signaling	0.52	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.577	10347	2011	Q8IZY2	2.1111e-55	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.644	0.985	DTO_05007405		ABCA7	Transporter	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.538	10452	2009	O96008	0.99218	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.59	0.978	DTO_05007405		TOMM40	Transporter	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	1191	1991	P10909	7.8072e-05	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.426	0.94			CLU		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	1378	2009	P17927	1.6488e-35	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.533	0.971			CR1		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	2	1998	P01023	4.5229e-11	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.529	0.769	DTO_05007584		A2M	Enzyme modulator	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	2041	2009	P21709	1.4624e-23	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.544	0.933	DTO_03300101		EPHA1	Kinase	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	23607	2011	Q9Y5K6	0.22989	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.558	1			CD2AP		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	274	2011	O00499	0.77822	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.55	0.98			BIN1		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.577	341	1999	P02654	0.21685	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.581	1			APOC1		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	4353	1999	P05164	7.105e-15	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.377	1	DTO_05007624		MPO	Enzyme	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	4846	1999	P29474	6.7246e-07	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.378	0.9			NOS3		0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.654	5664	1995	P49810	0.00053736	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.55	0.977	DTO_05007624		PSEN2	Enzyme	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	6653	2004	Q92673	7.6609e-11	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.582	0.973	DTO_05007405		SORL1	Transporter	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.538	8301	2009	Q13492	0.99896	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.592	0.947	DTO_05007405		PICALM	Transporter	0.5	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.423	7447	2001	P62760	0.45742	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.631	1			VSNL1		0.49	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	3635	2013	Q92835	0.97198	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.558	1			INPP5D		0.45	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	5819	2008	Q92692	0.96926	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.575	1			NECTIN2		0.44	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.308	51338	2011	Q96JQ5	8.0964e-06	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.722	1	DTO_05007575		MS4A4A	Receptor	0.43	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.308	27328	2009	Q9BZA7	0.015836	2011	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.729	1			PCDH11X		0.42	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.231	57091	2013	Q9NQ75	0.36682	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.722	1			CASS4		0.42	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.5	10858	2000	Q9Y6A2	0.98552	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.659	0.953	DTO_05007624		CYP46A1	Enzyme	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.654	1139	2001	P36544;Q494W8	0.00041549	2017	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.532	1	DTO_01300327		CHRNA7	Ion channel	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	1471	1988	P01034	0.0039011	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.436	0.935			CST3		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	1565	1995	P10635	1.0793e-25	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.437	0.909			CYP2D6		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	1718	2000	Q15392	0.031029	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.498	0.958	DTO_05007624		DHCR24	Enzyme	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	1808	1999	Q16555	0.99375	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.585	0.947	DTO_05007624		DPYSL2	Enzyme	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.962	2099	1999	P03372	0.9992	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.324	0.944	DTO_00102000		ESR1	Nuclear receptor	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.462	23385	2001	Q92542	0.99942	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.666	1			NCSTN		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	3162	1995	P09601	0.0096817	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.381	0.92			HMOX1		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	3479	2000	P05019	0.2716	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.318	1			IGF1		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	406938	2008		NA	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.398	1			MIR146A		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	4129	1994	P27338	0.99903	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.533	1			MAOB		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	43	1991	P22303	0.99827	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.445	0.985	DTO_05007624		ACHE	Enzyme	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	4524	1999	P42898	3.2068e-10	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.337	0.868			MTHFR		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	5468	2000	P37231	0.029194	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.358	0.907	DTO_00102000		PPARG	Nuclear receptor	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	5621	1986	F7VJQ1;P04156	0.00063182	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.445	0.902			PRNP		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	5649	2002	P78509	1	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.515	1			RELN		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	590	1995	P06276	1.0643e-13	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.447	0.962			BCHE		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	7019	2004	Q00059	0.17259	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.529	0.9			TFAM		0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.962	7124	1998	P01375	0.8033	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.231	0.963	DTO_05007599		TNF	Signaling	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	7422	2005	P15692	2.4085e-05	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.266	0.919	DTO_05007599		VEGFA	Signaling	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	945	2011	P20138	5.6888e-07	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.524	0.972	DTO_05007575		CD33	Receptor	0.4	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	1392	1995	P06850	0.71614	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.439	0.9	DTO_05007599		CRH	Signaling	0.39	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.923	6648	2001	P04179	0.15499	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.379	0.889	DTO_05007624		SOD2	Enzyme	0.38	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	5336	2017	P16885	0.99562	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.588	1	DTO_05007624		PLCG2	Enzyme	0.36	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.462	8633	2014	O95185	0.0008813	2016	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.65	1	DTO_05007575		UNC5C	Receptor	0.36	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.231	51225	2017	Q9P2A4	5.0089e-05	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.716	1	DTO_05007584		ABI3	Enzyme modulator	0.35	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	51741	2004	Q9NZC7	1.2376e-15	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.453	1	DTO_05007624		WWOX	Enzyme	0.35	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	7018	2002	P02787	4.1001e-08	2012	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.527	1	DTO_05007624		TF	Enzyme	0.35	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.308	1141	1999	P17787	0.00072964	2007	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.617	1	DTO_01300327		CHRNB2	Ion channel	0.34	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.346	55676	2006	Q6NXT4	6.906e-09	2014	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.711	1	DTO_05007405		SLC30A6	Transporter	0.34	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.654	10857	2014	O00264	0.6711	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.588	1	DTO_05007599		PGRMC1	Signaling	0.33	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	1965	2002	P05198	0.97031	2009	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.587	1	DTO_05007557		EIF2S1	Nucleic acid binding	0.33	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	2147	1993	P00734	0.0011118	2016	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.415	1	DTO_05007624		F2	Enzyme	0.33	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	23237	2000	Q7LC44	0.59433	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.573	1			ARC		0.33	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	801	2001	P0DP23;P0DP24;P0DP25	0.94473	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.472	1	DTO_05007616		CALM1	Calcium-binding protein	0.33	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.885	2023	2003	P06733	1.914e-05	2009	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.481	1	DTO_05007624		ENO1	Enzyme	0.32	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	3127	2015	Q30154	3.6359e-07	2017	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.608	1	DTO_05007608		HLA-DRB5	Immune response	0.32	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.731	3482	2004	P11717	1	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.518	1	DTO_05007575		IGF2R	Receptor	0.32	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	7167	2009	P60174	0.030193	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.517	1	DTO_05007624		TPI1	Enzyme	0.32	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.077	100170222	2018		NA	2018	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.805	1			SNAR-I		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.154	124152	2014	Q8N0W5	2.0032e-06	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.792	1			IQCK		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	267	2012	Q9UKV5	5.8368e-05	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.599	1			AMFR		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.846	406892	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.521	1			MIR100		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.654	407022	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.564	1			MIR296		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	494324	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.476	1			MIR375		0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.769	6517	2014	P14672	4.7123e-05	2020	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.528	1	DTO_05007405		SLC2A4	Transporter	0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.385	7782	2006	O14863	0.11544	2006	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.705	1	DTO_05007405		SLC30A4	Transporter	0.31	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.692	100126333	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.57	1			MIR708		0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.077	100500871	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.805	1			MIR3622B		0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.077	100616367	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.805	1			MIR4467		0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.808	1200	1999	O14773	6.2564e-07	1999	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.551	1	DTO_05007624		TPP1	Enzyme	0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.154	26330	2007	O14556	3.3372e-05	2007	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.78	1	DTO_05007624		GAPDHS	Enzyme	0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.615	5697	2001	P10082	0.011784	2001	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.588	1	DTO_05007599		PYY	Signaling	0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.577	574508	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.603	1			MIR505		0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.577	768218	2015		NA	2015	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.633	1			MIR766		0.3	CURATED
-C10;F03	Alzheimer's Disease	disease	C0002395	0.654	9510	2019	Q9UHI8	0.71601	2019	   Nervous System Diseases;    Mental Disorders	Disease or Syndrome	0.555	1	DTO_05007624		ADAMTS1	Enzyme	0.3	CURATED
+el	disease_name	disease_semantic_type	gene_pli	gene_dpi	year_initial	gene_dsi	uniprotid	year_final	ei	diseaseid	gene_symbol	disease_class	source	protein_class_name	protein_class	geneid	score	disease_class_name	disease_type
+strong	Alzheimer's Disease	Disease or Syndrome	1.0344e-37	0.923	1998	0.328	P12821	2020	0.915	C0002395	ACE	C10;F03	CURATED	Enzyme	DTO_05007624	1636	0.9	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.046544	0.846	1987	0.422	P05067	2020	0.981	C0002395	APP	C10;F03	CURATED	Enzyme modulator	DTO_05007584	351	0.9	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.846	2000	0.489	O14672	2019	0.986	C0002395	ADAM10	C10;F03	CURATED			102	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.95571	0.846	2000	0.43	P49841	2020	0.982	C0002395	GSK3B	C10;F03	CURATED	Kinase	DTO_03300101	2932	0.7	   Nervous System Diseases;    Mental Disorders	disease
+strong	Alzheimer's Disease	Disease or Syndrome	2.5587e-08	0.846	2001	0.436	Q30201	2018	0.963	C0002395	HFE	C10;F03	CURATED			3077	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0018685	0.962	1991	0.338	P02649	2020	0.946	C0002395	APOE	C10;F03	CURATED			348	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0060258	0.923	1988	0.446	P10636	2020	0.99	C0002395	MAPT	C10;F03	CURATED			4137	0.7	   Nervous System Diseases;    Mental Disorders	disease
+limited	Alzheimer's Disease	Disease or Syndrome	3.2892e-09	0.769	2007	0.519	Q9NZC2	2020	0.977	C0002395	TREM2	C10;F03	CURATED			54209	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97322	0.846	1990	0.469	P49768	2020	0.971	C0002395	PSEN1	C10;F03	CURATED	Enzyme	DTO_05007624	5663	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.3058e-06	0.923	2002	0.425	P00749	2013	1	C0002395	PLAU	C10;F03	CURATED	Enzyme	DTO_05007624	5328	0.68	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.87888	0.769	1999	0.559	P56817	2020	0.985	C0002395	BACE1	C10;F03	CURATED	Enzyme	DTO_05007624	23621	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0066309	0.577	2000	0.604	P14735	2019	0.955	C0002395	IDE	C10;F03	CURATED	Enzyme	DTO_05007624	3416	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.13005	0.962	1989	0.276	P01584	2020	0.966	C0002395	IL1B	C10;F03	CURATED			3553	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.6145e-05	0.846	2002	0.432	P06213	2020	1	C0002395	INSR	C10;F03	CURATED	Kinase	DTO_03300101	3643	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.46491	0.846	2004	0.349	P41159	2019	0.944	C0002395	LEP	C10;F03	CURATED			3952	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.14294	0.846	2000	0.447	P01303	2018	0.833	C0002395	NPY	C10;F03	CURATED	Signaling	DTO_05007599	4852	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.55903	0.885	1996	0.291	P10415	2019	1	C0002395	BCL2	C10;F03	CURATED	Signaling	DTO_05007599	596	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.65626	0.923	1991	0.345	P23560	2020	0.958	C0002395	BDNF	C10;F03	CURATED	Signaling	DTO_05007599	627	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.10017	0.923	1999	0.351	P42574	2020	0.98	C0002395	CASP3	C10;F03	CURATED	Enzyme	DTO_05007624	836	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.044127	0.885	2002	0.39	P01344	2019	1	C0002395	IGF2	C10;F03	CURATED			3481	0.57	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.96799	0.885	2005	0.399	P08069	2020	1	C0002395	IGF1R	C10;F03	CURATED	Kinase	DTO_03300101	3480	0.56	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99945	0.731	2003	0.604	P25705	2017	1	C0002395	ATP5F1A	C10;F03	CURATED	Transporter	DTO_05007405	498	0.54	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.30091	0.923	1991	0.445	P01308	2020	1	C0002395	INS	C10;F03	CURATED			3630	0.53	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.31746	0.885	1997	0.417	Q07812	2018	1	C0002395	BAX	C10;F03	CURATED	Signaling	DTO_05007599	581	0.52	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.1111e-55	0.577	2011	0.644	Q8IZY2	2019	0.985	C0002395	ABCA7	C10;F03	CURATED	Transporter	DTO_05007405	10347	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99218	0.538	2009	0.59	O96008	2020	0.978	C0002395	TOMM40	C10;F03	CURATED	Transporter	DTO_05007405	10452	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.8072e-05	0.885	1991	0.426	P10909	2020	0.94	C0002395	CLU	C10;F03	CURATED			1191	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.6488e-35	0.808	2009	0.533	P17927	2019	0.971	C0002395	CR1	C10;F03	CURATED			1378	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.5229e-11	0.769	1998	0.529	P01023	2018	0.769	C0002395	A2M	C10;F03	CURATED	Enzyme modulator	DTO_05007584	2	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.4624e-23	0.731	2009	0.544	P21709	2019	0.933	C0002395	EPHA1	C10;F03	CURATED	Kinase	DTO_03300101	2041	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.22989	0.731	2011	0.558	Q9Y5K6	2019	1	C0002395	CD2AP	C10;F03	CURATED			23607	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.77822	0.692	2011	0.55	O00499	2020	0.98	C0002395	BIN1	C10;F03	CURATED			274	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.21685	0.577	1999	0.581	P02654	2019	1	C0002395	APOC1	C10;F03	CURATED			341	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.105e-15	0.923	1999	0.377	P05164	2019	1	C0002395	MPO	C10;F03	CURATED	Enzyme	DTO_05007624	4353	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.7246e-07	0.885	1999	0.378	P29474	2018	0.9	C0002395	NOS3	C10;F03	CURATED			4846	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00053736	0.654	1995	0.55	P49810	2020	0.977	C0002395	PSEN2	C10;F03	CURATED	Enzyme	DTO_05007624	5664	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.6609e-11	0.692	2004	0.582	Q92673	2020	0.973	C0002395	SORL1	C10;F03	CURATED	Transporter	DTO_05007405	6653	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99896	0.538	2009	0.592	Q13492	2019	0.947	C0002395	PICALM	C10;F03	CURATED	Transporter	DTO_05007405	8301	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.45742	0.423	2001	0.631	P62760	2019	1	C0002395	VSNL1	C10;F03	CURATED			7447	0.49	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97198	0.731	2013	0.558	Q92835	2020	1	C0002395	INPP5D	C10;F03	CURATED			3635	0.45	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.96926	0.769	2008	0.575	Q92692	2019	1	C0002395	NECTIN2	C10;F03	CURATED			5819	0.44	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	8.0964e-06	0.308	2011	0.722	Q96JQ5	2019	1	C0002395	MS4A4A	C10;F03	CURATED	Receptor	DTO_05007575	51338	0.43	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.015836	0.308	2009	0.729	Q9BZA7	2011	1	C0002395	PCDH11X	C10;F03	CURATED			27328	0.42	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.36682	0.231	2013	0.722	Q9NQ75	2019	1	C0002395	CASS4	C10;F03	CURATED			57091	0.42	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.98552	0.5	2000	0.659	Q9Y6A2	2019	0.953	C0002395	CYP46A1	C10;F03	CURATED	Enzyme	DTO_05007624	10858	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00041549	0.654	2001	0.532	P36544;Q494W8	2017	1	C0002395	CHRNA7	C10;F03	CURATED	Ion channel	DTO_01300327	1139	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0039011	0.808	1988	0.436	P01034	2019	0.935	C0002395	CST3	C10;F03	CURATED			1471	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.0793e-25	0.885	1995	0.437	P10635	2019	0.909	C0002395	CYP2D6	C10;F03	CURATED			1565	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.031029	0.769	2000	0.498	Q15392	2019	0.958	C0002395	DHCR24	C10;F03	CURATED	Enzyme	DTO_05007624	1718	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99375	0.692	1999	0.585	Q16555	2020	0.947	C0002395	DPYSL2	C10;F03	CURATED	Enzyme	DTO_05007624	1808	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.9992	0.962	1999	0.324	P03372	2019	0.944	C0002395	ESR1	C10;F03	CURATED	Nuclear receptor	DTO_00102000	2099	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99942	0.462	2001	0.666	Q92542	2020	1	C0002395	NCSTN	C10;F03	CURATED			23385	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0096817	0.923	1995	0.381	P09601	2020	0.92	C0002395	HMOX1	C10;F03	CURATED			3162	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.2716	0.885	2000	0.318	P05019	2020	1	C0002395	IGF1	C10;F03	CURATED			3479	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.885	2008	0.398		2019	1	C0002395	MIR146A	C10;F03	CURATED			406938	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99903	0.808	1994	0.533	P27338	2020	1	C0002395	MAOB	C10;F03	CURATED			4129	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99827	0.885	1991	0.445	P22303	2020	0.985	C0002395	ACHE	C10;F03	CURATED	Enzyme	DTO_05007624	43	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.2068e-10	0.885	1999	0.337	P42898	2018	0.868	C0002395	MTHFR	C10;F03	CURATED			4524	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.029194	0.885	2000	0.358	P37231	2019	0.907	C0002395	PPARG	C10;F03	CURATED	Nuclear receptor	DTO_00102000	5468	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00063182	0.923	1986	0.445	F7VJQ1;P04156	2020	0.902	C0002395	PRNP	C10;F03	CURATED			5621	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.731	2002	0.515	P78509	2019	1	C0002395	RELN	C10;F03	CURATED			5649	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.0643e-13	0.923	1995	0.447	P06276	2020	0.962	C0002395	BCHE	C10;F03	CURATED			590	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.17259	0.731	2004	0.529	Q00059	2019	0.9	C0002395	TFAM	C10;F03	CURATED			7019	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.8033	0.962	1998	0.231	P01375	2020	0.963	C0002395	TNF	C10;F03	CURATED	Signaling	DTO_05007599	7124	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.4085e-05	0.923	2005	0.266	P15692	2020	0.919	C0002395	VEGFA	C10;F03	CURATED	Signaling	DTO_05007599	7422	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.6888e-07	0.769	2011	0.524	P20138	2019	0.972	C0002395	CD33	C10;F03	CURATED	Receptor	DTO_05007575	945	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.71614	0.808	1995	0.439	P06850	2019	0.9	C0002395	CRH	C10;F03	CURATED	Signaling	DTO_05007599	1392	0.39	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.15499	0.923	2001	0.379	P04179	2018	0.889	C0002395	SOD2	C10;F03	CURATED	Enzyme	DTO_05007624	6648	0.38	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99562	0.808	2017	0.588	P16885	2019	1	C0002395	PLCG2	C10;F03	CURATED	Enzyme	DTO_05007624	5336	0.36	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0008813	0.462	2014	0.65	O95185	2016	1	C0002395	UNC5C	C10;F03	CURATED	Receptor	DTO_05007575	8633	0.36	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.0089e-05	0.231	2017	0.716	Q9P2A4	2019	1	C0002395	ABI3	C10;F03	CURATED	Enzyme modulator	DTO_05007584	51225	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.2376e-15	0.808	2004	0.453	Q9NZC7	2019	1	C0002395	WWOX	C10;F03	CURATED	Enzyme	DTO_05007624	51741	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.1001e-08	0.846	2002	0.527	P02787	2012	1	C0002395	TF	C10;F03	CURATED	Enzyme	DTO_05007624	7018	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00072964	0.308	1999	0.617	P17787	2007	1	C0002395	CHRNB2	C10;F03	CURATED	Ion channel	DTO_01300327	1141	0.34	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.906e-09	0.346	2006	0.711	Q6NXT4	2014	1	C0002395	SLC30A6	C10;F03	CURATED	Transporter	DTO_05007405	55676	0.34	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.6711	0.654	2014	0.588	O00264	2019	1	C0002395	PGRMC1	C10;F03	CURATED	Signaling	DTO_05007599	10857	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97031	0.692	2002	0.587	P05198	2009	1	C0002395	EIF2S1	C10;F03	CURATED	Nucleic acid binding	DTO_05007557	1965	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0011118	0.885	1993	0.415	P00734	2016	1	C0002395	F2	C10;F03	CURATED	Enzyme	DTO_05007624	2147	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.59433	0.769	2000	0.573	Q7LC44	2018	1	C0002395	ARC	C10;F03	CURATED			23237	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.94473	0.808	2001	0.472	P0DP23;P0DP24;P0DP25	2019	1	C0002395	CALM1	C10;F03	CURATED	Calcium-binding protein	DTO_05007616	801	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.914e-05	0.885	2003	0.481	P06733	2009	1	C0002395	ENO1	C10;F03	CURATED	Enzyme	DTO_05007624	2023	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.6359e-07	0.731	2015	0.608	Q30154	2017	1	C0002395	HLA-DRB5	C10;F03	CURATED	Immune response	DTO_05007608	3127	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.731	2004	0.518	P11717	2015	1	C0002395	IGF2R	C10;F03	CURATED	Receptor	DTO_05007575	3482	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.030193	0.846	2009	0.517	P60174	2019	1	C0002395	TPI1	C10;F03	CURATED	Enzyme	DTO_05007624	7167	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2018	0.805		2018	1	C0002395	SNAR-I	C10;F03	CURATED			100170222	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.0032e-06	0.154	2014	0.792	Q8N0W5	2019	1	C0002395	IQCK	C10;F03	CURATED			124152	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.8368e-05	0.692	2012	0.599	Q9UKV5	2019	1	C0002395	AMFR	C10;F03	CURATED			267	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.846	2015	0.521		2015	1	C0002395	MIR100	C10;F03	CURATED			406892	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.654	2015	0.564		2015	1	C0002395	MIR296	C10;F03	CURATED			407022	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.769	2015	0.476		2015	1	C0002395	MIR375	C10;F03	CURATED			494324	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.7123e-05	0.769	2014	0.528	P14672	2020	1	C0002395	SLC2A4	C10;F03	CURATED	Transporter	DTO_05007405	6517	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.11544	0.385	2006	0.705	O14863	2006	1	C0002395	SLC30A4	C10;F03	CURATED	Transporter	DTO_05007405	7782	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.692	2015	0.57		2015	1	C0002395	MIR708	C10;F03	CURATED			100126333	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2015	0.805		2015	1	C0002395	MIR3622B	C10;F03	CURATED			100500871	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2015	0.805		2015	1	C0002395	MIR4467	C10;F03	CURATED			100616367	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.2564e-07	0.808	1999	0.551	O14773	1999	1	C0002395	TPP1	C10;F03	CURATED	Enzyme	DTO_05007624	1200	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.3372e-05	0.154	2007	0.78	O14556	2007	1	C0002395	GAPDHS	C10;F03	CURATED	Enzyme	DTO_05007624	26330	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.011784	0.615	2001	0.588	P10082	2001	1	C0002395	PYY	C10;F03	CURATED	Signaling	DTO_05007599	5697	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.577	2015	0.603		2015	1	C0002395	MIR505	C10;F03	CURATED			574508	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.577	2015	0.633		2015	1	C0002395	MIR766	C10;F03	CURATED			768218	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.71601	0.654	2019	0.555	Q9UHI8	2019	1	C0002395	ADAMTS1	C10;F03	CURATED	Enzyme	DTO_05007624	9510	0.3	   Nervous System Diseases;    Mental Disorders	disease

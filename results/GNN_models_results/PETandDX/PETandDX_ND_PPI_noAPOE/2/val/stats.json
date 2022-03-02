@@ -1,0 +1,11 @@
+{"epoch": 0, "loss": 10.8508, "lr": 0, "params": 265218, "time_iter": 0.0034, "accuracy": 0.5938, "precision": 0.5938, "recall": 1.0, "f1": 0.7451, "auc": 0.5, "cm": [[0, 13], [0, 19]]}
+{"epoch": 19, "loss": 3.4573, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.5938, "precision": 0.5938, "recall": 1.0, "f1": 0.7451, "auc": 0.3927, "cm": [[0, 13], [0, 19]]}
+{"epoch": 39, "loss": 1.0639, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.5625, "precision": 0.6, "recall": 0.7895, "f1": 0.6818, "auc": 0.417, "cm": [[3, 10], [4, 15]]}
+{"epoch": 59, "loss": 2.6902, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.5938, "precision": 0.6, "recall": 0.9474, "f1": 0.7347, "auc": 0.6113, "cm": [[1, 12], [1, 18]]}
+{"epoch": 79, "loss": 2.9265, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.375, "precision": 0.4545, "recall": 0.2632, "f1": 0.3333, "auc": 0.4291, "cm": [[7, 6], [14, 5]]}
+{"epoch": 99, "loss": 4.2002, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.4688, "precision": 0.6, "recall": 0.3158, "f1": 0.4138, "auc": 0.4372, "cm": [[9, 4], [13, 6]]}
+{"epoch": 119, "loss": 4.039, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.4688, "precision": 0.75, "recall": 0.1579, "f1": 0.2609, "auc": 0.6113, "cm": [[12, 1], [16, 3]]}
+{"epoch": 139, "loss": 2.2475, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.4688, "precision": 0.5833, "recall": 0.3684, "f1": 0.4516, "auc": 0.5101, "cm": [[8, 5], [12, 7]]}
+{"epoch": 159, "loss": 1.8908, "lr": 0, "params": 265218, "time_iter": 0.0032, "accuracy": 0.5312, "precision": 0.6111, "recall": 0.5789, "f1": 0.5946, "auc": 0.5749, "cm": [[6, 7], [8, 11]]}
+{"epoch": 179, "loss": 1.8323, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.5625, "precision": 0.6316, "recall": 0.6316, "f1": 0.6316, "auc": 0.583, "cm": [[6, 7], [7, 12]]}
+{"epoch": 199, "loss": 1.6566, "lr": 0, "params": 265218, "time_iter": 0.0033, "accuracy": 0.5312, "precision": 0.6111, "recall": 0.5789, "f1": 0.5946, "auc": 0.5951, "cm": [[6, 7], [8, 11]]}

@@ -1,272 +1,272 @@
-protein_class_name	ei	year_final	disease_class	uniprotid	score	geneid	diseaseid	source	gene_symbol	disease_type	gene_dsi	protein_class	disease_semantic_type	disease_class_name	year_initial	gene_dpi	gene_pli	disease_name	el
-Enzyme	0.915	2020	C10;F03	P12821	0.9	1636	C0002395	CURATED	ACE	disease	0.328	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1998	0.923	1.0344e-37	Alzheimer's Disease	strong
-Enzyme modulator	0.981	2020	C10;F03	P05067	0.9	351	C0002395	CURATED	APP	disease	0.422	DTO_05007584	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1987	0.846	0.046544	Alzheimer's Disease	
-	0.976	2020	C18;C10;F03	P28799	0.9	2896	C0338451	CURATED	GRN	disease	0.435		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	2006	0.846	0.069666	Frontotemporal dementia	strong
-	0.985	2020	C18;C10	Q96LT7	0.8	203228	C0002736	CURATED	C9orf72	disease	0.496		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.769	1.0647e-06	Amyotrophic Lateral Sclerosis	limited
-Enzyme	0.985	2020	C18;C10	P00441	0.8	6647	C0002736	CURATED	SOD1	disease	0.379	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1993	0.962	0.1773	Amyotrophic Lateral Sclerosis	strong
-	0.978	2020	C18;C10;F03	P10636	0.8	4137	C0338451	CURATED	MAPT	disease	0.446		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	1997	0.923	0.0060258	Frontotemporal dementia	
-Enzyme	1	2018	C18;C10;F03	P49768	0.8	5663	C0338451	CURATED	PSEN1	disease	0.469	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	1995	0.846	0.97322	Frontotemporal dementia	
-	0.986	2019	C10;F03	O14672	0.7	102	C0002395	CURATED	ADAM10	disease	0.489		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.846	1	Alzheimer's Disease	
-Kinase	0.982	2020	C10;F03	P49841	0.7	2932	C0002395	CURATED	GSK3B	disease	0.43	DTO_03300101	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.846	0.95571	Alzheimer's Disease	
-	0.963	2018	C10;F03	Q30201	0.7	3077	C0002395	CURATED	HFE	disease	0.436		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.846	2.5587e-08	Alzheimer's Disease	strong
-	0.946	2020	C10;F03	P02649	0.7	348	C0002395	CURATED	APOE	disease	0.338		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1991	0.962	0.0018685	Alzheimer's Disease	
-	0.99	2020	C10;F03	P10636	0.7	4137	C0002395	CURATED	MAPT	disease	0.446		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1988	0.923	0.0060258	Alzheimer's Disease	
-	0.977	2020	C10;F03	Q9NZC2	0.7	54209	C0002395	CURATED	TREM2	disease	0.519		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2007	0.769	3.2892e-09	Alzheimer's Disease	limited
-Enzyme	0.971	2020	C10;F03	P49768	0.7	5663	C0002395	CURATED	PSEN1	disease	0.469	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1990	0.846	0.97322	Alzheimer's Disease	
-	0.954	2020	C18;C10	Q96CV9	0.7	10133	C0002736	CURATED	OPTN	disease	0.548		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.808	5.91e-18	Amyotrophic Lateral Sclerosis	
-	1	2019	C18;C10	Q9UPW8	0.7	23025	C0002736	CURATED	UNC13A	disease	0.705		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.423	1	Amyotrophic Lateral Sclerosis	
-	0.979	2020	C18;C10	Q13148	0.7	23435	C0002736	CURATED	TARDBP	disease	0.493		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2006	0.808	0.98542	Amyotrophic Lateral Sclerosis	
-Nucleic acid binding	0.981	2020	C18;C10	P35637	0.7	2521	C0002736	CURATED	FUS	disease	0.47	DTO_05007557	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.846	0.9993	Amyotrophic Lateral Sclerosis	
-Kinase	1	2019	C18;C10	Q9UHD2	0.7	29110	C0002736	CURATED	TBK1	disease	0.513	DTO_03300101	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2015	0.846	0.075174	Amyotrophic Lateral Sclerosis	strong
-	0.929	2019	C18;C10	P27169	0.7	5444	C0002736	CURATED	PON1	disease	0.409		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2007	0.885	9.8142e-11	Amyotrophic Lateral Sclerosis	
-Nucleic acid binding	0.971	2019	C18;C10	Q99700	0.7	6311	C0002736	CURATED	ATXN2	disease	0.482	DTO_05007557	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2006	0.808	0.85289	Amyotrophic Lateral Sclerosis	
-Nucleic acid binding	0.929	2019	C18;C10	Q92804	0.7	8148	C0002736	CURATED	TAF15	disease	0.626	DTO_05007557	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2011	0.5	0.16517	Amyotrophic Lateral Sclerosis	limited
-	0.974	2020	C18;C10	Q13501	0.7	8878	C0002736	CURATED	SQSTM1	disease	0.428		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.885	0.00086035	Amyotrophic Lateral Sclerosis	
-	1	2019	C18;C10	P43243	0.7	9782	C0002736	CURATED	MATR3	disease	0.631		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.538	1	Amyotrophic Lateral Sclerosis	limited
-Transporter	0.983	2020	C10	P37840	0.7	6622	C0030567	CURATED	SNCA	disease	0.427	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	1997	0.885	0.8829	Parkinson Disease	
-	0.984	2020	C18;C10;F03	Q13148	0.7	23435	C0338451	CURATED	TARDBP	disease	0.493		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	2007	0.808	0.98542	Frontotemporal dementia	strong
-	1	2019	C18;C10;F03	Q9UQN3	0.7	25978	C0338451	CURATED	CHMP2B	disease	0.543		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	2005	0.731	4.6203e-06	Frontotemporal dementia	strong
-Enzyme modulator	0.964	2020	C10;F03	P05067	0.7	351	C0497327	CURATED	APP	disease	0.422	DTO_05007584	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1993	0.846	0.046544	Dementia	strong
-	1	2020	C10;F03	Q9NZC2	0.7	54209	C0497327	CURATED	TREM2	disease	0.519		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2005	0.769	3.2892e-09	Dementia	strong
-Enzyme	1	2013	C10;F03	P00749	0.68	5328	C0002395	CURATED	PLAU	disease	0.425	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.923	2.3058e-06	Alzheimer's Disease	
-	1	2016	C18;C10	Q9UQN3	0.68	25978	C0002736	CURATED	CHMP2B	disease	0.543		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2006	0.731	4.6203e-06	Amyotrophic Lateral Sclerosis	
-Kinase	1	2019	C18;C10	Q96PY6	0.68	4750	C0002736	CURATED	NEK1	disease	0.575	DTO_03300101	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2016	0.769	1.9084e-25	Amyotrophic Lateral Sclerosis	
-	1	2018	C18;C10	P14920	0.67	1610	C0002736	CURATED	DAO	disease	0.636		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.615	6.2271e-22	Amyotrophic Lateral Sclerosis	moderate
-	1	2019	C18;C10	O43822	0.62	755	C0002736	CURATED	CFAP410	disease	0.633		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2016	0.615	3.291e-07	Amyotrophic Lateral Sclerosis	
-Enzyme	0.985	2020	C10;F03	P56817	0.6	23621	C0002395	CURATED	BACE1	disease	0.559	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.769	0.87888	Alzheimer's Disease	
-Enzyme	0.955	2019	C10;F03	P14735	0.6	3416	C0002395	CURATED	IDE	disease	0.604	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.577	0.0066309	Alzheimer's Disease	
-	0.966	2020	C10;F03	P01584	0.6	3553	C0002395	CURATED	IL1B	disease	0.276		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1989	0.962	0.13005	Alzheimer's Disease	
-Kinase	1	2020	C10;F03	P06213	0.6	3643	C0002395	CURATED	INSR	disease	0.432	DTO_03300101	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.846	3.6145e-05	Alzheimer's Disease	
-	0.944	2019	C10;F03	P41159	0.6	3952	C0002395	CURATED	LEP	disease	0.349		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2004	0.846	0.46491	Alzheimer's Disease	
-Signaling	0.833	2018	C10;F03	P01303	0.6	4852	C0002395	CURATED	NPY	disease	0.447	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.846	0.14294	Alzheimer's Disease	
-Signaling	1	2019	C10;F03	P10415	0.6	596	C0002395	CURATED	BCL2	disease	0.291	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1996	0.885	0.55903	Alzheimer's Disease	
-Signaling	0.958	2020	C10;F03	P23560	0.6	627	C0002395	CURATED	BDNF	disease	0.345	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1991	0.923	0.65626	Alzheimer's Disease	
-Enzyme	0.98	2020	C10;F03	P42574	0.6	836	C0002395	CURATED	CASP3	disease	0.351	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.923	0.10017	Alzheimer's Disease	
-Enzyme	0.973	2020	C10	Q99497	0.6	11315	C0030567	CURATED	PARK7	disease	0.535	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2003	0.808	0.75335	Parkinson Disease	
-	1	2019	C10	P20711	0.6	1644	C0030567	CURATED	DDC	disease	0.535		Disease or Syndrome	   Nervous System Diseases	1988	0.769	3.7519e-08	Parkinson Disease	
-G-protein coupled receptor	0.931	2020	C10	P14416	0.6	1813	C0030567	CURATED	DRD2	disease	0.436	DTO_02300001	Disease or Syndrome	   Nervous System Diseases	1995	0.846	0.74709	Parkinson Disease	
-	0.946	2019	C10	Q9NQ11	0.6	23400	C0030567	CURATED	ATP13A2	disease	0.566		Disease or Syndrome	   Nervous System Diseases	2007	0.577	8.9582e-09	Parkinson Disease	strong
-	0.991	2020	C10	P27338	0.6	4129	C0030567	CURATED	MAOB	disease	0.533		Disease or Syndrome	   Nervous System Diseases	1993	0.808	0.99903	Parkinson Disease	
-Enzyme	0.974	2020	C10	O60260	0.6	5071	C0030567	CURATED	PRKN	disease	0.431	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	1998	0.846	6.9346e-07	Parkinson Disease	
-Kinase	0.987	2020	C10	Q9BXM7	0.6	65018	C0030567	CURATED	PINK1	disease	0.516	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2002	0.769	1.8749e-10	Parkinson Disease	
-Transporter	0.966	2020	C10	Q05940	0.6	6571	C0030567	CURATED	SLC18A2	disease	0.554	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	1996	0.769	0.075523	Parkinson Disease	
-	0.979	2020	C10	P07101	0.6	7054	C0030567	CURATED	TH	disease	0.462		Disease or Syndrome	   Nervous System Diseases	1989	0.885	1.6878e-06	Parkinson Disease	
-	0.994	2020	C10	P10636	0.6	4137	C0949664	CURATED	MAPT	group	0.446		Disease or Syndrome	   Nervous System Diseases	1999	0.923	0.0060258	Tauopathies	
-	1	2019	C10;F03	P01344	0.57	3481	C0002395	CURATED	IGF2	disease	0.39		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.885	0.044127	Alzheimer's Disease	
-G-protein coupled receptor	1	2020	C10	P21728	0.57	1812	C0030567	CURATED	DRD1	disease	0.529	DTO_02300001	Disease or Syndrome	   Nervous System Diseases	1996	0.808	0.9555	Parkinson Disease	
-Kinase	1	2020	C10;F03	P08069	0.56	3480	C0002395	CURATED	IGF1R	disease	0.399	DTO_03300101	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2005	0.885	0.96799	Alzheimer's Disease	
-Transporter	1	2017	C10;F03	P25705	0.54	498	C0002395	CURATED	ATP5F1A	disease	0.604	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2003	0.731	0.99945	Alzheimer's Disease	
-	1	2020	C10;F03	P01308	0.53	3630	C0002395	CURATED	INS	disease	0.445		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1991	0.923	0.30091	Alzheimer's Disease	
-Signaling	1	2018	C10;F03	Q07812	0.52	581	C0002395	CURATED	BAX	disease	0.417	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1997	0.885	0.31746	Alzheimer's Disease	
-Kinase	1	2019	C10	P08069	0.51	3480	C0030567	CURATED	IGF1R	disease	0.399	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2009	0.885	0.96799	Parkinson Disease	
-Transporter	0.985	2019	C10;F03	Q8IZY2	0.5	10347	C0002395	CURATED	ABCA7	disease	0.644	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2011	0.577	2.1111e-55	Alzheimer's Disease	
-Transporter	0.978	2020	C10;F03	O96008	0.5	10452	C0002395	CURATED	TOMM40	disease	0.59	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.538	0.99218	Alzheimer's Disease	
-	0.94	2020	C10;F03	P10909	0.5	1191	C0002395	CURATED	CLU	disease	0.426		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1991	0.885	7.8072e-05	Alzheimer's Disease	
-	0.971	2019	C10;F03	P17927	0.5	1378	C0002395	CURATED	CR1	disease	0.533		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.808	1.6488e-35	Alzheimer's Disease	
-Enzyme modulator	0.769	2018	C10;F03	P01023	0.5	2	C0002395	CURATED	A2M	disease	0.529	DTO_05007584	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1998	0.769	4.5229e-11	Alzheimer's Disease	
-Kinase	0.933	2019	C10;F03	P21709	0.5	2041	C0002395	CURATED	EPHA1	disease	0.544	DTO_03300101	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.731	1.4624e-23	Alzheimer's Disease	
-	1	2019	C10;F03	Q9Y5K6	0.5	23607	C0002395	CURATED	CD2AP	disease	0.558		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2011	0.731	0.22989	Alzheimer's Disease	
-	0.98	2020	C10;F03	O00499	0.5	274	C0002395	CURATED	BIN1	disease	0.55		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2011	0.692	0.77822	Alzheimer's Disease	
-	1	2019	C10;F03	P02654	0.5	341	C0002395	CURATED	APOC1	disease	0.581		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.577	0.21685	Alzheimer's Disease	
-Enzyme	1	2019	C10;F03	P05164	0.5	4353	C0002395	CURATED	MPO	disease	0.377	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.923	7.105e-15	Alzheimer's Disease	
-	0.9	2018	C10;F03	P29474	0.5	4846	C0002395	CURATED	NOS3	disease	0.378		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.885	6.7246e-07	Alzheimer's Disease	
-Enzyme	0.977	2020	C10;F03	P49810	0.5	5664	C0002395	CURATED	PSEN2	disease	0.55	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1995	0.654	0.00053736	Alzheimer's Disease	
-Transporter	0.973	2020	C10;F03	Q92673	0.5	6653	C0002395	CURATED	SORL1	disease	0.582	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2004	0.692	7.6609e-11	Alzheimer's Disease	
-Transporter	0.947	2019	C10;F03	Q13492	0.5	8301	C0002395	CURATED	PICALM	disease	0.592	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.538	0.99896	Alzheimer's Disease	
-	1	2020	C18;C10	Q99720	0.5	10280	C0002736	CURATED	SIGMAR1	disease	0.544		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.808	0.1678	Amyotrophic Lateral Sclerosis	
-Chaperone	0.909	2019	C18;C10	Q14203	0.5	1639	C0002736	CURATED	DCTN1	disease	0.597	DTO_05007613	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2005	0.5	0.084251	Amyotrophic Lateral Sclerosis	
-Kinase	0.909	2019	C18;C10	P54764	0.5	2043	C0002736	CURATED	EPHA4	disease	0.566	DTO_03300101	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2012	0.846	1	Amyotrophic Lateral Sclerosis	
-Enzyme	0.952	2018	C18;C10	Q7Z333	0.5	23064	C0002736	CURATED	SETX	disease	0.57	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1998	0.731	0.95483	Amyotrophic Lateral Sclerosis	moderate
-	0.959	2019	C18;C10	P03950	0.5	283	C0002736	CURATED	ANG	disease	0.511		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2004	0.769	0.28738	Amyotrophic Lateral Sclerosis	
-	0.98	2020	C18;C10	Q9UHD9	0.5	29978	C0002736	CURATED	UBQLN2	disease	0.656		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2011	0.462	0.84968	Amyotrophic Lateral Sclerosis	
-	1	2019	C18;C10	P09651	0.5	3178	C0002736	CURATED	HNRNPA1	disease	0.529		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.885	0.99911	Amyotrophic Lateral Sclerosis	
-	0.955	2020	C18;C10	Q8WYQ3	0.5	400916	C0002736	CURATED	CHCHD10	disease	0.623		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2014	0.462	5.3661e-06	Amyotrophic Lateral Sclerosis	
-	1	2018	C18;C10	P12036	0.5	4744	C0002736	CURATED	NEFH	disease	0.588		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1993	0.769	2.6684e-12	Amyotrophic Lateral Sclerosis	
-	1	2019	C18;C10	P07737	0.5	5216	C0002736	CURATED	PFN1	disease	0.565		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2012	0.769	0.73258	Amyotrophic Lateral Sclerosis	
-	0.833	2019	C18;C10	Q9NZC2	0.5	54209	C0002736	CURATED	TREM2	disease	0.519		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.769	3.2892e-09	Amyotrophic Lateral Sclerosis	
-	1	2016	C18;C10	P41219	0.5	5630	C0002736	CURATED	PRPH	disease	0.623		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2000	0.462	4.7898e-14	Amyotrophic Lateral Sclerosis	
-	0.962	2020	C18;C10	P55072	0.5	7415	C0002736	CURATED	VCP	disease	0.469		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2008	0.923	0.99999	Amyotrophic Lateral Sclerosis	
-Transporter	0.967	2019	C18;C10	O95292	0.5	9217	C0002736	CURATED	VAPB	disease	0.666	DTO_05007405	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2004	0.423	0.58111	Amyotrophic Lateral Sclerosis	
-Kinase	0.983	2020	C10	Q5S007	0.5	120892	C0030567	CURATED	LRRK2	disease	0.51	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2002	0.808	2.5757e-30	Parkinson Disease	
-Kinase	1	2020	C10	O14976	0.5	2580	C0030567	CURATED	GAK	disease	0.805	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2009	0.231	0.0051818	Parkinson Disease	
-	0.989	2020	C10	P04062	0.5	2629	C0030567	CURATED	GBA	disease	0.5		Disease or Syndrome	   Nervous System Diseases	2004	0.808	1.4355e-06	Parkinson Disease	
-	0.972	2019	C10	P10636	0.5	4137	C0030567	CURATED	MAPT	disease	0.446		Disease or Syndrome	   Nervous System Diseases	1999	0.923	0.0060258	Parkinson Disease	
-Enzyme	0.92	2019	C10	Q10588	0.5	683	C0030567	CURATED	BST1	disease	0.67	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2009	0.423	4.2099e-11	Parkinson Disease	
-	0.987	2020	C18;C10;F03	Q96LT7	0.5	203228	C0338451	CURATED	C9orf72	disease	0.496		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	2011	0.769	1.0647e-06	Frontotemporal dementia	limited
-	0.92	2019	C18;C10;F03	Q9NZC2	0.5	54209	C0338451	CURATED	TREM2	disease	0.519		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	2013	0.769	3.2892e-09	Frontotemporal dementia	limited
-	1	2019	C10;F03	P28799	0.5	2896	C0497327	CURATED	GRN	disease	0.435		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2006	0.846	0.069666	Dementia	
-	0.992	2020	C10;F03	P10636	0.5	4137	C0497327	CURATED	MAPT	disease	0.446		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1995	0.923	0.0060258	Dementia	
-	1	2017	C10;F03	Q9UM47	0.5	4854	C0497327	CURATED	NOTCH3	disease	0.435		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1996	0.808	0.40757	Dementia	strong
-	0.958	2019	C10;F03	F7VJQ1;P04156	0.5	5621	C0497327	CURATED	PRNP	disease	0.445		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1991	0.923	0.00063182	Dementia	strong
-Enzyme	1	2018	C10;F03	P49810	0.5	5664	C0497327	CURATED	PSEN2	disease	0.55	DTO_05007624	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1997	0.654	0.00053736	Dementia	strong
-	1	2019	C10;F03	P62760	0.49	7447	C0002395	CURATED	VSNL1	disease	0.631		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.423	0.45742	Alzheimer's Disease	
-Transcription factor	1	2018	C18;C10	Q9UBK2	0.49	10891	C0002736	CURATED	PPARGC1A	disease	0.453	DTO_05007542	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2007	0.885	0.9973	Amyotrophic Lateral Sclerosis	
-	1	2018	C18;C10	P22626	0.49	3181	C0002736	CURATED	HNRNPA2B1	disease	0.566		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2014	0.808	0.99732	Amyotrophic Lateral Sclerosis	moderate
-Immune response	1	2015	C10	P01903	0.48	3122	C0030567	CURATED	HLA-DRA	disease	0.581	DTO_05007608	Disease or Syndrome	   Nervous System Diseases	2010	0.769	0.51949	Parkinson Disease	
-Enzyme	0.857	2013	C18;C10	P42658	0.47	1804	C0002736	CURATED	DPP6	disease	0.603	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2008	0.692	0.33997	Amyotrophic Lateral Sclerosis	
-Enzyme modulator	1	2019	C18;C10	P41002	0.46	899	C0002736	CURATED	CCNF	disease	0.7	DTO_05007584	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2016	0.615	0.12679	Amyotrophic Lateral Sclerosis	
-	1	2019	C10;F03	P01034	0.46	1471	C0497327	CURATED	CST3	disease	0.436		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1996	0.808	0.0039011	Dementia	limited
-	1	2020	C10;F03	Q92835	0.45	3635	C0002395	CURATED	INPP5D	disease	0.558		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2013	0.731	0.97198	Alzheimer's Disease	
-Epigenetic regulator	1	2015	C10;F03	P26358	0.45	1786	C0497327	CURATED	DNMT1	disease	0.406	DTO_05007378	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2011	0.885	1	Dementia	
-	1	2019	C10;F03	Q92692	0.44	5819	C0002395	CURATED	NECTIN2	disease	0.575		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2008	0.769	0.96926	Alzheimer's Disease	
-	1	2019	C18;C10	P50995	0.44	311	C0002736	CURATED	ANXA11	disease	0.65		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2017	0.692	4.7001e-10	Amyotrophic Lateral Sclerosis	
-Receptor	1	2019	C10;F03	Q96JQ5	0.43	51338	C0002395	CURATED	MS4A4A	disease	0.722	DTO_05007575	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2011	0.308	8.0964e-06	Alzheimer's Disease	
-Kinase	1	2019	C18;C10	Q15303	0.43	2066	C0002736	CURATED	ERBB4	disease	0.455	DTO_03300101	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.846	0.99912	Amyotrophic Lateral Sclerosis	
-Transporter	1	2018	C18;C10	Q53GS7	0.43	2733	C0002736	CURATED	GLE1	disease	0.628	DTO_05007405	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2015	0.577	2.0536e-10	Amyotrophic Lateral Sclerosis	
-	1	2020	C18;C10	Q68CQ7	0.43	55830	C0002736	CURATED	GLT8D1	disease	0.711		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2019	0.462	1.1343e-08	Amyotrophic Lateral Sclerosis	
-	1	2011	C10;F03	Q9BZA7	0.42	27328	C0002395	CURATED	PCDH11X	disease	0.729		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.308	0.015836	Alzheimer's Disease	
-	1	2019	C10;F03	Q9NQ75	0.42	57091	C0002395	CURATED	CASS4	disease	0.722		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2013	0.231	0.36682	Alzheimer's Disease	
-Transporter	1	2019	C18;C10	Q8WVM8	0.42	23256	C0002736	CURATED	SCFD1	disease	0.839	DTO_05007405	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2016	0.192	0.99962	Amyotrophic Lateral Sclerosis	
-	1	2017	C18;C10	Q92562	0.42	9896	C0002736	CURATED	FIG4	disease	0.551		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2009	0.731	2.3423e-34	Amyotrophic Lateral Sclerosis	
-Enzyme	1	2015	C10;F03	P00450	0.41	1356	C0497327	CURATED	CP	disease	0.466	DTO_05007624	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2003	0.846	4.2013e-10	Dementia	
-Enzyme	0.953	2019	C10;F03	Q9Y6A2	0.4	10858	C0002395	CURATED	CYP46A1	disease	0.659	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.5	0.98552	Alzheimer's Disease	
-Ion channel	1	2017	C10;F03	P36544;Q494W8	0.4	1139	C0002395	CURATED	CHRNA7	disease	0.532	DTO_01300327	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.654	0.00041549	Alzheimer's Disease	
-	0.935	2019	C10;F03	P01034	0.4	1471	C0002395	CURATED	CST3	disease	0.436		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1988	0.808	0.0039011	Alzheimer's Disease	
-	0.909	2019	C10;F03	P10635	0.4	1565	C0002395	CURATED	CYP2D6	disease	0.437		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1995	0.885	1.0793e-25	Alzheimer's Disease	
-Enzyme	0.958	2019	C10;F03	Q15392	0.4	1718	C0002395	CURATED	DHCR24	disease	0.498	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.769	0.031029	Alzheimer's Disease	
-Enzyme	0.947	2020	C10;F03	Q16555	0.4	1808	C0002395	CURATED	DPYSL2	disease	0.585	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.692	0.99375	Alzheimer's Disease	
-Nuclear receptor	0.944	2019	C10;F03	P03372	0.4	2099	C0002395	CURATED	ESR1	disease	0.324	DTO_00102000	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.962	0.9992	Alzheimer's Disease	
-	1	2020	C10;F03	Q92542	0.4	23385	C0002395	CURATED	NCSTN	disease	0.666		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.462	0.99942	Alzheimer's Disease	
-	0.92	2020	C10;F03	P09601	0.4	3162	C0002395	CURATED	HMOX1	disease	0.381		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1995	0.923	0.0096817	Alzheimer's Disease	
-	1	2020	C10;F03	P05019	0.4	3479	C0002395	CURATED	IGF1	disease	0.318		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.885	0.2716	Alzheimer's Disease	
-	1	2019	C10;F03		0.4	406938	C0002395	CURATED	MIR146A	disease	0.398		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2008	0.885	NA	Alzheimer's Disease	
-	1	2020	C10;F03	P27338	0.4	4129	C0002395	CURATED	MAOB	disease	0.533		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1994	0.808	0.99903	Alzheimer's Disease	
-Enzyme	0.985	2020	C10;F03	P22303	0.4	43	C0002395	CURATED	ACHE	disease	0.445	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1991	0.885	0.99827	Alzheimer's Disease	
-	0.868	2018	C10;F03	P42898	0.4	4524	C0002395	CURATED	MTHFR	disease	0.337		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.885	3.2068e-10	Alzheimer's Disease	
-Nuclear receptor	0.907	2019	C10;F03	P37231	0.4	5468	C0002395	CURATED	PPARG	disease	0.358	DTO_00102000	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.885	0.029194	Alzheimer's Disease	
-	0.902	2020	C10;F03	F7VJQ1;P04156	0.4	5621	C0002395	CURATED	PRNP	disease	0.445		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1986	0.923	0.00063182	Alzheimer's Disease	
-	1	2019	C10;F03	P78509	0.4	5649	C0002395	CURATED	RELN	disease	0.515		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.731	1	Alzheimer's Disease	
-	0.962	2020	C10;F03	P06276	0.4	590	C0002395	CURATED	BCHE	disease	0.447		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1995	0.923	1.0643e-13	Alzheimer's Disease	
-	0.9	2019	C10;F03	Q00059	0.4	7019	C0002395	CURATED	TFAM	disease	0.529		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2004	0.731	0.17259	Alzheimer's Disease	
-Signaling	0.963	2020	C10;F03	P01375	0.4	7124	C0002395	CURATED	TNF	disease	0.231	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1998	0.962	0.8033	Alzheimer's Disease	
-Signaling	0.919	2020	C10;F03	P15692	0.4	7422	C0002395	CURATED	VEGFA	disease	0.266	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2005	0.923	2.4085e-05	Alzheimer's Disease	
-Receptor	0.972	2019	C10;F03	P20138	0.4	945	C0002395	CURATED	CD33	disease	0.524	DTO_05007575	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2011	0.769	5.6888e-07	Alzheimer's Disease	
-Nucleic acid binding	0.909	2019	C18;C10	Q01844	0.4	2130	C0002736	CURATED	EWSR1	disease	0.474	DTO_05007557	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2011	0.692	0.99981	Amyotrophic Lateral Sclerosis	moderate
-	1	2019	C18;C10	P14136	0.4	2670	C0002736	CURATED	GFAP	disease	0.421		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2001	0.885	1.4601e-06	Amyotrophic Lateral Sclerosis	
-Cellular structure	1	2016	C18;C10	Q13875	0.4	4336	C0002736	CURATED	MOBP	disease	0.7	DTO_05007530	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2016	0.423	0.54623	Amyotrophic Lateral Sclerosis	
-	1	2013	C18;C10	Q15165	0.4	5445	C0002736	CURATED	PON2	disease	0.566		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.808	5.4352e-05	Amyotrophic Lateral Sclerosis	
-	1	2013	C18;C10	Q15166	0.4	5446	C0002736	CURATED	PON3	disease	0.663		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.692	2.1034e-07	Amyotrophic Lateral Sclerosis	
-Transporter	0.921	2019	C18;C10	P43004	0.4	6506	C0002736	CURATED	SLC1A2	disease	0.511	DTO_05007405	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1996	0.731	0.71036	Amyotrophic Lateral Sclerosis	
-	0.963	2019	C10		0.4	100359403	C0030567	CURATED	PARK16	disease	0.861		Disease or Syndrome	   Nervous System Diseases	2009	0.077	NA	Parkinson Disease	
-Enzyme modulator	1	2020	C10	O00429	0.4	10059	C0030567	CURATED	DNM1L	disease	0.475	DTO_05007584	Disease or Syndrome	   Nervous System Diseases	2010	0.808	0.00056753	Parkinson Disease	
-Transcription factor	0.857	2019	C10	Q9UBK2	0.4	10891	C0030567	CURATED	PPARGC1A	disease	0.453	DTO_05007542	Disease or Syndrome	   Nervous System Diseases	2009	0.885	0.9973	Parkinson Disease	
-Enzyme	0.938	2020	C10	P00450	0.4	1356	C0030567	CURATED	CP	disease	0.466	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2004	0.846	4.2013e-10	Parkinson Disease	
-	0.879	2019	C10	P10635	0.4	1565	C0030567	CURATED	CYP2D6	disease	0.437		Disease or Syndrome	   Nervous System Diseases	1992	0.885	1.0793e-25	Parkinson Disease	
-Signaling	0.983	2020	C10	P39905	0.4	2668	C0030567	CURATED	GDNF	disease	0.434	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	1993	0.885	0.2035	Parkinson Disease	
-	1	2020	C10	P14136	0.4	2670	C0030567	CURATED	GFAP	disease	0.421		Disease or Syndrome	   Nervous System Diseases	1999	0.885	1.4601e-06	Parkinson Disease	
-	0.923	2018	C10	Q96A57	0.4	29058	C0030567	CURATED	TMEM230	disease	0.769		Disease or Syndrome	   Nervous System Diseases	2016	0.115	0.00018056	Parkinson Disease	
-	0.75	2019	C10	P09488	0.4	2944	C0030567	CURATED	GSTM1	disease	0.38		Disease or Syndrome	   Nervous System Diseases	1999	0.923	0.0020641	Parkinson Disease	
-	0.727	2018	C10	Q30201	0.4	3077	C0030567	CURATED	HFE	disease	0.436		Disease or Syndrome	   Nervous System Diseases	2002	0.846	2.5587e-08	Parkinson Disease	
-	0.905	2020	C10	P09601	0.4	3162	C0030567	CURATED	HMOX1	disease	0.381		Disease or Syndrome	   Nervous System Diseases	1997	0.923	0.0096817	Parkinson Disease	
-	0.818	2018	C10	P38646	0.4	3313	C0030567	CURATED	HSPA9	disease	0.502		Disease or Syndrome	   Nervous System Diseases	2006	0.885	0.96852	Parkinson Disease	
-	1	2019	C10	P05231	0.4	3569	C0030567	CURATED	IL6	disease	0.248		Disease or Syndrome	   Nervous System Diseases	2001	0.962	0.31536	Parkinson Disease	
-	0.87	2019	C10	P21397	0.4	4128	C0030567	CURATED	MAOA	disease	0.465		Disease or Syndrome	   Nervous System Diseases	1994	0.769	0.99928	Parkinson Disease	
-	1	2019	C10	P42898	0.4	4524	C0030567	CURATED	MTHFR	disease	0.337		Disease or Syndrome	   Nervous System Diseases	2004	0.885	3.2068e-10	Parkinson Disease	
-	0.727	2019	C10	P29475	0.4	4842	C0030567	CURATED	NOS1	disease	0.408		Disease or Syndrome	   Nervous System Diseases	1997	0.885	1	Parkinson Disease	
-Transporter	0.9	2018	C10	P08183	0.4	5243	C0030567	CURATED	ABCB1	disease	0.344	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	2002	0.885	1.2564e-05	Parkinson Disease	
-Transporter	0.931	2019	C10	Q96QK1	0.4	55737	C0030567	CURATED	VPS35	disease	0.656	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	2011	0.5	0.96921	Parkinson Disease	
-Signaling	0.906	2020	C10	P23560	0.4	627	C0030567	CURATED	BDNF	disease	0.345	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	1995	0.923	0.65626	Parkinson Disease	
-Transporter	0.935	2020	C10	Q01959	0.4	6531	C0030567	CURATED	SLC6A3	disease	0.453	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	1994	0.885	0.99758	Parkinson Disease	
-Enzyme	0.971	2020	C10	P00441	0.4	6647	C0030567	CURATED	SOD1	disease	0.379	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	1993	0.962	0.1773	Parkinson Disease	
-Enzyme	1	2019	C10	P04179	0.4	6648	C0030567	CURATED	SOD2	disease	0.379	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	1997	0.923	0.15499	Parkinson Disease	
-Signaling	0.98	2020	C10	P01375	0.4	7124	C0030567	CURATED	TNF	disease	0.231	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	1999	0.962	0.8033	Parkinson Disease	
-Enzyme	1	2014	C10;F03	Q92743	0.4	5654	C0497327	CURATED	HTRA1	disease	0.532	DTO_05007624	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2014	0.692	0.00049201	Dementia	strong
-Signaling	0.9	2019	C10;F03	P06850	0.39	1392	C0002395	CURATED	CRH	disease	0.439	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1995	0.808	0.71614	Alzheimer's Disease	
-Enzyme	0.889	2018	C10;F03	P04179	0.38	6648	C0002395	CURATED	SOD2	disease	0.379	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.923	0.15499	Alzheimer's Disease	
-Transcription factor	0.875	2020	C18;C10	P04637	0.38	7157	C0002736	CURATED	TP53	disease	0.236	DTO_05007542	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2000	0.962	0.53235	Amyotrophic Lateral Sclerosis	
-	0.778	2019	C10	P09211	0.38	2950	C0030567	CURATED	GSTP1	disease	0.383		Disease or Syndrome	   Nervous System Diseases	2003	0.923	0.014155	Parkinson Disease	
-	1	2018	C10	Q9NX09	0.38	54541	C0030567	CURATED	DDIT4	disease	0.576		Disease or Syndrome	   Nervous System Diseases	2006	0.769	0.00068309	Parkinson Disease	
-Nucleic acid binding	1	2017	C10;F03	P35637	0.38	2521	C0497327	CURATED	FUS	disease	0.47	DTO_05007557	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2009	0.846	0.9993	Dementia	
-	1	2020	C18;C10	Q8N1W1	0.37	64283	C0002736	CURATED	ARHGEF28	disease	0.615		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.423	8.1044e-21	Amyotrophic Lateral Sclerosis	moderate
-	0.875	2013	C10	P05181	0.37	1571	C0030567	CURATED	CYP2E1	disease	0.459		Disease or Syndrome	   Nervous System Diseases	1998	0.885	8.0688e-09	Parkinson Disease	
-Enzyme	1	2019	C10;F03	P16885	0.36	5336	C0002395	CURATED	PLCG2	disease	0.588	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2017	0.808	0.99562	Alzheimer's Disease	
-Receptor	1	2016	C10;F03	O95185	0.36	8633	C0002395	CURATED	UNC5C	disease	0.65	DTO_05007575	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2014	0.462	0.0008813	Alzheimer's Disease	
-Enzyme	1	2017	C18;C10	P35354	0.36	5743	C0002736	CURATED	PTGS2	disease	0.314	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2001	0.962	0.99597	Amyotrophic Lateral Sclerosis	
-Kinase	0.833	2020	C10	Q99683	0.36	4217	C0030567	CURATED	MAP3K5	disease	0.513	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2006	0.808	0.51964	Parkinson Disease	
-Signaling	1	2018	C10	P01138	0.36	4803	C0030567	CURATED	NGF	disease	0.391	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	2009	0.885	0.82026	Parkinson Disease	
-Transporter	1	2019	C10;F03	Q01959	0.36	6531	C0497327	CURATED	SLC6A3	disease	0.453	DTO_05007405	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	1992	0.885	0.99758	Dementia	
-	1	2018	C10;F03	O43914	0.36	7305	C0497327	CURATED	TYROBP	disease	0.573		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2000	0.769	0.20238	Dementia	strong
-Enzyme modulator	1	2019	C10;F03	Q9P2A4	0.35	51225	C0002395	CURATED	ABI3	disease	0.716	DTO_05007584	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2017	0.231	5.0089e-05	Alzheimer's Disease	
-Enzyme	1	2019	C10;F03	Q9NZC7	0.35	51741	C0002395	CURATED	WWOX	disease	0.453	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2004	0.808	1.2376e-15	Alzheimer's Disease	
-Enzyme	1	2012	C10;F03	P02787	0.35	7018	C0002395	CURATED	TF	disease	0.527	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.846	4.1001e-08	Alzheimer's Disease	
-Enzyme	1	2008	C18;C10	P04179	0.35	6648	C0002736	CURATED	SOD2	disease	0.379	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1996	0.923	0.15499	Amyotrophic Lateral Sclerosis	
-Ion channel	1	2007	C10;F03	P17787	0.34	1141	C0002395	CURATED	CHRNB2	disease	0.617	DTO_01300327	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.308	0.00072964	Alzheimer's Disease	
-Transporter	1	2014	C10;F03	Q6NXT4	0.34	55676	C0002395	CURATED	SLC30A6	disease	0.711	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2006	0.346	6.906e-09	Alzheimer's Disease	
-	1	2019	C10	P15559	0.34	1728	C0030567	CURATED	NQO1	disease	0.434		Disease or Syndrome	   Nervous System Diseases	2001	0.885	1.1867e-09	Parkinson Disease	
-Calcium-binding protein	1	2019	C10	P55008	0.34	199	C0030567	CURATED	AIF1	disease	0.521	DTO_05007616	Disease or Syndrome	   Nervous System Diseases	2009	0.808	1.8793e-06	Parkinson Disease	
-Signaling	1	2019	C10;F03	O00264	0.33	10857	C0002395	CURATED	PGRMC1	disease	0.588	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2014	0.654	0.6711	Alzheimer's Disease	
-Nucleic acid binding	1	2009	C10;F03	P05198	0.33	1965	C0002395	CURATED	EIF2S1	disease	0.587	DTO_05007557	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2002	0.692	0.97031	Alzheimer's Disease	
-Enzyme	1	2016	C10;F03	P00734	0.33	2147	C0002395	CURATED	F2	disease	0.415	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1993	0.885	0.0011118	Alzheimer's Disease	
-	1	2018	C10;F03	Q7LC44	0.33	23237	C0002395	CURATED	ARC	disease	0.573		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2000	0.769	0.59433	Alzheimer's Disease	
-Calcium-binding protein	1	2019	C10;F03	P0DP23;P0DP24;P0DP25	0.33	801	C0002395	CURATED	CALM1	disease	0.472	DTO_05007616	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.808	0.94473	Alzheimer's Disease	
-	1	2018	C10	O15217	0.33	2941	C0030567	CURATED	GSTA4	disease	0.678		Disease or Syndrome	   Nervous System Diseases	2005	0.462	0.010958	Parkinson Disease	
-	1	2017	C10	P01344	0.33	3481	C0030567	CURATED	IGF2	disease	0.39		Disease or Syndrome	   Nervous System Diseases	2008	0.885	0.044127	Parkinson Disease	
-Ion channel	1	2019	C10	O94759	0.33	7226	C0030567	CURATED	TRPM2	disease	0.546	DTO_01300327	Disease or Syndrome	   Nervous System Diseases	2018	0.731	8.9633e-44	Parkinson Disease	
-Kinase	1	2019	C10;F03	P07333	0.33	1436	C0497327	CURATED	CSF1R	disease	0.448	DTO_03300101	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2013	0.808	0.13278	Dementia	strong
-Enzyme	1	2009	C10;F03	P06733	0.32	2023	C0002395	CURATED	ENO1	disease	0.481	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2003	0.885	1.914e-05	Alzheimer's Disease	
-Immune response	1	2017	C10;F03	Q30154	0.32	3127	C0002395	CURATED	HLA-DRB5	disease	0.608	DTO_05007608	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.731	3.6359e-07	Alzheimer's Disease	
-Receptor	1	2015	C10;F03	P11717	0.32	3482	C0002395	CURATED	IGF2R	disease	0.518	DTO_05007575	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2004	0.731	1	Alzheimer's Disease	
-Enzyme	1	2019	C10;F03	P60174	0.32	7167	C0002395	CURATED	TPI1	disease	0.517	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2009	0.846	0.030193	Alzheimer's Disease	
-Enzyme	1	2017	C18;C10	P00390	0.32	2936	C0002736	CURATED	GSR	disease	0.494	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2006	0.846	1.2922e-06	Amyotrophic Lateral Sclerosis	
-Immune response	1	2017	C10	Q30154	0.32	3127	C0030567	CURATED	HLA-DRB5	disease	0.608	DTO_05007608	Disease or Syndrome	   Nervous System Diseases	2012	0.731	3.6359e-07	Parkinson Disease	
-Receptor	1	2016	C10	P11717	0.32	3482	C0030567	CURATED	IGF2R	disease	0.518	DTO_05007575	Disease or Syndrome	   Nervous System Diseases	2009	0.731	1	Parkinson Disease	
-	1	2020	C10	P01308	0.32	3630	C0030567	CURATED	INS	disease	0.445		Disease or Syndrome	   Nervous System Diseases	2008	0.923	0.30091	Parkinson Disease	
-Kinase	1	2017	C10	Q00535	0.32	1020	C0949664	CURATED	CDK5	group	0.495	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2013	0.846	0.13892	Tauopathies	
-Kinase	1	2016	C10	P49841	0.32	2932	C0949664	CURATED	GSK3B	group	0.43	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	2010	0.846	0.95571	Tauopathies	
-	1	2018	C10;F03		0.31	100170222	C0002395	CURATED	SNAR-I	disease	0.805		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2018	0.077	NA	Alzheimer's Disease	
-	1	2019	C10;F03	Q8N0W5	0.31	124152	C0002395	CURATED	IQCK	disease	0.792		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2014	0.154	2.0032e-06	Alzheimer's Disease	
-	1	2019	C10;F03	Q9UKV5	0.31	267	C0002395	CURATED	AMFR	disease	0.599		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2012	0.692	5.8368e-05	Alzheimer's Disease	
-	1	2015	C10;F03		0.31	406892	C0002395	CURATED	MIR100	disease	0.521		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.846	NA	Alzheimer's Disease	
-	1	2015	C10;F03		0.31	407022	C0002395	CURATED	MIR296	disease	0.564		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.654	NA	Alzheimer's Disease	
-	1	2015	C10;F03		0.31	494324	C0002395	CURATED	MIR375	disease	0.476		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.769	NA	Alzheimer's Disease	
-Transporter	1	2020	C10;F03	P14672	0.31	6517	C0002395	CURATED	SLC2A4	disease	0.528	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2014	0.769	4.7123e-05	Alzheimer's Disease	
-Transporter	1	2006	C10;F03	O14863	0.31	7782	C0002395	CURATED	SLC30A4	disease	0.705	DTO_05007405	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2006	0.385	0.11544	Alzheimer's Disease	
-	1	2013	C18;C10	O75509	0.31	27242	C0002736	CURATED	TNFRSF21	disease	0.729		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.462	0.040615	Amyotrophic Lateral Sclerosis	
-	1	2006	C18;C10	P09211	0.31	2950	C0002736	CURATED	GSTP1	disease	0.383		Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2006	0.923	0.014155	Amyotrophic Lateral Sclerosis	
-Enzyme	1	2012	C18;C10	Q9UK59	0.31	51163	C0002736	CURATED	DBR1	disease	0.769	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2012	0.385	1.1785e-08	Amyotrophic Lateral Sclerosis	
-Enzyme	1	2005	C18;C10	P47712	0.31	5321	C0002736	CURATED	PLA2G4A	disease	0.496	DTO_05007624	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	1999	0.846	5.9817e-05	Amyotrophic Lateral Sclerosis	
-Kinase	1	2013	C18;C10	Q96NX5	0.31	57172	C0002736	CURATED	CAMK1G	disease	0.839	DTO_03300101	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2013	0.154	0.00039801	Amyotrophic Lateral Sclerosis	
-Transporter	1	2010	C18;C10	P30531	0.31	6529	C0002736	CURATED	SLC6A1	disease	0.592	DTO_05007405	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.538	0.99993	Amyotrophic Lateral Sclerosis	
-Signaling	1	2010	C18;C10	P29965	0.31	959	C0002736	CURATED	CD40LG	disease	0.414	DTO_05007599	Disease or Syndrome	   Nutritional and Metabolic Diseases;    Nervous System Diseases	2010	0.846	0.72079	Amyotrophic Lateral Sclerosis	
-Enzyme	1	2020	C10	P09104	0.31	2026	C0030567	CURATED	ENO2	disease	0.475	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2019	0.846	0.38396	Parkinson Disease	
-Enzyme	1	2010	C10	P09467	0.31	2203	C0030567	CURATED	FBP1	disease	0.575	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2008	0.692	0.079124	Parkinson Disease	
-Receptor	1	2015	C10	P06734	0.31	2208	C0030567	CURATED	FCER2	disease	0.56	DTO_05007575	Disease or Syndrome	   Nervous System Diseases	1999	0.654	7.6122e-12	Parkinson Disease	
-Enzyme	1	2009	C10	P07203	0.31	2876	C0030567	CURATED	GPX1	disease	0.458	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2005	0.923	3.8518e-05	Parkinson Disease	
-Enzyme	1	2006	C10	P14210	0.31	3082	C0030567	CURATED	HGF	disease	0.374	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2006	0.885	0.99947	Parkinson Disease	
-	1	2005	C10	P0DMV8;P0DMV9	0.31	3303	C0030567	CURATED	HSPA1A	disease	0.486		Disease or Syndrome	   Nervous System Diseases	2004	0.769	0.030228	Parkinson Disease	
-Kinase	1	2009	C10	P06213	0.31	3643	C0030567	CURATED	INSR	disease	0.432	DTO_03300101	Disease or Syndrome	   Nervous System Diseases	1996	0.846	3.6145e-05	Parkinson Disease	
-	1	2017	C10		0.31	406957	C0030567	CURATED	MIR181C	disease	0.555		Disease or Syndrome	   Nervous System Diseases	2017	0.769	NA	Parkinson Disease	
-Receptor	1	2017	C10	P20916	0.31	4099	C0030567	CURATED	MAG	disease	0.579	DTO_05007575	Disease or Syndrome	   Nervous System Diseases	2009	0.692	0.49228	Parkinson Disease	
-Nucleic acid binding	1	2016	C10	Q13330	0.31	9112	C0030567	CURATED	MTA1	disease	0.547	DTO_05007557	Disease or Syndrome	   Nervous System Diseases	2016	0.692	1	Parkinson Disease	
-	1	2017	C10	Q9UL15	0.31	9529	C0030567	CURATED	BAG5	disease	0.769		Disease or Syndrome	   Nervous System Diseases	2017	0.346	1.81e-06	Parkinson Disease	
-	1	2015	C10	O95988	0.31	9623	C0030567	CURATED	TCL1B	disease	0.561		Disease or Syndrome	   Nervous System Diseases	2015	0.5	0.010127	Parkinson Disease	
-	1	2016	C10;F03	P02462	0.31	1282	C0497327	CURATED	COL4A1	disease	0.484		Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2007	0.731	1	Dementia	strong
-	1	2015	C10;F03		0.3	100126333	C0002395	CURATED	MIR708	disease	0.57		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.692	NA	Alzheimer's Disease	
-	1	2015	C10;F03		0.3	100500871	C0002395	CURATED	MIR3622B	disease	0.805		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.077	NA	Alzheimer's Disease	
-	1	2015	C10;F03		0.3	100616367	C0002395	CURATED	MIR4467	disease	0.805		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.077	NA	Alzheimer's Disease	
-Enzyme	1	1999	C10;F03	O14773	0.3	1200	C0002395	CURATED	TPP1	disease	0.551	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	1999	0.808	6.2564e-07	Alzheimer's Disease	
-Enzyme	1	2007	C10;F03	O14556	0.3	26330	C0002395	CURATED	GAPDHS	disease	0.78	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2007	0.154	3.3372e-05	Alzheimer's Disease	
-Signaling	1	2001	C10;F03	P10082	0.3	5697	C0002395	CURATED	PYY	disease	0.588	DTO_05007599	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2001	0.615	0.011784	Alzheimer's Disease	
-	1	2015	C10;F03		0.3	574508	C0002395	CURATED	MIR505	disease	0.603		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.577	NA	Alzheimer's Disease	
-	1	2015	C10;F03		0.3	768218	C0002395	CURATED	MIR766	disease	0.633		Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2015	0.577	NA	Alzheimer's Disease	
-Enzyme	1	2019	C10;F03	Q9UHI8	0.3	9510	C0002395	CURATED	ADAMTS1	disease	0.555	DTO_05007624	Disease or Syndrome	   Nervous System Diseases;    Mental Disorders	2019	0.654	0.71601	Alzheimer's Disease	
-Enzyme	1	2015	C10	Q9NS39	0.3	105	C0030567	CURATED	ADARB2	disease	0.716	DTO_05007624	Disease or Syndrome	   Nervous System Diseases	2015	0.308	0.85603	Parkinson Disease	
-	1	2015	C10	Q14993	0.3	1310	C0030567	CURATED	COL19A1	disease	0.89		Disease or Syndrome	   Nervous System Diseases	2015	0.154	4.8406e-33	Parkinson Disease	
-Transporter	1	2015	C10	Q8TDB8	0.3	144195	C0030567	CURATED	SLC2A14	disease	0.821	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	2015	0.308	0.041173	Parkinson Disease	
-Signaling	1	2009	C10	P05305	0.3	1906	C0030567	CURATED	EDN1	disease	0.38	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	2009	0.846	0.45504	Parkinson Disease	
-Signaling	1	2012	C10	P02675	0.3	2244	C0030567	CURATED	FGB	disease	0.584	DTO_05007599	Disease or Syndrome	   Nervous System Diseases	2012	0.692	0.56616	Parkinson Disease	
-	1	2015	C10	Q9UHC6	0.3	26047	C0030567	CURATED	CNTNAP2	disease	0.53		Disease or Syndrome	   Nervous System Diseases	2015	0.846	2.8673e-09	Parkinson Disease	
-	1	2015	C10	P69891	0.3	3047	C0030567	CURATED	HBG1	disease	0.615		Disease or Syndrome	   Nervous System Diseases	2015	0.538	0.56611	Parkinson Disease	
-	1	2015	C10	Q8NBI3	0.3	374946	C0030567	CURATED	DRAXIN	disease	1		Disease or Syndrome	   Nervous System Diseases	2015	0.038	1.8935e-10	Parkinson Disease	
-Ion channel	1	2008	C10	P48050	0.3	3761	C0030567	CURATED	KCNJ4	disease	0.805	DTO_01300327	Disease or Syndrome	   Nervous System Diseases	2008	0.385	0.9649	Parkinson Disease	
-	1	2019	C10	P11137	0.3	4133	C0030567	CURATED	MAP2	disease	0.537		Disease or Syndrome	   Nervous System Diseases	2019	0.692	1	Parkinson Disease	
-	1	2015	C10	P40199	0.3	4680	C0030567	CURATED	CEACAM6	disease	0.561		Disease or Syndrome	   Nervous System Diseases	2015	0.731	1.1884e-06	Parkinson Disease	
-	1	2015	C10	Q86XI2	0.3	54892	C0030567	CURATED	NCAPG2	disease	0.603		Disease or Syndrome	   Nervous System Diseases	2015	0.731	0.97764	Parkinson Disease	
-Transporter	1	2014	C10	Q6XR72	0.3	55532	C0030567	CURATED	SLC30A10	disease	0.578	DTO_05007405	Disease or Syndrome	   Nervous System Diseases	2014	0.654	0.97952	Parkinson Disease	
-	1	2015	C10	Q92692	0.3	5819	C0030567	CURATED	NECTIN2	disease	0.575		Disease or Syndrome	   Nervous System Diseases	2015	0.769	0.96926	Parkinson Disease	
-Nucleic acid binding	1	2008	C10	Q02878	0.3	6128	C0030567	CURATED	RPL6	disease	0.7	DTO_05007557	Disease or Syndrome	   Nervous System Diseases	2008	0.385	0.99326	Parkinson Disease	
-Nucleic acid binding	1	2008	C10	P62750	0.3	6147	C0030567	CURATED	RPL23A	disease	0.78	DTO_05007557	Disease or Syndrome	   Nervous System Diseases	2008	0.308	0.90573	Parkinson Disease	
-Nucleic acid binding	1	2008	C10	P62241	0.3	6202	C0030567	CURATED	RPS8	disease	0.805	DTO_05007557	Disease or Syndrome	   Nervous System Diseases	2008	0.192	0.99003	Parkinson Disease	
-	1	2012	C10	P37837	0.3	6888	C0030567	CURATED	TALDO1	disease	0.608		Disease or Syndrome	   Nervous System Diseases	2012	0.654	2.5234e-06	Parkinson Disease	
-Nucleic acid binding	1	2008	C10	P50914	0.3	9045	C0030567	CURATED	RPL14	disease	0.722	DTO_05007557	Disease or Syndrome	   Nervous System Diseases	2008	0.308	0.89508	Parkinson Disease	
-Transporter	1	2009	C10;F03	Q9Y2E8	0.3	23315	C0497327	CURATED	SLC9A8	disease	0.736	DTO_05007405	Mental or Behavioral Dysfunction	   Nervous System Diseases;    Mental Disorders	2009	0.5	2.9146e-10	Dementia	
+el	disease_name	disease_semantic_type	gene_pli	gene_dpi	year_initial	gene_dsi	uniprotid	year_final	ei	diseaseid	gene_symbol	disease_class	source	protein_class_name	protein_class	geneid	score	disease_class_name	disease_type
+strong	Alzheimer's Disease	Disease or Syndrome	1.0344e-37	0.923	1998	0.328	P12821	2020	0.915	C0002395	ACE	C10;F03	CURATED	Enzyme	DTO_05007624	1636	0.9	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.046544	0.846	1987	0.422	P05067	2020	0.981	C0002395	APP	C10;F03	CURATED	Enzyme modulator	DTO_05007584	351	0.9	   Nervous System Diseases;    Mental Disorders	disease
+strong	Frontotemporal dementia	Disease or Syndrome	0.069666	0.846	2006	0.435	P28799	2020	0.976	C0338451	GRN	C18;C10;F03	CURATED			2896	0.9	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+limited	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.0647e-06	0.769	2009	0.496	Q96LT7	2020	0.985	C0002736	C9orf72	C18;C10	CURATED			203228	0.8	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+strong	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.1773	0.962	1993	0.379	P00441	2020	0.985	C0002736	SOD1	C18;C10	CURATED	Enzyme	DTO_05007624	6647	0.8	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Frontotemporal dementia	Disease or Syndrome	0.0060258	0.923	1997	0.446	P10636	2020	0.978	C0338451	MAPT	C18;C10;F03	CURATED			4137	0.8	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+	Frontotemporal dementia	Disease or Syndrome	0.97322	0.846	1995	0.469	P49768	2018	1	C0338451	PSEN1	C18;C10;F03	CURATED	Enzyme	DTO_05007624	5663	0.8	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.846	2000	0.489	O14672	2019	0.986	C0002395	ADAM10	C10;F03	CURATED			102	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.95571	0.846	2000	0.43	P49841	2020	0.982	C0002395	GSK3B	C10;F03	CURATED	Kinase	DTO_03300101	2932	0.7	   Nervous System Diseases;    Mental Disorders	disease
+strong	Alzheimer's Disease	Disease or Syndrome	2.5587e-08	0.846	2001	0.436	Q30201	2018	0.963	C0002395	HFE	C10;F03	CURATED			3077	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0018685	0.962	1991	0.338	P02649	2020	0.946	C0002395	APOE	C10;F03	CURATED			348	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0060258	0.923	1988	0.446	P10636	2020	0.99	C0002395	MAPT	C10;F03	CURATED			4137	0.7	   Nervous System Diseases;    Mental Disorders	disease
+limited	Alzheimer's Disease	Disease or Syndrome	3.2892e-09	0.769	2007	0.519	Q9NZC2	2020	0.977	C0002395	TREM2	C10;F03	CURATED			54209	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97322	0.846	1990	0.469	P49768	2020	0.971	C0002395	PSEN1	C10;F03	CURATED	Enzyme	DTO_05007624	5663	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	5.91e-18	0.808	2010	0.548	Q96CV9	2020	0.954	C0002736	OPTN	C18;C10	CURATED			10133	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1	0.423	2009	0.705	Q9UPW8	2019	1	C0002736	UNC13A	C18;C10	CURATED			23025	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.98542	0.808	2006	0.493	Q13148	2020	0.979	C0002736	TARDBP	C18;C10	CURATED			23435	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.9993	0.846	2009	0.47	P35637	2020	0.981	C0002736	FUS	C18;C10	CURATED	Nucleic acid binding	DTO_05007557	2521	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+strong	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.075174	0.846	2015	0.513	Q9UHD2	2019	1	C0002736	TBK1	C18;C10	CURATED	Kinase	DTO_03300101	29110	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	9.8142e-11	0.885	2007	0.409	P27169	2019	0.929	C0002736	PON1	C18;C10	CURATED			5444	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.85289	0.808	2006	0.482	Q99700	2019	0.971	C0002736	ATXN2	C18;C10	CURATED	Nucleic acid binding	DTO_05007557	6311	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+limited	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.16517	0.5	2011	0.626	Q92804	2019	0.929	C0002736	TAF15	C18;C10	CURATED	Nucleic acid binding	DTO_05007557	8148	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.00086035	0.885	2009	0.428	Q13501	2020	0.974	C0002736	SQSTM1	C18;C10	CURATED			8878	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+limited	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1	0.538	2009	0.631	P43243	2019	1	C0002736	MATR3	C18;C10	CURATED			9782	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.8829	0.885	1997	0.427	P37840	2020	0.983	C0030567	SNCA	C10	CURATED	Transporter	DTO_05007405	6622	0.7	   Nervous System Diseases	disease
+strong	Frontotemporal dementia	Disease or Syndrome	0.98542	0.808	2007	0.493	Q13148	2020	0.984	C0338451	TARDBP	C18;C10;F03	CURATED			23435	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+strong	Frontotemporal dementia	Disease or Syndrome	4.6203e-06	0.731	2005	0.543	Q9UQN3	2019	1	C0338451	CHMP2B	C18;C10;F03	CURATED			25978	0.7	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.046544	0.846	1993	0.422	P05067	2020	0.964	C0497327	APP	C10;F03	CURATED	Enzyme modulator	DTO_05007584	351	0.7	   Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	3.2892e-09	0.769	2005	0.519	Q9NZC2	2020	1	C0497327	TREM2	C10;F03	CURATED			54209	0.7	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.3058e-06	0.923	2002	0.425	P00749	2013	1	C0002395	PLAU	C10;F03	CURATED	Enzyme	DTO_05007624	5328	0.68	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	4.6203e-06	0.731	2006	0.543	Q9UQN3	2016	1	C0002736	CHMP2B	C18;C10	CURATED			25978	0.68	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.9084e-25	0.769	2016	0.575	Q96PY6	2019	1	C0002736	NEK1	C18;C10	CURATED	Kinase	DTO_03300101	4750	0.68	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+moderate	Amyotrophic Lateral Sclerosis	Disease or Syndrome	6.2271e-22	0.615	2010	0.636	P14920	2018	1	C0002736	DAO	C18;C10	CURATED			1610	0.67	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	3.291e-07	0.615	2016	0.633	O43822	2019	1	C0002736	CFAP410	C18;C10	CURATED			755	0.62	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.87888	0.769	1999	0.559	P56817	2020	0.985	C0002395	BACE1	C10;F03	CURATED	Enzyme	DTO_05007624	23621	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0066309	0.577	2000	0.604	P14735	2019	0.955	C0002395	IDE	C10;F03	CURATED	Enzyme	DTO_05007624	3416	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.13005	0.962	1989	0.276	P01584	2020	0.966	C0002395	IL1B	C10;F03	CURATED			3553	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.6145e-05	0.846	2002	0.432	P06213	2020	1	C0002395	INSR	C10;F03	CURATED	Kinase	DTO_03300101	3643	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.46491	0.846	2004	0.349	P41159	2019	0.944	C0002395	LEP	C10;F03	CURATED			3952	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.14294	0.846	2000	0.447	P01303	2018	0.833	C0002395	NPY	C10;F03	CURATED	Signaling	DTO_05007599	4852	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.55903	0.885	1996	0.291	P10415	2019	1	C0002395	BCL2	C10;F03	CURATED	Signaling	DTO_05007599	596	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.65626	0.923	1991	0.345	P23560	2020	0.958	C0002395	BDNF	C10;F03	CURATED	Signaling	DTO_05007599	627	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.10017	0.923	1999	0.351	P42574	2020	0.98	C0002395	CASP3	C10;F03	CURATED	Enzyme	DTO_05007624	836	0.6	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	0.75335	0.808	2003	0.535	Q99497	2020	0.973	C0030567	PARK7	C10	CURATED	Enzyme	DTO_05007624	11315	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	3.7519e-08	0.769	1988	0.535	P20711	2019	1	C0030567	DDC	C10	CURATED			1644	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.74709	0.846	1995	0.436	P14416	2020	0.931	C0030567	DRD2	C10	CURATED	G-protein coupled receptor	DTO_02300001	1813	0.6	   Nervous System Diseases	disease
+strong	Parkinson Disease	Disease or Syndrome	8.9582e-09	0.577	2007	0.566	Q9NQ11	2019	0.946	C0030567	ATP13A2	C10	CURATED			23400	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99903	0.808	1993	0.533	P27338	2020	0.991	C0030567	MAOB	C10	CURATED			4129	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	6.9346e-07	0.846	1998	0.431	O60260	2020	0.974	C0030567	PRKN	C10	CURATED	Enzyme	DTO_05007624	5071	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.8749e-10	0.769	2002	0.516	Q9BXM7	2020	0.987	C0030567	PINK1	C10	CURATED	Kinase	DTO_03300101	65018	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.075523	0.769	1996	0.554	Q05940	2020	0.966	C0030567	SLC18A2	C10	CURATED	Transporter	DTO_05007405	6571	0.6	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.6878e-06	0.885	1989	0.462	P07101	2020	0.979	C0030567	TH	C10	CURATED			7054	0.6	   Nervous System Diseases	disease
+	Tauopathies	Disease or Syndrome	0.0060258	0.923	1999	0.446	P10636	2020	0.994	C0949664	MAPT	C10	CURATED			4137	0.6	   Nervous System Diseases	group
+	Alzheimer's Disease	Disease or Syndrome	0.044127	0.885	2002	0.39	P01344	2019	1	C0002395	IGF2	C10;F03	CURATED			3481	0.57	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	0.9555	0.808	1996	0.529	P21728	2020	1	C0030567	DRD1	C10	CURATED	G-protein coupled receptor	DTO_02300001	1812	0.57	   Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.96799	0.885	2005	0.399	P08069	2020	1	C0002395	IGF1R	C10;F03	CURATED	Kinase	DTO_03300101	3480	0.56	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99945	0.731	2003	0.604	P25705	2017	1	C0002395	ATP5F1A	C10;F03	CURATED	Transporter	DTO_05007405	498	0.54	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.30091	0.923	1991	0.445	P01308	2020	1	C0002395	INS	C10;F03	CURATED			3630	0.53	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.31746	0.885	1997	0.417	Q07812	2018	1	C0002395	BAX	C10;F03	CURATED	Signaling	DTO_05007599	581	0.52	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	0.96799	0.885	2009	0.399	P08069	2019	1	C0030567	IGF1R	C10	CURATED	Kinase	DTO_03300101	3480	0.51	   Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	2.1111e-55	0.577	2011	0.644	Q8IZY2	2019	0.985	C0002395	ABCA7	C10;F03	CURATED	Transporter	DTO_05007405	10347	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99218	0.538	2009	0.59	O96008	2020	0.978	C0002395	TOMM40	C10;F03	CURATED	Transporter	DTO_05007405	10452	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.8072e-05	0.885	1991	0.426	P10909	2020	0.94	C0002395	CLU	C10;F03	CURATED			1191	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.6488e-35	0.808	2009	0.533	P17927	2019	0.971	C0002395	CR1	C10;F03	CURATED			1378	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.5229e-11	0.769	1998	0.529	P01023	2018	0.769	C0002395	A2M	C10;F03	CURATED	Enzyme modulator	DTO_05007584	2	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.4624e-23	0.731	2009	0.544	P21709	2019	0.933	C0002395	EPHA1	C10;F03	CURATED	Kinase	DTO_03300101	2041	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.22989	0.731	2011	0.558	Q9Y5K6	2019	1	C0002395	CD2AP	C10;F03	CURATED			23607	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.77822	0.692	2011	0.55	O00499	2020	0.98	C0002395	BIN1	C10;F03	CURATED			274	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.21685	0.577	1999	0.581	P02654	2019	1	C0002395	APOC1	C10;F03	CURATED			341	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.105e-15	0.923	1999	0.377	P05164	2019	1	C0002395	MPO	C10;F03	CURATED	Enzyme	DTO_05007624	4353	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.7246e-07	0.885	1999	0.378	P29474	2018	0.9	C0002395	NOS3	C10;F03	CURATED			4846	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00053736	0.654	1995	0.55	P49810	2020	0.977	C0002395	PSEN2	C10;F03	CURATED	Enzyme	DTO_05007624	5664	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	7.6609e-11	0.692	2004	0.582	Q92673	2020	0.973	C0002395	SORL1	C10;F03	CURATED	Transporter	DTO_05007405	6653	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99896	0.538	2009	0.592	Q13492	2019	0.947	C0002395	PICALM	C10;F03	CURATED	Transporter	DTO_05007405	8301	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.1678	0.808	2013	0.544	Q99720	2020	1	C0002736	SIGMAR1	C18;C10	CURATED			10280	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.084251	0.5	2005	0.597	Q14203	2019	0.909	C0002736	DCTN1	C18;C10	CURATED	Chaperone	DTO_05007613	1639	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1	0.846	2012	0.566	P54764	2019	0.909	C0002736	EPHA4	C18;C10	CURATED	Kinase	DTO_03300101	2043	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+moderate	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.95483	0.731	1998	0.57	Q7Z333	2018	0.952	C0002736	SETX	C18;C10	CURATED	Enzyme	DTO_05007624	23064	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.28738	0.769	2004	0.511	P03950	2019	0.959	C0002736	ANG	C18;C10	CURATED			283	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.84968	0.462	2011	0.656	Q9UHD9	2020	0.98	C0002736	UBQLN2	C18;C10	CURATED			29978	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99911	0.885	2013	0.529	P09651	2019	1	C0002736	HNRNPA1	C18;C10	CURATED			3178	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	5.3661e-06	0.462	2014	0.623	Q8WYQ3	2020	0.955	C0002736	CHCHD10	C18;C10	CURATED			400916	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	2.6684e-12	0.769	1993	0.588	P12036	2018	1	C0002736	NEFH	C18;C10	CURATED			4744	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.73258	0.769	2012	0.565	P07737	2019	1	C0002736	PFN1	C18;C10	CURATED			5216	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	3.2892e-09	0.769	2013	0.519	Q9NZC2	2019	0.833	C0002736	TREM2	C18;C10	CURATED			54209	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	4.7898e-14	0.462	2000	0.623	P41219	2016	1	C0002736	PRPH	C18;C10	CURATED			5630	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99999	0.923	2008	0.469	P55072	2020	0.962	C0002736	VCP	C18;C10	CURATED			7415	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.58111	0.423	2004	0.666	O95292	2019	0.967	C0002736	VAPB	C18;C10	CURATED	Transporter	DTO_05007405	9217	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	2.5757e-30	0.808	2002	0.51	Q5S007	2020	0.983	C0030567	LRRK2	C10	CURATED	Kinase	DTO_03300101	120892	0.5	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.0051818	0.231	2009	0.805	O14976	2020	1	C0030567	GAK	C10	CURATED	Kinase	DTO_03300101	2580	0.5	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.4355e-06	0.808	2004	0.5	P04062	2020	0.989	C0030567	GBA	C10	CURATED			2629	0.5	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.0060258	0.923	1999	0.446	P10636	2019	0.972	C0030567	MAPT	C10	CURATED			4137	0.5	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	4.2099e-11	0.423	2009	0.67	Q10588	2019	0.92	C0030567	BST1	C10	CURATED	Enzyme	DTO_05007624	683	0.5	   Nervous System Diseases	disease
+limited	Frontotemporal dementia	Disease or Syndrome	1.0647e-06	0.769	2011	0.496	Q96LT7	2020	0.987	C0338451	C9orf72	C18;C10;F03	CURATED			203228	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+limited	Frontotemporal dementia	Disease or Syndrome	3.2892e-09	0.769	2013	0.519	Q9NZC2	2019	0.92	C0338451	TREM2	C18;C10;F03	CURATED			54209	0.5	   Nutritional and Metabolic Diseases;    Nervous System Diseases;    Mental Disorders	disease
+	Dementia	Mental or Behavioral Dysfunction	0.069666	0.846	2006	0.435	P28799	2019	1	C0497327	GRN	C10;F03	CURATED			2896	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Dementia	Mental or Behavioral Dysfunction	0.0060258	0.923	1995	0.446	P10636	2020	0.992	C0497327	MAPT	C10;F03	CURATED			4137	0.5	   Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.40757	0.808	1996	0.435	Q9UM47	2017	1	C0497327	NOTCH3	C10;F03	CURATED			4854	0.5	   Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.00063182	0.923	1991	0.445	F7VJQ1;P04156	2019	0.958	C0497327	PRNP	C10;F03	CURATED			5621	0.5	   Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.00053736	0.654	1997	0.55	P49810	2018	1	C0497327	PSEN2	C10;F03	CURATED	Enzyme	DTO_05007624	5664	0.5	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.45742	0.423	2001	0.631	P62760	2019	1	C0002395	VSNL1	C10;F03	CURATED			7447	0.49	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.9973	0.885	2007	0.453	Q9UBK2	2018	1	C0002736	PPARGC1A	C18;C10	CURATED	Transcription factor	DTO_05007542	10891	0.49	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+moderate	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99732	0.808	2014	0.566	P22626	2018	1	C0002736	HNRNPA2B1	C18;C10	CURATED			3181	0.49	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.51949	0.769	2010	0.581	P01903	2015	1	C0030567	HLA-DRA	C10	CURATED	Immune response	DTO_05007608	3122	0.48	   Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.33997	0.692	2008	0.603	P42658	2013	0.857	C0002736	DPP6	C18;C10	CURATED	Enzyme	DTO_05007624	1804	0.47	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.12679	0.615	2016	0.7	P41002	2019	1	C0002736	CCNF	C18;C10	CURATED	Enzyme modulator	DTO_05007584	899	0.46	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+limited	Dementia	Mental or Behavioral Dysfunction	0.0039011	0.808	1996	0.436	P01034	2019	1	C0497327	CST3	C10;F03	CURATED			1471	0.46	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97198	0.731	2013	0.558	Q92835	2020	1	C0002395	INPP5D	C10;F03	CURATED			3635	0.45	   Nervous System Diseases;    Mental Disorders	disease
+	Dementia	Mental or Behavioral Dysfunction	1	0.885	2011	0.406	P26358	2015	1	C0497327	DNMT1	C10;F03	CURATED	Epigenetic regulator	DTO_05007378	1786	0.45	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.96926	0.769	2008	0.575	Q92692	2019	1	C0002395	NECTIN2	C10;F03	CURATED			5819	0.44	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	4.7001e-10	0.692	2017	0.65	P50995	2019	1	C0002736	ANXA11	C18;C10	CURATED			311	0.44	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	8.0964e-06	0.308	2011	0.722	Q96JQ5	2019	1	C0002395	MS4A4A	C10;F03	CURATED	Receptor	DTO_05007575	51338	0.43	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99912	0.846	2013	0.455	Q15303	2019	1	C0002736	ERBB4	C18;C10	CURATED	Kinase	DTO_03300101	2066	0.43	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	2.0536e-10	0.577	2015	0.628	Q53GS7	2018	1	C0002736	GLE1	C18;C10	CURATED	Transporter	DTO_05007405	2733	0.43	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.1343e-08	0.462	2019	0.711	Q68CQ7	2020	1	C0002736	GLT8D1	C18;C10	CURATED			55830	0.43	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.015836	0.308	2009	0.729	Q9BZA7	2011	1	C0002395	PCDH11X	C10;F03	CURATED			27328	0.42	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.36682	0.231	2013	0.722	Q9NQ75	2019	1	C0002395	CASS4	C10;F03	CURATED			57091	0.42	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99962	0.192	2016	0.839	Q8WVM8	2019	1	C0002736	SCFD1	C18;C10	CURATED	Transporter	DTO_05007405	23256	0.42	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	2.3423e-34	0.731	2009	0.551	Q92562	2017	1	C0002736	FIG4	C18;C10	CURATED			9896	0.42	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Dementia	Mental or Behavioral Dysfunction	4.2013e-10	0.846	2003	0.466	P00450	2015	1	C0497327	CP	C10;F03	CURATED	Enzyme	DTO_05007624	1356	0.41	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.98552	0.5	2000	0.659	Q9Y6A2	2019	0.953	C0002395	CYP46A1	C10;F03	CURATED	Enzyme	DTO_05007624	10858	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00041549	0.654	2001	0.532	P36544;Q494W8	2017	1	C0002395	CHRNA7	C10;F03	CURATED	Ion channel	DTO_01300327	1139	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0039011	0.808	1988	0.436	P01034	2019	0.935	C0002395	CST3	C10;F03	CURATED			1471	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.0793e-25	0.885	1995	0.437	P10635	2019	0.909	C0002395	CYP2D6	C10;F03	CURATED			1565	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.031029	0.769	2000	0.498	Q15392	2019	0.958	C0002395	DHCR24	C10;F03	CURATED	Enzyme	DTO_05007624	1718	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99375	0.692	1999	0.585	Q16555	2020	0.947	C0002395	DPYSL2	C10;F03	CURATED	Enzyme	DTO_05007624	1808	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.9992	0.962	1999	0.324	P03372	2019	0.944	C0002395	ESR1	C10;F03	CURATED	Nuclear receptor	DTO_00102000	2099	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99942	0.462	2001	0.666	Q92542	2020	1	C0002395	NCSTN	C10;F03	CURATED			23385	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0096817	0.923	1995	0.381	P09601	2020	0.92	C0002395	HMOX1	C10;F03	CURATED			3162	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.2716	0.885	2000	0.318	P05019	2020	1	C0002395	IGF1	C10;F03	CURATED			3479	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.885	2008	0.398		2019	1	C0002395	MIR146A	C10;F03	CURATED			406938	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99903	0.808	1994	0.533	P27338	2020	1	C0002395	MAOB	C10;F03	CURATED			4129	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99827	0.885	1991	0.445	P22303	2020	0.985	C0002395	ACHE	C10;F03	CURATED	Enzyme	DTO_05007624	43	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.2068e-10	0.885	1999	0.337	P42898	2018	0.868	C0002395	MTHFR	C10;F03	CURATED			4524	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.029194	0.885	2000	0.358	P37231	2019	0.907	C0002395	PPARG	C10;F03	CURATED	Nuclear receptor	DTO_00102000	5468	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00063182	0.923	1986	0.445	F7VJQ1;P04156	2020	0.902	C0002395	PRNP	C10;F03	CURATED			5621	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.731	2002	0.515	P78509	2019	1	C0002395	RELN	C10;F03	CURATED			5649	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.0643e-13	0.923	1995	0.447	P06276	2020	0.962	C0002395	BCHE	C10;F03	CURATED			590	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.17259	0.731	2004	0.529	Q00059	2019	0.9	C0002395	TFAM	C10;F03	CURATED			7019	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.8033	0.962	1998	0.231	P01375	2020	0.963	C0002395	TNF	C10;F03	CURATED	Signaling	DTO_05007599	7124	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.4085e-05	0.923	2005	0.266	P15692	2020	0.919	C0002395	VEGFA	C10;F03	CURATED	Signaling	DTO_05007599	7422	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.6888e-07	0.769	2011	0.524	P20138	2019	0.972	C0002395	CD33	C10;F03	CURATED	Receptor	DTO_05007575	945	0.4	   Nervous System Diseases;    Mental Disorders	disease
+moderate	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99981	0.692	2011	0.474	Q01844	2019	0.909	C0002736	EWSR1	C18;C10	CURATED	Nucleic acid binding	DTO_05007557	2130	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.4601e-06	0.885	2001	0.421	P14136	2019	1	C0002736	GFAP	C18;C10	CURATED			2670	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.54623	0.423	2016	0.7	Q13875	2016	1	C0002736	MOBP	C18;C10	CURATED	Cellular structure	DTO_05007530	4336	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	5.4352e-05	0.808	2010	0.566	Q15165	2013	1	C0002736	PON2	C18;C10	CURATED			5445	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	2.1034e-07	0.692	2010	0.663	Q15166	2013	1	C0002736	PON3	C18;C10	CURATED			5446	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.71036	0.731	1996	0.511	P43004	2019	0.921	C0002736	SLC1A2	C18;C10	CURATED	Transporter	DTO_05007405	6506	0.4	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	NA	0.077	2009	0.861		2019	0.963	C0030567	PARK16	C10	CURATED			100359403	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.00056753	0.808	2010	0.475	O00429	2020	1	C0030567	DNM1L	C10	CURATED	Enzyme modulator	DTO_05007584	10059	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.9973	0.885	2009	0.453	Q9UBK2	2019	0.857	C0030567	PPARGC1A	C10	CURATED	Transcription factor	DTO_05007542	10891	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	4.2013e-10	0.846	2004	0.466	P00450	2020	0.938	C0030567	CP	C10	CURATED	Enzyme	DTO_05007624	1356	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.0793e-25	0.885	1992	0.437	P10635	2019	0.879	C0030567	CYP2D6	C10	CURATED			1565	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.2035	0.885	1993	0.434	P39905	2020	0.983	C0030567	GDNF	C10	CURATED	Signaling	DTO_05007599	2668	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.4601e-06	0.885	1999	0.421	P14136	2020	1	C0030567	GFAP	C10	CURATED			2670	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.00018056	0.115	2016	0.769	Q96A57	2018	0.923	C0030567	TMEM230	C10	CURATED			29058	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.0020641	0.923	1999	0.38	P09488	2019	0.75	C0030567	GSTM1	C10	CURATED			2944	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	2.5587e-08	0.846	2002	0.436	Q30201	2018	0.727	C0030567	HFE	C10	CURATED			3077	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.0096817	0.923	1997	0.381	P09601	2020	0.905	C0030567	HMOX1	C10	CURATED			3162	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.96852	0.885	2006	0.502	P38646	2018	0.818	C0030567	HSPA9	C10	CURATED			3313	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.31536	0.962	2001	0.248	P05231	2019	1	C0030567	IL6	C10	CURATED			3569	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99928	0.769	1994	0.465	P21397	2019	0.87	C0030567	MAOA	C10	CURATED			4128	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	3.2068e-10	0.885	2004	0.337	P42898	2019	1	C0030567	MTHFR	C10	CURATED			4524	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1	0.885	1997	0.408	P29475	2019	0.727	C0030567	NOS1	C10	CURATED			4842	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.2564e-05	0.885	2002	0.344	P08183	2018	0.9	C0030567	ABCB1	C10	CURATED	Transporter	DTO_05007405	5243	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.96921	0.5	2011	0.656	Q96QK1	2019	0.931	C0030567	VPS35	C10	CURATED	Transporter	DTO_05007405	55737	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.65626	0.923	1995	0.345	P23560	2020	0.906	C0030567	BDNF	C10	CURATED	Signaling	DTO_05007599	627	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99758	0.885	1994	0.453	Q01959	2020	0.935	C0030567	SLC6A3	C10	CURATED	Transporter	DTO_05007405	6531	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.1773	0.962	1993	0.379	P00441	2020	0.971	C0030567	SOD1	C10	CURATED	Enzyme	DTO_05007624	6647	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.15499	0.923	1997	0.379	P04179	2019	1	C0030567	SOD2	C10	CURATED	Enzyme	DTO_05007624	6648	0.4	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.8033	0.962	1999	0.231	P01375	2020	0.98	C0030567	TNF	C10	CURATED	Signaling	DTO_05007599	7124	0.4	   Nervous System Diseases	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.00049201	0.692	2014	0.532	Q92743	2014	1	C0497327	HTRA1	C10;F03	CURATED	Enzyme	DTO_05007624	5654	0.4	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.71614	0.808	1995	0.439	P06850	2019	0.9	C0002395	CRH	C10;F03	CURATED	Signaling	DTO_05007599	1392	0.39	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.15499	0.923	2001	0.379	P04179	2018	0.889	C0002395	SOD2	C10;F03	CURATED	Enzyme	DTO_05007624	6648	0.38	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.53235	0.962	2000	0.236	P04637	2020	0.875	C0002736	TP53	C18;C10	CURATED	Transcription factor	DTO_05007542	7157	0.38	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.014155	0.923	2003	0.383	P09211	2019	0.778	C0030567	GSTP1	C10	CURATED			2950	0.38	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.00068309	0.769	2006	0.576	Q9NX09	2018	1	C0030567	DDIT4	C10	CURATED			54541	0.38	   Nervous System Diseases	disease
+	Dementia	Mental or Behavioral Dysfunction	0.9993	0.846	2009	0.47	P35637	2017	1	C0497327	FUS	C10;F03	CURATED	Nucleic acid binding	DTO_05007557	2521	0.38	   Nervous System Diseases;    Mental Disorders	disease
+moderate	Amyotrophic Lateral Sclerosis	Disease or Syndrome	8.1044e-21	0.423	2013	0.615	Q8N1W1	2020	1	C0002736	ARHGEF28	C18;C10	CURATED			64283	0.37	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	8.0688e-09	0.885	1998	0.459	P05181	2013	0.875	C0030567	CYP2E1	C10	CURATED			1571	0.37	   Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.99562	0.808	2017	0.588	P16885	2019	1	C0002395	PLCG2	C10;F03	CURATED	Enzyme	DTO_05007624	5336	0.36	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0008813	0.462	2014	0.65	O95185	2016	1	C0002395	UNC5C	C10;F03	CURATED	Receptor	DTO_05007575	8633	0.36	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99597	0.962	2001	0.314	P35354	2017	1	C0002736	PTGS2	C18;C10	CURATED	Enzyme	DTO_05007624	5743	0.36	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.51964	0.808	2006	0.513	Q99683	2020	0.833	C0030567	MAP3K5	C10	CURATED	Kinase	DTO_03300101	4217	0.36	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.82026	0.885	2009	0.391	P01138	2018	1	C0030567	NGF	C10	CURATED	Signaling	DTO_05007599	4803	0.36	   Nervous System Diseases	disease
+	Dementia	Mental or Behavioral Dysfunction	0.99758	0.885	1992	0.453	Q01959	2019	1	C0497327	SLC6A3	C10;F03	CURATED	Transporter	DTO_05007405	6531	0.36	   Nervous System Diseases;    Mental Disorders	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.20238	0.769	2000	0.573	O43914	2018	1	C0497327	TYROBP	C10;F03	CURATED			7305	0.36	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.0089e-05	0.231	2017	0.716	Q9P2A4	2019	1	C0002395	ABI3	C10;F03	CURATED	Enzyme modulator	DTO_05007584	51225	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.2376e-15	0.808	2004	0.453	Q9NZC7	2019	1	C0002395	WWOX	C10;F03	CURATED	Enzyme	DTO_05007624	51741	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.1001e-08	0.846	2002	0.527	P02787	2012	1	C0002395	TF	C10;F03	CURATED	Enzyme	DTO_05007624	7018	0.35	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.15499	0.923	1996	0.379	P04179	2008	1	C0002736	SOD2	C18;C10	CURATED	Enzyme	DTO_05007624	6648	0.35	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.00072964	0.308	1999	0.617	P17787	2007	1	C0002395	CHRNB2	C10;F03	CURATED	Ion channel	DTO_01300327	1141	0.34	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.906e-09	0.346	2006	0.711	Q6NXT4	2014	1	C0002395	SLC30A6	C10;F03	CURATED	Transporter	DTO_05007405	55676	0.34	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	1.1867e-09	0.885	2001	0.434	P15559	2019	1	C0030567	NQO1	C10	CURATED			1728	0.34	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.8793e-06	0.808	2009	0.521	P55008	2019	1	C0030567	AIF1	C10	CURATED	Calcium-binding protein	DTO_05007616	199	0.34	   Nervous System Diseases	disease
+	Alzheimer's Disease	Disease or Syndrome	0.6711	0.654	2014	0.588	O00264	2019	1	C0002395	PGRMC1	C10;F03	CURATED	Signaling	DTO_05007599	10857	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.97031	0.692	2002	0.587	P05198	2009	1	C0002395	EIF2S1	C10;F03	CURATED	Nucleic acid binding	DTO_05007557	1965	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.0011118	0.885	1993	0.415	P00734	2016	1	C0002395	F2	C10;F03	CURATED	Enzyme	DTO_05007624	2147	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.59433	0.769	2000	0.573	Q7LC44	2018	1	C0002395	ARC	C10;F03	CURATED			23237	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.94473	0.808	2001	0.472	P0DP23;P0DP24;P0DP25	2019	1	C0002395	CALM1	C10;F03	CURATED	Calcium-binding protein	DTO_05007616	801	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	0.010958	0.462	2005	0.678	O15217	2018	1	C0030567	GSTA4	C10	CURATED			2941	0.33	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.044127	0.885	2008	0.39	P01344	2017	1	C0030567	IGF2	C10	CURATED			3481	0.33	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	8.9633e-44	0.731	2018	0.546	O94759	2019	1	C0030567	TRPM2	C10	CURATED	Ion channel	DTO_01300327	7226	0.33	   Nervous System Diseases	disease
+strong	Dementia	Mental or Behavioral Dysfunction	0.13278	0.808	2013	0.448	P07333	2019	1	C0497327	CSF1R	C10;F03	CURATED	Kinase	DTO_03300101	1436	0.33	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1.914e-05	0.885	2003	0.481	P06733	2009	1	C0002395	ENO1	C10;F03	CURATED	Enzyme	DTO_05007624	2023	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.6359e-07	0.731	2015	0.608	Q30154	2017	1	C0002395	HLA-DRB5	C10;F03	CURATED	Immune response	DTO_05007608	3127	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	1	0.731	2004	0.518	P11717	2015	1	C0002395	IGF2R	C10;F03	CURATED	Receptor	DTO_05007575	3482	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.030193	0.846	2009	0.517	P60174	2019	1	C0002395	TPI1	C10;F03	CURATED	Enzyme	DTO_05007624	7167	0.32	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.2922e-06	0.846	2006	0.494	P00390	2017	1	C0002736	GSR	C18;C10	CURATED	Enzyme	DTO_05007624	2936	0.32	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	3.6359e-07	0.731	2012	0.608	Q30154	2017	1	C0030567	HLA-DRB5	C10	CURATED	Immune response	DTO_05007608	3127	0.32	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1	0.731	2009	0.518	P11717	2016	1	C0030567	IGF2R	C10	CURATED	Receptor	DTO_05007575	3482	0.32	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.30091	0.923	2008	0.445	P01308	2020	1	C0030567	INS	C10	CURATED			3630	0.32	   Nervous System Diseases	disease
+	Tauopathies	Disease or Syndrome	0.13892	0.846	2013	0.495	Q00535	2017	1	C0949664	CDK5	C10	CURATED	Kinase	DTO_03300101	1020	0.32	   Nervous System Diseases	group
+	Tauopathies	Disease or Syndrome	0.95571	0.846	2010	0.43	P49841	2016	1	C0949664	GSK3B	C10	CURATED	Kinase	DTO_03300101	2932	0.32	   Nervous System Diseases	group
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2018	0.805		2018	1	C0002395	SNAR-I	C10;F03	CURATED			100170222	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	2.0032e-06	0.154	2014	0.792	Q8N0W5	2019	1	C0002395	IQCK	C10;F03	CURATED			124152	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	5.8368e-05	0.692	2012	0.599	Q9UKV5	2019	1	C0002395	AMFR	C10;F03	CURATED			267	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.846	2015	0.521		2015	1	C0002395	MIR100	C10;F03	CURATED			406892	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.654	2015	0.564		2015	1	C0002395	MIR296	C10;F03	CURATED			407022	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.769	2015	0.476		2015	1	C0002395	MIR375	C10;F03	CURATED			494324	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	4.7123e-05	0.769	2014	0.528	P14672	2020	1	C0002395	SLC2A4	C10;F03	CURATED	Transporter	DTO_05007405	6517	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.11544	0.385	2006	0.705	O14863	2006	1	C0002395	SLC30A4	C10;F03	CURATED	Transporter	DTO_05007405	7782	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.040615	0.462	2013	0.729	O75509	2013	1	C0002736	TNFRSF21	C18;C10	CURATED			27242	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.014155	0.923	2006	0.383	P09211	2006	1	C0002736	GSTP1	C18;C10	CURATED			2950	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	1.1785e-08	0.385	2012	0.769	Q9UK59	2012	1	C0002736	DBR1	C18;C10	CURATED	Enzyme	DTO_05007624	51163	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	5.9817e-05	0.846	1999	0.496	P47712	2005	1	C0002736	PLA2G4A	C18;C10	CURATED	Enzyme	DTO_05007624	5321	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.00039801	0.154	2013	0.839	Q96NX5	2013	1	C0002736	CAMK1G	C18;C10	CURATED	Kinase	DTO_03300101	57172	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.99993	0.538	2010	0.592	P30531	2010	1	C0002736	SLC6A1	C18;C10	CURATED	Transporter	DTO_05007405	6529	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Amyotrophic Lateral Sclerosis	Disease or Syndrome	0.72079	0.846	2010	0.414	P29965	2010	1	C0002736	CD40LG	C18;C10	CURATED	Signaling	DTO_05007599	959	0.31	   Nutritional and Metabolic Diseases;    Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.38396	0.846	2019	0.475	P09104	2020	1	C0030567	ENO2	C10	CURATED	Enzyme	DTO_05007624	2026	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.079124	0.692	2008	0.575	P09467	2010	1	C0030567	FBP1	C10	CURATED	Enzyme	DTO_05007624	2203	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	7.6122e-12	0.654	1999	0.56	P06734	2015	1	C0030567	FCER2	C10	CURATED	Receptor	DTO_05007575	2208	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	3.8518e-05	0.923	2005	0.458	P07203	2009	1	C0030567	GPX1	C10	CURATED	Enzyme	DTO_05007624	2876	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99947	0.885	2006	0.374	P14210	2006	1	C0030567	HGF	C10	CURATED	Enzyme	DTO_05007624	3082	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.030228	0.769	2004	0.486	P0DMV8;P0DMV9	2005	1	C0030567	HSPA1A	C10	CURATED			3303	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	3.6145e-05	0.846	1996	0.432	P06213	2009	1	C0030567	INSR	C10	CURATED	Kinase	DTO_03300101	3643	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	NA	0.769	2017	0.555		2017	1	C0030567	MIR181C	C10	CURATED			406957	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.49228	0.692	2009	0.579	P20916	2017	1	C0030567	MAG	C10	CURATED	Receptor	DTO_05007575	4099	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1	0.692	2016	0.547	Q13330	2016	1	C0030567	MTA1	C10	CURATED	Nucleic acid binding	DTO_05007557	9112	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.81e-06	0.346	2017	0.769	Q9UL15	2017	1	C0030567	BAG5	C10	CURATED			9529	0.31	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.010127	0.5	2015	0.561	O95988	2015	1	C0030567	TCL1B	C10	CURATED			9623	0.31	   Nervous System Diseases	disease
+strong	Dementia	Mental or Behavioral Dysfunction	1	0.731	2007	0.484	P02462	2016	1	C0497327	COL4A1	C10;F03	CURATED			1282	0.31	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.692	2015	0.57		2015	1	C0002395	MIR708	C10;F03	CURATED			100126333	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2015	0.805		2015	1	C0002395	MIR3622B	C10;F03	CURATED			100500871	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.077	2015	0.805		2015	1	C0002395	MIR4467	C10;F03	CURATED			100616367	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	6.2564e-07	0.808	1999	0.551	O14773	1999	1	C0002395	TPP1	C10;F03	CURATED	Enzyme	DTO_05007624	1200	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	3.3372e-05	0.154	2007	0.78	O14556	2007	1	C0002395	GAPDHS	C10;F03	CURATED	Enzyme	DTO_05007624	26330	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.011784	0.615	2001	0.588	P10082	2001	1	C0002395	PYY	C10;F03	CURATED	Signaling	DTO_05007599	5697	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.577	2015	0.603		2015	1	C0002395	MIR505	C10;F03	CURATED			574508	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	NA	0.577	2015	0.633		2015	1	C0002395	MIR766	C10;F03	CURATED			768218	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Alzheimer's Disease	Disease or Syndrome	0.71601	0.654	2019	0.555	Q9UHI8	2019	1	C0002395	ADAMTS1	C10;F03	CURATED	Enzyme	DTO_05007624	9510	0.3	   Nervous System Diseases;    Mental Disorders	disease
+	Parkinson Disease	Disease or Syndrome	0.85603	0.308	2015	0.716	Q9NS39	2015	1	C0030567	ADARB2	C10	CURATED	Enzyme	DTO_05007624	105	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	4.8406e-33	0.154	2015	0.89	Q14993	2015	1	C0030567	COL19A1	C10	CURATED			1310	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.041173	0.308	2015	0.821	Q8TDB8	2015	1	C0030567	SLC2A14	C10	CURATED	Transporter	DTO_05007405	144195	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.45504	0.846	2009	0.38	P05305	2009	1	C0030567	EDN1	C10	CURATED	Signaling	DTO_05007599	1906	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.56616	0.692	2012	0.584	P02675	2012	1	C0030567	FGB	C10	CURATED	Signaling	DTO_05007599	2244	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	2.8673e-09	0.846	2015	0.53	Q9UHC6	2015	1	C0030567	CNTNAP2	C10	CURATED			26047	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.56611	0.538	2015	0.615	P69891	2015	1	C0030567	HBG1	C10	CURATED			3047	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.8935e-10	0.038	2015	1	Q8NBI3	2015	1	C0030567	DRAXIN	C10	CURATED			374946	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.9649	0.385	2008	0.805	P48050	2008	1	C0030567	KCNJ4	C10	CURATED	Ion channel	DTO_01300327	3761	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1	0.692	2019	0.537	P11137	2019	1	C0030567	MAP2	C10	CURATED			4133	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	1.1884e-06	0.731	2015	0.561	P40199	2015	1	C0030567	CEACAM6	C10	CURATED			4680	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.97764	0.731	2015	0.603	Q86XI2	2015	1	C0030567	NCAPG2	C10	CURATED			54892	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.97952	0.654	2014	0.578	Q6XR72	2014	1	C0030567	SLC30A10	C10	CURATED	Transporter	DTO_05007405	55532	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.96926	0.769	2015	0.575	Q92692	2015	1	C0030567	NECTIN2	C10	CURATED			5819	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99326	0.385	2008	0.7	Q02878	2008	1	C0030567	RPL6	C10	CURATED	Nucleic acid binding	DTO_05007557	6128	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.90573	0.308	2008	0.78	P62750	2008	1	C0030567	RPL23A	C10	CURATED	Nucleic acid binding	DTO_05007557	6147	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.99003	0.192	2008	0.805	P62241	2008	1	C0030567	RPS8	C10	CURATED	Nucleic acid binding	DTO_05007557	6202	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	2.5234e-06	0.654	2012	0.608	P37837	2012	1	C0030567	TALDO1	C10	CURATED			6888	0.3	   Nervous System Diseases	disease
+	Parkinson Disease	Disease or Syndrome	0.89508	0.308	2008	0.722	P50914	2008	1	C0030567	RPL14	C10	CURATED	Nucleic acid binding	DTO_05007557	9045	0.3	   Nervous System Diseases	disease
+	Dementia	Mental or Behavioral Dysfunction	2.9146e-10	0.5	2009	0.736	Q9Y2E8	2009	1	C0497327	SLC9A8	C10;F03	CURATED	Transporter	DTO_05007405	23315	0.3	   Nervous System Diseases;    Mental Disorders	disease

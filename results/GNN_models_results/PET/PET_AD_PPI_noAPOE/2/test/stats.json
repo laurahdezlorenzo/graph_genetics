@@ -1,0 +1,11 @@
+{"epoch": 0, "loss": 3.2714, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.487, "cm": [[0, 32], [0, 41]]}
+{"epoch": 19, "loss": 1.0929, "lr": 0, "params": 199170, "time_iter": 0.0026, "accuracy": 0.5616, "precision": 0.5849, "recall": 0.7561, "f1": 0.6596, "auc": 0.5404, "cm": [[10, 22], [10, 31]]}
+{"epoch": 39, "loss": 0.734, "lr": 0, "params": 199170, "time_iter": 0.0026, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.4756, "cm": [[0, 32], [0, 41]]}
+{"epoch": 59, "loss": 0.7615, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.411, "precision": 0.4583, "recall": 0.2683, "f1": 0.3385, "auc": 0.4337, "cm": [[19, 13], [30, 11]]}
+{"epoch": 79, "loss": 0.9792, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.5351, "cm": [[0, 32], [0, 41]]}
+{"epoch": 99, "loss": 0.7245, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.4932, "precision": 0.5435, "recall": 0.6098, "f1": 0.5747, "auc": 0.5107, "cm": [[11, 21], [16, 25]]}
+{"epoch": 119, "loss": 0.7028, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.6164, "precision": 0.6226, "recall": 0.8049, "f1": 0.7021, "auc": 0.5922, "cm": [[12, 20], [8, 33]]}
+{"epoch": 139, "loss": 0.7485, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.589, "precision": 0.5821, "recall": 0.9512, "f1": 0.7222, "auc": 0.5831, "cm": [[4, 28], [2, 39]]}
+{"epoch": 159, "loss": 0.7928, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.589, "precision": 0.6122, "recall": 0.7317, "f1": 0.6667, "auc": 0.564, "cm": [[13, 19], [11, 30]]}
+{"epoch": 179, "loss": 0.6955, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.5753, "precision": 0.6, "recall": 0.7317, "f1": 0.6593, "auc": 0.5762, "cm": [[12, 20], [11, 30]]}
+{"epoch": 199, "loss": 0.6742, "lr": 0, "params": 199170, "time_iter": 0.0025, "accuracy": 0.6438, "precision": 0.6415, "recall": 0.8293, "f1": 0.7234, "auc": 0.625, "cm": [[13, 19], [7, 34]]}

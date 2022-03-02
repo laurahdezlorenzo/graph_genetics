@@ -1,0 +1,11 @@
+{"epoch": 0, "loss": 2.5149, "lr": 0, "params": 790530, "time_iter": 0.0031, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.5297, "cm": [[0, 32], [0, 41]]}
+{"epoch": 19, "loss": 1.1495, "lr": 0, "params": 790530, "time_iter": 0.003, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.5175, "cm": [[0, 32], [0, 41]]}
+{"epoch": 39, "loss": 0.8085, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5616, "precision": 0.5616, "recall": 1.0, "f1": 0.7193, "auc": 0.5122, "cm": [[0, 32], [0, 41]]}
+{"epoch": 59, "loss": 1.5052, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.4384, "precision": 0.0, "recall": 0.0, "f1": 0.0, "auc": 0.5495, "cm": [[32, 0], [41, 0]]}
+{"epoch": 79, "loss": 0.7794, "lr": 0, "params": 790530, "time_iter": 0.0036, "accuracy": 0.5068, "precision": 0.7778, "recall": 0.1707, "f1": 0.28, "auc": 0.5998, "cm": [[30, 2], [34, 7]]}
+{"epoch": 99, "loss": 0.7354, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5479, "precision": 0.5667, "recall": 0.8293, "f1": 0.6733, "auc": 0.5175, "cm": [[6, 26], [7, 34]]}
+{"epoch": 119, "loss": 0.7291, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5753, "precision": 0.5694, "recall": 1.0, "f1": 0.7257, "auc": 0.5579, "cm": [[1, 31], [0, 41]]}
+{"epoch": 139, "loss": 0.7195, "lr": 0, "params": 790530, "time_iter": 0.003, "accuracy": 0.589, "precision": 0.6078, "recall": 0.7561, "f1": 0.6739, "auc": 0.6258, "cm": [[12, 20], [10, 31]]}
+{"epoch": 159, "loss": 0.9004, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5616, "precision": 0.5818, "recall": 0.7805, "f1": 0.6667, "auc": 0.5152, "cm": [[9, 23], [9, 32]]}
+{"epoch": 179, "loss": 0.8058, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5616, "precision": 0.5849, "recall": 0.7561, "f1": 0.6596, "auc": 0.5335, "cm": [[10, 22], [10, 31]]}
+{"epoch": 199, "loss": 0.7349, "lr": 0, "params": 790530, "time_iter": 0.0029, "accuracy": 0.5616, "precision": 0.6, "recall": 0.6585, "f1": 0.6279, "auc": 0.5724, "cm": [[14, 18], [14, 27]]}
