@@ -57,6 +57,7 @@ def get_biogrid(genes_file):
     dataset = dataset[columns]
 
     edgelist = dataset[['OFFICIAL_SYMBOL_A', 'OFFICIAL_SYMBOL_B']]
+    edgelist = edgelist[edgelist['OFFICIAL_SYMBOL_A'] != edgelist['OFFICIAL_SYMBOL_B']] # remove self loops
     edgelist.to_csv('data/other_networks/AD_BioGrid_PPI.edgelist', sep='\t', index=False, header=None)
 
     return edgelist
@@ -99,7 +100,7 @@ def get_snap(genes_file):
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
 
     # Write edgelist
-    nx.write_edgelist(A_brain, 'data/other_networks/AD_SNAP_brain.edgelist')
+    nx.write_edgelist(A_brain, 'data/other_networks/AD_SNAP_PPI_brain.edgelist')
 
     return A_brain
 

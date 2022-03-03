@@ -9,7 +9,7 @@ import pandas as pd
 import networkx as nx
 
 
-def process_variants(infile, header):
+def process_variants_adni(infile, header):
 
     '''
     Description.
@@ -35,6 +35,51 @@ def process_variants(infile, header):
     variants_matrix.replace(['0/1', '1/0', '1/1'], 1, inplace=True)
 
     return variants_matrix
+
+def process_variants_load(infile, header, disease):
+
+    '''
+    Description.
+    '''
+
+    # Add header
+    col_file = open(header, 'r')
+    col_names = col_file.read().split('\n')
+    col_file.close()
+
+    [col.upper() for col in col_names]
+
+    # Load file
+    variants_matrix = pd.read_csv(infile, sep='\t', names=col_names)
+    print(variants_matrix)
+
+    if disease == 'AD':
+
+        # Delete non-useful columns
+        variants_matrix.drop(variants_matrix.columns[9:46], axis=1, inplace=True)
+        variants_matrix.drop(variants_matrix.columns[11:42], axis=1, inplace=True)
+        variants_matrix.drop(columns=['Allele', 'IMPACT'], axis=1, inplace=True)
+    
+    elif disease == 'ND':
+        # Delete non-useful columns
+        print(variants_matrix.columns[9:47])
+        variants_matrix.drop(variants_matrix.columns[9:47], axis=1, inplace=True)
+        print(variants_matrix)
+
+        variants_matrix.drop(variants_matrix.columns[11:42], axis=1, inplace=True)
+        print(variants_matrix)
+
+        variants_matrix.drop(columns=['Allele', 'IMPACT'], axis=1, inplace=True)
+        print(variants_matrix)
+
+        # exit()
+
+    # Replace genotypes with a numeric value (NaN: miss, 1: presence, 0:absence)
+    variants_matrix.replace({'./.':np.NaN, '0/0':0}, inplace=True)
+    variants_matrix.replace(['0/1', '1/0', '1/1'], 1, inplace=True)
+
+    return variants_matrix
+
 
 def same_lists(mode, genes_variants, genes_graph):
     
@@ -73,6 +118,8 @@ def per_node(mode, df_original, nodes):
         missense = df.drop(columns=['CONSEQUENCE'])
         missense_sum = missense.groupby('SYMBOL').sum()
         missense_sum = same_lists(mode, missense_sum, nodes)
+
+        missense_sum.to_csv('missense.csv')
 
         return missense_sum
 
@@ -127,7 +174,7 @@ def add_graph_features(g, s, label, labels_df):
     
     elif label == 'LOAD': # Dataset with subjects stratified by LOAD diagnosis
         if s != '':
-            diag = labels_df.loc[s]['LOAD']
+            diag = labels_df.loc[s]['Phenotype']
 
             if diag == 1:
                 g.graph['graph_label'] = torch.tensor([0])
@@ -217,16 +264,16 @@ def main(indir, dataset, target, disease, network, mode, number):
         ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist_noAPOE.txt'
     
     elif network == 'biogrid':
-        ppin_file_path      = f'{indir}/{disease}_BioGrid_PPI.edgelist'
+        ppin_file_path      = f'{indir}/other_networks/{disease}_BioGrid_PPI.edgelist'
 
     elif network == 'huri':
-        ppin_file_path      = f'{indir}/{disease}_HuRI_PPI.edgelist'
+        ppin_file_path      = f'{indir}/other_networks/{disease}_HuRI_PPI.edgelist'
 
     elif network == 'snap_brain':
-        ppin_file_path      = f'{indir}/{disease}_SNAP_PPI_brain.edgelist'
+        ppin_file_path      = f'{indir}/other_networks/{disease}_SNAP_PPI_brain.edgelist'
 
     elif network == 'giant_brain':
-        ppin_file_path      = f'{indir}/{disease}_GIANT_brain.edgelist' # it is not simply a PPI
+        ppin_file_path      = f'{indir}/other_networks/{disease}_GIANT_brain.edgelist' # it is not simply a PPI
 
     elif network == 'shuffled':
         ppin_file_path      = f'{indir}/random_networks/shuffled/{disease}_PPI_rand{number}_edgelist.txt'
@@ -256,15 +303,16 @@ def main(indir, dataset, target, disease, network, mode, number):
         missense_file_path  = f'{indir}/ADNI/{disease}_PPI_worst_missense.tsv'
         diagnosis_file_path = f'{indir}/ADNI/ADNIMERGE_genetics_biomarkers.csv'
         diagnosis = pd.read_csv(diagnosis_file_path, index_col=0)
+        missense = process_variants_adni(missense_file_path, header)
 
     elif dataset == 'LOAD': # Use LOAD data
         print('Dataset used: LOAD')
-        header = f'{indir}/LOAD/field_names.txt'
+        header = f'{indir}/LOAD/field_names_{disease}.txt'
         missense_file_path  = f'{indir}/LOAD/{disease}_PPI_worst_missense.tsv'
         diagnosis_file_path = f'{indir}/LOAD/LOAD_metadata.tsv'
         diagnosis = pd.read_csv(diagnosis_file_path, sep='\t', index_col=1)
-
-    missense = process_variants(missense_file_path, header)
+        missense = process_variants_load(missense_file_path, header, disease)
+    
     missense.columns = map(str.upper, missense.columns)
 
     '''
@@ -285,6 +333,7 @@ def main(indir, dataset, target, disease, network, mode, number):
         result_graphs = delete_small_components(result_graphs, 4)
 
         print('Sample graph used:', '# nodes =', nx.number_of_nodes(result_graphs[0]), '# edges =', nx.number_of_edges(result_graphs[0]))
+        print('Density =', nx.density(result_graphs[0]), 'Diameter =', nx.diameter(result_graphs[0]))
 
         return result_graphs
     
