@@ -7,6 +7,8 @@ import pickle
 from sklearn import preprocessing, metrics
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+import scikitplot as skplt
+import matplotlib.pyplot as plt
 
 import ml_models.svm_models, ml_models.rf_models, ml_models.logreg_models
 
@@ -77,11 +79,6 @@ def baseline_model(split_dict, x, y):
     x_train, x_test = x.iloc[tr_idx], x.iloc[te_idx]
     y_train, y_test = y[tr_idx], y[te_idx]
 
-    # Class distribution within each split
-    # print()
-    # print(f'Train set\n{y_train.value_counts()}')
-    # print(f'Test set\n{y_test.value_counts()}')
-
     x_train = np.array(x_train).reshape(-1, 1)
     x_test = np.array(x_test).reshape(-1, 1)
 
@@ -100,6 +97,9 @@ def baseline_model(split_dict, x, y):
     rec = metrics.recall_score(y_test, y_pred)
     f1  = metrics.f1_score(y_test, y_pred)
     auc = metrics.roc_auc_score(y_test, y_prob[:, 1])
+
+    # skplt.metrics.plot_roc_curve(y_test, y_prob)
+    # plt.show()
 
     cm = metrics.confusion_matrix(y_test, y_pred)
     print()
