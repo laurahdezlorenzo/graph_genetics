@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 import networkx as nx
-import mygene
+# import mygene
 
 def get_biogrid(genes_file):
 

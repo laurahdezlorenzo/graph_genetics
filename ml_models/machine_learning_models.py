@@ -7,7 +7,7 @@ import pickle
 from sklearn import preprocessing, metrics
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-import scikitplot as skplt
+# import scikitplot as skplt
 import matplotlib.pyplot as plt
 
 import ml_models.svm_models, ml_models.rf_models, ml_models.logreg_models
