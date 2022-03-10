@@ -37,9 +37,9 @@ def label_class(row, option):
                 return 0
     
     if option == 'LOAD':
-        if row['LOAD'] == 1:
+        if row['Phenotype'] == 2:
             return 1
-        if row['LOAD'] == 0:
+        if row['Phenotype'] == 1:
             return 0
 
 def create_class_ADNI(df, option):
@@ -98,6 +98,8 @@ def baseline_model(split_dict, x, y):
     f1  = metrics.f1_score(y_test, y_pred)
     auc = metrics.roc_auc_score(y_test, y_prob[:, 1])
 
+    print(acc, pre, rec, f1)
+    print()
     # skplt.metrics.plot_roc_curve(y_test, y_prob)
     # plt.show()
 
@@ -136,7 +138,7 @@ def main(dataset, disease, network, target, indir, outdir):
         data_wclass = create_class_ADNI(indata, target)
 
     elif dataset == 'LOAD':
-        infile = f'{indir}/{disease}_{network}_missense_with_biomarkers_LOAD.csv'
+        infile = f'{indir}/{disease}_{network}_missense_LOAD_labeled.csv'
         indata = pd.read_csv(infile, index_col=0)
         data_wclass = create_class_ADNI(indata, target)
 
@@ -176,17 +178,17 @@ def main(dataset, disease, network, target, indir, outdir):
     x_test_scaled = scaler.transform(x_test)
 
     # Random Forests (RFs) GridSearchCV models
-    rf_best, rf_best_results = rf_models.grid_search_RF(x_train, x_test, y_train, y_test, target, n)
+    rf_best, rf_best_results = ml_models.rf_models.grid_search_RF(x_train, x_test, y_train, y_test, target, n)
     pickle.dump(rf_best, open(f'{outdir}/random_forest/{target}_{disease}_{network}_rf_best_model.csv', 'wb'))
 
     # Support Vector Machines (SVMs) GridSearchCV models
-    svm_lin_best, svm_lin_best_results = svm_models.grid_search_SVM(x_train_scaled, x_test_scaled, y_train, y_test, target, n, 'linear')
-    svm_rbf_best, svm_rbf_best_results = svm_models.grid_search_SVM(x_train_scaled, x_test_scaled, y_train, y_test, target, n, 'rbf')
+    svm_lin_best, svm_lin_best_results = ml_models.svm_models.grid_search_SVM(x_train_scaled, x_test_scaled, y_train, y_test, target, n, 'linear')
+    svm_rbf_best, svm_rbf_best_results = ml_models.svm_models.grid_search_SVM(x_train_scaled, x_test_scaled, y_train, y_test, target, n, 'rbf')
     pickle.dump(svm_lin_best, open(f'{outdir}/svm/{target}_{disease}_{network}_lin_best_model.csv', 'wb'))
     pickle.dump(svm_rbf_best, open(f'{outdir}/svm/{target}_{disease}_{network}_rbf_best_model.csv', 'wb'))
 
     # Logistic Regression (LogReg)
-    logreg_base, logreg_base_results = logreg_models.base_model_LogReg(x_train_scaled, x_test_scaled, y_train, y_test)
+    logreg_base, logreg_base_results = ml_models.logreg_models.base_model_LogReg(x_train_scaled, x_test_scaled, y_train, y_test)
 
     # All models results
     results = [rf_best_results, svm_lin_best_results, svm_rbf_best_results, logreg_base_results]

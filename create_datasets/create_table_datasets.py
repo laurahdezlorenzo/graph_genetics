@@ -85,7 +85,6 @@ def load_data(mode, disease, data_file, metadata_file):
     # For missense
     if mode == 'missense':
         result = pd.concat([data, metadata], axis=1)
-        result = result[:-1]
         return result
 
     return result

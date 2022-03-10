@@ -51,7 +51,8 @@ def process_variants_load(infile, header, disease):
 
     # Load file
     variants_matrix = pd.read_csv(infile, sep='\t', names=col_names)
-    print(variants_matrix)
+    print(variants_matrix.shape)
+
 
     if disease == 'AD':
 
@@ -62,21 +63,15 @@ def process_variants_load(infile, header, disease):
     
     elif disease == 'ND':
         # Delete non-useful columns
-        print(variants_matrix.columns[9:47])
         variants_matrix.drop(variants_matrix.columns[9:47], axis=1, inplace=True)
-        print(variants_matrix)
-
-        variants_matrix.drop(variants_matrix.columns[11:42], axis=1, inplace=True)
-        print(variants_matrix)
-
+        variants_matrix.drop(variants_matrix.columns[11:37], axis=1, inplace=True)
         variants_matrix.drop(columns=['Allele', 'IMPACT'], axis=1, inplace=True)
-        print(variants_matrix)
-
-        # exit()
 
     # Replace genotypes with a numeric value (NaN: miss, 1: presence, 0:absence)
     variants_matrix.replace({'./.':np.NaN, '0/0':0}, inplace=True)
     variants_matrix.replace(['0/1', '1/0', '1/1'], 1, inplace=True)
+
+    print(variants_matrix.shape)
 
     return variants_matrix
 
@@ -118,8 +113,6 @@ def per_node(mode, df_original, nodes):
         missense = df.drop(columns=['CONSEQUENCE'])
         missense_sum = missense.groupby('SYMBOL').sum()
         missense_sum = same_lists(mode, missense_sum, nodes)
-
-        missense_sum.to_csv('missense.csv')
 
         return missense_sum
 
@@ -327,6 +320,7 @@ def main(indir, dataset, target, disease, network, mode, number):
     if mode == 'missense':
             
         nodes_attr = per_node(mode, missense, nodes)
+        nodes_attr.to_csv(f'data/table_datasets/{disease}_PPI_{mode}_{dataset}.csv')
         edges_attr = None
 
         result_graphs = create_samples_graphs('missense', nodes_attr, None, ppi_graph, diagnosis, target)
@@ -339,5 +333,32 @@ def main(indir, dataset, target, disease, network, mode, number):
     
 
 
+if __name__ == "__main__":
 
+    dataset = 'LOAD'
+    target  = 'LOAD'
+    disease = 'ND'
+    network = 'original'
+    
+    indir = 'data'
+    outdir = f'data/graph_datasets/{target}'
+    print('Input directory:', indir)
+    print('Output directory:', outdir)
+    print()
 
+    start_time = datetime.datetime.now()
+    print()
+
+    result_nodes = main(indir, dataset, target, disease, network, 'missense', None)
+    print('Coding: number of missense variants per node')
+
+    outfile = f'{outdir}/{disease}_PPI_missense.pkl'
+    print('Resulting dataset saved at:', outfile)
+    print()
+
+    with open(outfile, 'wb') as f:
+        pickle.dump(result_nodes, f)
+
+    result_nodes_time = datetime.datetime.now()
+    print('Processing time:', result_nodes_time - start_time)
+    print('\n\n')
