@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 import networkx as nx
-# import mygene
+import mygene
 
 def get_biogrid(genes_file):
 
@@ -60,6 +60,55 @@ def get_biogrid(genes_file):
     edgelist = edgelist[edgelist['OFFICIAL_SYMBOL_A'] != edgelist['OFFICIAL_SYMBOL_B']] # remove self loops
     edgelist.to_csv('data/other_networks/AD_BioGrid_PPI.edgelist', sep='\t', index=False, header=None)
 
+    G_frozen = nx.read_edgelist("data/other_networks/AD_BioGrid_PPI.edgelist")  
+    G = nx.Graph(G_frozen)
+    
+    original = G.number_of_nodes()
+
+    # Delete nodes from components with less than 5 nodes
+    nodes_to_remove = []
+    for component in list(nx.connected_components(G)):
+        if len(component)<5:
+            for node in component:
+                G.remove_node(node)
+
+    largest = G.number_of_nodes()
+    lost = original - largest
+    lost_percent = round((lost/original), 4)
+
+    print('Whole network:', original, 'nodes')
+    print('Biggest connected component:', largest, 'nodes')
+    print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
+
+    return edgelist
+
+def get_huri(downloaded_file):
+
+    interactions = pd.read_csv(downloaded_file, comment='#')
+    edgelist = interactions[['Interactor A Gene Name', 'Interactor B Gene Name']]
+    edgelist = edgelist[edgelist['Interactor A Gene Name'] != edgelist['Interactor B Gene Name']] # remove self loops
+    edgelist.to_csv('data/other_networks/AD_HuRI_PPI.edgelist', sep='\t', index=None, header=False)
+
+    G_frozen = nx.read_edgelist("data/other_networks/AD_HuRI_PPI.edgelist")  
+    G = nx.Graph(G_frozen)
+    
+    original = G.number_of_nodes()
+
+    # Delete nodes from components with less than 5 nodes
+    nodes_to_remove = []
+    for component in list(nx.connected_components(G)):
+        if len(component)<5:
+            for node in component:
+                G.remove_node(node)
+
+    largest = G.number_of_nodes()
+    lost = original - largest
+    lost_percent = round((lost/original), 4)
+
+    print('Whole network:', original, 'nodes')
+    print('Biggest connected component:', largest, 'nodes')
+    print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
+
     return edgelist
 
 def get_snap(genes_file):
@@ -88,6 +137,7 @@ def get_snap(genes_file):
 
     A_brain_frozen = G_brain.subgraph(entrezgenes)
     A_brain = nx.Graph(A_brain_frozen)
+    original = A_brain.number_of_nodes()
 
     # Delete nodes from components with less than 5 nodes
     nodes_to_remove = []
@@ -98,9 +148,18 @@ def get_snap(genes_file):
 
     # Remove self-loops
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
+    print(A_brain.number_of_nodes())
 
     # Write edgelist
     nx.write_edgelist(A_brain, 'data/other_networks/AD_SNAP_PPI_brain.edgelist')
+
+    largest = A_brain.number_of_nodes()
+    lost = original - largest
+    lost_percent = round((lost/original), 4)
+
+    print('Whole network:', original, 'nodes')
+    print('Biggest connected component:', largest, 'nodes')
+    print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
 
     return A_brain
 
@@ -123,7 +182,7 @@ def get_giant(genes_file):
 
     A_brain_frozen = G_brain.subgraph(entrezgenes)
     A_brain = nx.Graph(A_brain_frozen)
-    len(A_brain.nodes)
+    original = A_brain.number_of_nodes()
 
     # Delete nodes from components with less than 5 nodes
     nodes_to_remove = []
@@ -134,7 +193,16 @@ def get_giant(genes_file):
 
     # Remove self-loops
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
+    print(A_brain.number_of_nodes())
 
     nx.write_edgelist(A_brain, 'data/other_networks/AD_GIANT_brain.edgelist')
+
+    largest = A_brain.number_of_nodes()
+    lost = original - largest
+    lost_percent = round((lost/original), 4)
+
+    print('Whole network:', original, 'nodes')
+    print('Biggest connected component:', largest, 'nodes')
+    print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
 
     return A_brain
