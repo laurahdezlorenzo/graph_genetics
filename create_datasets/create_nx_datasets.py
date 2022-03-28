@@ -249,7 +249,7 @@ def main(indir, dataset, target, disease, network, mode, number):
         - giant_brain: brain-specific functional network from GIANT
     '''
 
-    if network == 'original':
+    if network == 'string':
         ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist.txt'
         print(ppin_file_path)
 
