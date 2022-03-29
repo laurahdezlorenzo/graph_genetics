@@ -258,10 +258,15 @@ def get_snap(genes_file):
     out = mg.querymany(genes, scopes='symbol', fields='entrezgene', species='human')
 
     entrezgenes = []
+    mapping = {}
     for o in out:
         entrezgenes.append(int(o['entrezgene']))
+        mapping[int(o['entrezgene'])] = o['query']
+
+    print(mapping)
 
     A_brain_frozen = G_brain.subgraph(entrezgenes)
+    print(A_brain_frozen.nodes())
     A_brain = nx.Graph(A_brain_frozen)
     original = A_brain.number_of_nodes()
 
@@ -276,9 +281,6 @@ def get_snap(genes_file):
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
     print(A_brain.number_of_nodes())
 
-    # Write edgelist
-    nx.write_edgelist(A_brain, 'data/other_networks/AD_SNAP_PPI_brain.edgelist')
-
     largest = A_brain.number_of_nodes()
     lost = original - largest
     lost_percent = round((lost/original), 4)
@@ -287,7 +289,10 @@ def get_snap(genes_file):
     print('Biggest connected component:', largest, 'nodes')
     print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
 
-    return A_brain
+    A_brain_relabeled = nx.relabel_nodes(A_brain, mapping)
+    nx.write_edgelist(A_brain_relabeled, 'data/other_networks/AD_SNAP_PPI_brain.edgelist')
+
+    return A_brain_relabeled
 
 def get_giant(genes_file):
 
@@ -303,8 +308,10 @@ def get_giant(genes_file):
     out = mg.querymany(genes, scopes='symbol', fields='entrezgene', species='human')
 
     entrezgenes = []
+    mapping = {}
     for o in out:
         entrezgenes.append(int(o['entrezgene']))
+        mapping[int(o['entrezgene'])] = o['query']
 
     A_brain_frozen = G_brain.subgraph(entrezgenes)
     A_brain = nx.Graph(A_brain_frozen)
@@ -321,7 +328,7 @@ def get_giant(genes_file):
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
     print(A_brain.number_of_nodes())
 
-    nx.write_edgelist(A_brain, 'data/other_networks/AD_GIANT_brain.edgelist')
+    
 
     largest = A_brain.number_of_nodes()
     lost = original - largest
@@ -331,4 +338,7 @@ def get_giant(genes_file):
     print('Biggest connected component:', largest, 'nodes')
     print('Percentage of lost genes/nodes:', lost, f'({lost_percent*100}%)')
 
-    return A_brain
+    A_brain_relabeled = nx.relabel_nodes(A_brain, mapping)
+    nx.write_edgelist(A_brain_relabeled, 'data/other_networks/AD_GIANT_brain.edgelist')
+
+    return A_brain_relabeled

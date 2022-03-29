@@ -19,10 +19,7 @@ def compute_metrics(true, prob, prediction):
     results = [acc, pre, rec, f1, auc, cm]
     return results
 
-def base_model_LogReg(x_train_scaled, x_test_scaled, y_train, y_test):
-
-    print()
-    print(f'Base model - LogReg')
+def base_model_LogReg(x_train_scaled, x_test_scaled, y_train, y_test, k):
 
     logreg_clf = LogisticRegression()
     logreg_clf.fit(x_train_scaled, y_train)
@@ -30,7 +27,7 @@ def base_model_LogReg(x_train_scaled, x_test_scaled, y_train, y_test):
     y_pred = logreg_clf.predict(x_test_scaled)
 
     results = compute_metrics(y_test, y_prob, y_pred)
-    results.append('BASE')
+    results.append(k)
     results.append(f'LogReg')
 
     return logreg_clf, results

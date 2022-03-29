@@ -18,10 +18,7 @@ def compute_metrics(true, prob, prediction):
     results = [acc, pre, rec, f1, auc, cm]
     return results
 
-def base_model_SVM(x_train_scaled, x_test_scaled, y_train, y_test, k):
-
-    print()
-    print(f'Base model - SVM {k}')
+def base_model_SVM(x_train_scaled, x_test_scaled, y_train, y_test, k, n):
 
     svm_clf = svm.SVC(kernel=k, probability=True)
     svm_clf.fit(x_train_scaled, y_train)
@@ -29,15 +26,12 @@ def base_model_SVM(x_train_scaled, x_test_scaled, y_train, y_test, k):
     y_pred = svm_clf.predict(x_test_scaled)
 
     results = compute_metrics(y_test, y_prob, y_pred)
-    results.append('BASE')
+    results.append(n)
     results.append(f'SVM {k}')
 
     return svm_clf, results
 
 def grid_search_SVM(x_train_scaled, x_test_scaled, y_train, y_test, target, n, k):
-
-    print()
-    print(f'Grid Search CV - SVM {k}')
 
     # Grid Search CV of SMV
     if k == 'linear':

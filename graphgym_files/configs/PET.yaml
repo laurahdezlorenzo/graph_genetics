@@ -1,10 +1,8 @@
 # The recommended basic settings for GNN
 out_dir: results
-metric_best: f1
 dataset:
   dir: '/home/laura/Documents/DATASETS/graph_datasets/PET'
   format: custom_split
-  name: adni_custom_edge
   task: graph
   task_type: classification
   transductive: False

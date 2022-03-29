@@ -1,52 +1,52 @@
-2 4846 {'tissue': 'brain'}
-2 351 {'tissue': 'brain'}
-2 9510 {'tissue': 'brain'}
-2 348 {'tissue': 'brain'}
-3479 3480 {'tissue': 'brain'}
-3479 7018 {'tissue': 'brain'}
-3480 3643 {'tissue': 'brain'}
-3480 3481 {'tissue': 'brain'}
-3480 351 {'tissue': 'brain'}
-3481 7018 {'tissue': 'brain'}
-3481 3643 {'tissue': 'brain'}
-51741 2023 {'tissue': 'brain'}
-5663 4846 {'tissue': 'brain'}
-5663 348 {'tissue': 'brain'}
-5663 351 {'tissue': 'brain'}
-5663 4137 {'tissue': 'brain'}
-5663 5664 {'tissue': 'brain'}
-5663 836 {'tissue': 'brain'}
-5663 2932 {'tissue': 'brain'}
-5664 351 {'tissue': 'brain'}
-5664 4846 {'tissue': 'brain'}
-5664 836 {'tissue': 'brain'}
-801 4137 {'tissue': 'brain'}
-801 3643 {'tissue': 'brain'}
-801 4846 {'tissue': 'brain'}
-9510 7422 {'tissue': 'brain'}
-1191 351 {'tissue': 'brain'}
-1191 581 {'tissue': 'brain'}
-1191 5621 {'tissue': 'brain'}
-4137 836 {'tissue': 'brain'}
-4137 2932 {'tissue': 'brain'}
-4137 351 {'tissue': 'brain'}
-4137 348 {'tissue': 'brain'}
-43 2023 {'tissue': 'brain'}
-43 351 {'tissue': 'brain'}
-1965 836 {'tissue': 'brain'}
-836 351 {'tissue': 'brain'}
-836 581 {'tissue': 'brain'}
-836 8301 {'tissue': 'brain'}
-581 10452 {'tissue': 'brain'}
-581 2932 {'tissue': 'brain'}
-10452 351 {'tissue': 'brain'}
-348 351 {'tissue': 'brain'}
-348 5621 {'tissue': 'brain'}
-348 4846 {'tissue': 'brain'}
-351 1139 {'tissue': 'brain'}
-351 498 {'tissue': 'brain'}
-351 5621 {'tissue': 'brain'}
-351 6648 {'tissue': 'brain'}
-351 2932 {'tissue': 'brain'}
-351 4846 {'tissue': 'brain'}
-2023 498 {'tissue': 'brain'}
+A2M NOS3
+A2M APP
+A2M ADAMTS1
+A2M APOE
+IGF1 IGF1R
+IGF1 TF
+IGF1R INSR
+IGF1R IGF2
+IGF1R APP
+IGF2 TF
+IGF2 INSR
+WWOX ENO1
+PSEN1 NOS3
+PSEN1 APOE
+PSEN1 APP
+PSEN1 MAPT
+PSEN1 PSEN2
+PSEN1 CASP3
+PSEN1 GSK3B
+PSEN2 APP
+PSEN2 NOS3
+PSEN2 CASP3
+CALM1 MAPT
+CALM1 INSR
+CALM1 NOS3
+ADAMTS1 VEGFA
+CLU APP
+CLU BAX
+CLU PRNP
+MAPT CASP3
+MAPT GSK3B
+MAPT APP
+MAPT APOE
+ACHE ENO1
+ACHE APP
+EIF2S1 CASP3
+CASP3 APP
+CASP3 BAX
+CASP3 PICALM
+BAX TOMM40
+BAX GSK3B
+TOMM40 APP
+APOE APP
+APOE PRNP
+APOE NOS3
+APP CHRNA7
+APP ATP5F1A
+APP PRNP
+APP SOD2
+APP GSK3B
+APP NOS3
+ENO1 ATP5F1A

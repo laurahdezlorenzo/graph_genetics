@@ -18,10 +18,7 @@ def compute_metrics(true, prob, prediction):
     results = [acc, pre, rec, f1, auc, cm]
     return results
 
-def base_model_RF(x_train, x_test, y_train, y_test):
-
-    print()
-    print('Base model - Random Forest')
+def base_model_RF(x_train, x_test, y_train, y_test, n):
 
     rf_clf = ensemble.RandomForestClassifier()
     rf_clf.fit(x_train, y_train)
@@ -29,15 +26,12 @@ def base_model_RF(x_train, x_test, y_train, y_test):
     y_prob = rf_clf.predict_proba(x_test)
 
     results = compute_metrics(y_test, y_prob, y_pred)
-    results.append('BASE')
+    results.append(n)
     results.append('Random Forest')
 
     return rf_clf, results
 
 def grid_search_RF(x_train, x_test, y_train, y_test, target, n):
-
-    print()
-    print('Grid Search CV - Random Forest')
 
     # Grid Search CV of SMV
     parameters_grid = {

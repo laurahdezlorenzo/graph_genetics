@@ -30,12 +30,9 @@ def create_folds_stratified_cv(target, n):
     for train_idx, test_idx in skf.split(df, y):
         print(f'Fold -  {k}   |   train -  {np.bincount(y[train_idx])}   |   test -  {np.bincount(y[test_idx])}')
 
-        train_idx_samples = df.iloc[train_idx].index.values
-        test_idx_samples = df.iloc[test_idx].index.values
-
         split_dict = {}
-        split_dict['train'] = list(train_idx_samples)
-        split_dict['valid'] = list(test_idx_samples)
+        split_dict['train'] = list(train_idx)
+        split_dict['valid'] = list(test_idx)
 
         f = open(f'data/splits/{n}Fold_CV_{target}/k{k}_{target}.pkl', 'wb')
         pkl.dump(split_dict, f)
