@@ -126,21 +126,21 @@ def add_graph_features(g, s, label, labels_df):
         diagnosis = labels_df.loc[s]['DX']
 
         if av45 >= 1.11:
-            g.graph['y'] = torch.tensor([1])
+            g.graph['graph_label'] = torch.tensor([1])
             return g
 
         elif av45 < 1.11:
-            g.graph['y'] = torch.tensor([0])
+            g.graph['graph_label'] = torch.tensor([0])
             return g
 
         elif np.isnan(av45):
             if pib >= 1.27:# and diagnosis == 'Dementia':
-                g.graph['y'] = torch.tensor([1])
+                g.graph['graph_label'] = torch.tensor([1])
                 # print('PIB+ Dem', s)
                 return g
 
             elif pib < 1.27:
-                g.graph['y'] = torch.tensor([0])
+                g.graph['graph_label'] = torch.tensor([0])
                 return g
     
     elif label == 'PETandDX': # Dataset with PET+ Dementia vs PET- CN subjects
@@ -149,20 +149,20 @@ def add_graph_features(g, s, label, labels_df):
         diagnosis = labels_df.loc[s]['DX']
 
         if av45 >= 1.11 and diagnosis == 'Dementia':
-            g.graph['y'] = torch.tensor([1])
+            g.graph['graph_label'] = torch.tensor([1])
             return g
 
         elif av45 < 1.11 and diagnosis == 'CN':
-            g.graph['y'] = torch.tensor([0])
+            g.graph['graph_label'] = torch.tensor([0])
             return g
 
         elif np.isnan(av45):
             if pib >= 1.27 and diagnosis == 'Dementia':
-                g.graph['y'] = torch.tensor([1])
+                g.graph['graph_label'] = torch.tensor([1])
                 return g
 
             elif pib < 1.27 and diagnosis == 'CN':
-                g.graph['y'] = torch.tensor([0])
+                g.graph['graph_label'] = torch.tensor([0])
                 return g
     
     elif label == 'LOAD': # Dataset with subjects stratified by LOAD diagnosis
@@ -170,11 +170,11 @@ def add_graph_features(g, s, label, labels_df):
             diag = labels_df.loc[s]['Phenotype']
 
             if diag == 1:
-                g.graph['y'] = torch.tensor([0])
+                g.graph['graph_label'] = torch.tensor([0])
                 return g
 
             elif diag == 2:
-                g.graph['y'] = torch.tensor([1])
+                g.graph['graph_label'] = torch.tensor([1])
                 return g
 
 def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diagnosis, target):
@@ -203,13 +203,13 @@ def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diag
         if sample_graph == None:
             continue
         
-        if sample_graph.graph['y'] == torch.tensor([1]):
+        if sample_graph.graph['graph_label'] == torch.tensor([1]):
             counter += 1
         
         # Add node and edge features (depending on the mode)
         if mode == 'missense':
             for n in nodes:
-                sample_graph.nodes[n]['x'] = torch.tensor([nodes_matrix.loc[n][sample]]) # missense
+                sample_graph.nodes[n]['node_attr'] = torch.tensor([nodes_matrix.loc[n][sample]]) # missense
 
         graphs_list.append(sample_graph)
         # print('Sample graph used:', '# nodes =', nx.number_of_nodes(sample_graph), '# edges =', nx.number_of_edges(sample_graph))

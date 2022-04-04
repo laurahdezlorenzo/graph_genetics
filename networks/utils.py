@@ -5,7 +5,7 @@ from scipy import stats
 
 def boxplot_comparision_others(target, df, metric, title):
     
-    colors = ["#E76BF3", "#9590ff", "#9590ff", "#9590ff", "#9590ff"]
+    colors = ["#E76BF3", "#9590ff", "#9590ff", "#9590ff", "#9590ff", "#9590ff"]
     custom = sns.set_palette(sns.color_palette(colors))
 
     plt.figure(figsize=(8, 8))
@@ -15,8 +15,8 @@ def boxplot_comparision_others(target, df, metric, title):
     plt.ylim(0.5, 1.0)
     plt.xticks(fontsize=16, rotation=40)
     plt.yticks(fontsize=16)
-    ax.xaxis.label.set_visible(False)
-    plt.ylabel(f'{metric} obtained in test set', fontsize=16)
+#     ax.xaxis.label.set_visible(False)
+    plt.ylabel(f'{metric.upper()}', fontsize=16)
     plt.title(title, fontsize=16)
     plt.tight_layout()
     plt.show()
