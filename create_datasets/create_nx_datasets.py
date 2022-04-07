@@ -253,8 +253,8 @@ def main(indir, dataset, target, disease, network, mode, number):
         ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist.txt'
         print(ppin_file_path)
 
-    elif network == 'noAPOE':
-        ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist_noAPOE.txt'
+    elif network == 'snap_brain_noAPOE':
+        ppin_file_path      = f'{indir}/other_networks/{disease}_SNAP_PPI_brain_noAPOE.edgelist'
     
     elif network == 'biogrid':
         ppin_file_path      = f'{indir}/other_networks/{disease}_BioGrid_PPI.edgelist'
@@ -320,7 +320,7 @@ def main(indir, dataset, target, disease, network, mode, number):
     if mode == 'missense':
             
         nodes_attr = per_node(mode, missense, nodes)
-        nodes_attr.to_csv(f'data/table_datasets/{disease}_PPI_{mode}_{dataset}.csv')
+        nodes_attr.to_csv(f'data/table_datasets/{disease}_{network}_{mode}_{dataset}.csv')
         edges_attr = None
 
         result_graphs = create_samples_graphs('missense', nodes_attr, None, ppi_graph, diagnosis, target)

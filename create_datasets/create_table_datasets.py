@@ -70,15 +70,6 @@ def load_data(mode, disease, data_file, metadata_file):
 
     data = data.T
 
-    if disease == 'AD':
-        cols_to_drop = ['SLC30A4', 'SLC30A6', 'INPP5D', 'CD2AP', 'CHRNB2', 'CHRNA7']
-        data.drop(columns=cols_to_drop, inplace=True)
-    
-    elif disease == 'ND':
-        cols_to_drop = ['PRPH', 'NEFH', 'SLC30A4', 'SLC30A6', 'CD33', 'GSTP1',
-                        'TH', 'SLC6A3', 'DDC', 'SLC18A2', 'CHRNB2', 'CHRNA7']
-        data.drop(columns=cols_to_drop, inplace=True)
-
     # For missense
     if mode == 'missense':
         result = pd.concat([data, metadata], axis=1)
