@@ -71,7 +71,7 @@ def create_class_LOAD(df):
 
     return df_notna
 
-def baseline_model_custom(target, infile):
+def baseline_model(target, infile):
 
     result_df = pd.DataFrame(columns = ['target', 'dataset', 'model', 'acc', 'pre', 'rec', 'f1', 'auc', 'cm'])
     data = pd.read_csv(infile, index_col = 0)
@@ -122,60 +122,60 @@ def baseline_model_custom(target, infile):
     result_df.to_csv(f'results/baseline_models_{target}.csv')
 
 
-def baseline_model(x, y):
+# def baseline_model(x, y):
 
-    cv = KFold(n_splits=5, random_state=42, shuffle=True)
-    auc_scores = []
-    k=1
-    for tr_idx, te_idx in cv.split(x):
+#     cv = KFold(n_splits=5, random_state=42, shuffle=True)
+#     auc_scores = []
+#     k=1
+#     for tr_idx, te_idx in cv.split(x):
 
-        print(k)
+#         print(k)
 
-        x_train, x_test = x.iloc[tr_idx], x.iloc[te_idx]
-        y_train, y_test = y[tr_idx], y[te_idx]
+#         x_train, x_test = x.iloc[tr_idx], x.iloc[te_idx]
+#         y_train, y_test = y[tr_idx], y[te_idx]
 
-        x_train = np.array(x_train).reshape(-1, 1)
-        x_test = np.array(x_test).reshape(-1, 1)
+#         x_train = np.array(x_train).reshape(-1, 1)
+#         x_test = np.array(x_test).reshape(-1, 1)
 
-        scaler = preprocessing.StandardScaler().fit(x_train)
-        x_train_scaled = scaler.transform(x_train)
-        x_test_scaled = scaler.transform(x_test)
+#         scaler = preprocessing.StandardScaler().fit(x_train)
+#         x_train_scaled = scaler.transform(x_train)
+#         x_test_scaled = scaler.transform(x_test)
 
-        logreg = LogisticRegression()
-        logreg.fit(x_train_scaled, y_train)
+#         logreg = LogisticRegression()
+#         logreg.fit(x_train_scaled, y_train)
 
-        y_prob = logreg.predict_proba(x_test_scaled)
+#         y_prob = logreg.predict_proba(x_test_scaled)
 
-        y_pred = logreg.predict(x_test_scaled)
-        acc = metrics.accuracy_score(y_test, y_pred)
-        pre = metrics.precision_score(y_test, y_pred)
-        rec = metrics.recall_score(y_test, y_pred)
-        f1  = metrics.f1_score(y_test, y_pred)
-        auc = metrics.roc_auc_score(y_test, y_prob[:, 1])
+#         y_pred = logreg.predict(x_test_scaled)
+#         acc = metrics.accuracy_score(y_test, y_pred)
+#         pre = metrics.precision_score(y_test, y_pred)
+#         rec = metrics.recall_score(y_test, y_pred)
+#         f1  = metrics.f1_score(y_test, y_pred)
+#         auc = metrics.roc_auc_score(y_test, y_prob[:, 1])
 
-        print('Acc.', acc)
-        print('Pre.', pre)
-        print('Rec.', rec)
-        print('F1.', f1)
-        print('AUC.', f1)
-        print()
-        # skplt.metrics.plot_roc_curve(y_test, y_prob)
-        # plt.show()
+#         print('Acc.', acc)
+#         print('Pre.', pre)
+#         print('Rec.', rec)
+#         print('F1.', f1)
+#         print('AUC.', f1)
+#         print()
+#         # skplt.metrics.plot_roc_curve(y_test, y_prob)
+#         # plt.show()
 
-        # cm = metrics.confusion_matrix(y_test, y_pred)
-        # print()
-        # print('Confusion matrix:\n', cm)
+#         # cm = metrics.confusion_matrix(y_test, y_pred)
+#         # print()
+#         # print('Confusion matrix:\n', cm)
 
-        # print()
-        # print(metrics.classification_report(y_test, y_pred))
-        k += 1
+#         # print()
+#         # print(metrics.classification_report(y_test, y_pred))
+#         k += 1
 
-        auc_scores.append(auc)
+#         auc_scores.append(auc)
     
-    auc_scores = np.array(auc_scores)
-    avg_auc_score = np.mean(auc_scores)
-    std_auc_score = np.std(auc_scores)
-    print(avg_auc_score, '+-', std_auc_score)
+#     auc_scores = np.array(auc_scores)
+#     avg_auc_score = np.mean(auc_scores)
+#     std_auc_score = np.std(auc_scores)
+#     print(avg_auc_score, '+-', std_auc_score)
 
 
 def main(dataset, network, target, indir, outdir):

@@ -5,11 +5,12 @@ from scipy import stats
 
 def boxplot_comparision_others(target, df, metric, title):
     
-    colors = ["#E76BF3", "#9590ff", "#9590ff", "#9590ff", "#9590ff", "#9590ff"]
+    order=['Only APOE', 'AD BioGRID', 'AD GIANT', 'AD HuRI', 'AD PPT-Ohmnet', 'AD STRING']
+    colors = ["#F8766D", "#E76BF3", "#E76BF3", "#E76BF3", "#E76BF3", "#E76BF3"]
     custom = sns.set_palette(sns.color_palette(colors))
 
     plt.figure(figsize=(8, 8))
-    ax = sns.boxplot(x = 'dataset', y = metric, data = df, palette = custom)
+    ax = sns.boxplot(x = 'dataset', y = metric, data = df, palette = custom, order=order)
                     #  ci = 'sd',
 
     plt.ylim(0.5, 1.0)
@@ -19,10 +20,10 @@ def boxplot_comparision_others(target, df, metric, title):
     plt.ylabel(f'{metric.upper()}', fontsize=16)
     plt.title(title, fontsize=16)
     plt.tight_layout()
-    plt.show()
+#     plt.show()
     
-    # plt.savefig(f'figures/figure3{title}.pdf', dpi=500)
-    # plt.savefig(f'figures/figure3{title}.png', dpi=500)
+#     plt.savefig(f'figures/figure3{title}.pdf', dpi=500)
+    plt.savefig(f'figures/figure2{title}.png', dpi=500)
 
 def violinplot_comparision_others(target, df, metric, title):
     

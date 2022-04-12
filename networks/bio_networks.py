@@ -50,9 +50,7 @@ def get_string_ids(genes, species, identity):
     for line in results.text.strip().split("\n"):
         l = line.split("\t")
         string_identifiers.append(l[2])
-
-    # print('Genes in STRING:', len(string_identifiers))
-    
+  
     return string_identifiers
 
 def get_string(input_file):
@@ -92,14 +90,12 @@ def get_string(input_file):
                 'escore', 'dscore', 'tscore']
 
     string_ppis = pd.read_csv(io.StringIO(response.content.decode('utf-8')), sep='\t', names=fields)
-    # print('Interactions between these genes:', string_ppis.shape[0])
 
     uniques = np.unique(string_ppis[['preferredName_A', 'preferredName_B']].values)
     interacting_proteins = list(uniques)
     with open(f'data/{disease}_STRING_PPI_intprots.txt', 'w') as f:
         for item in interacting_proteins:
             f.write("%s\n" % item)
-    # print('Proteins interacting at least with another one:', len(interacting_proteins))
 
     # Format PPIN data to obtain a list of protein interactions identified by their gene symbol.
     cols_to_drop = ['stringId_A', 'stringId_B', 'ncbiTaxonId', 'score', 'nscore',
@@ -263,10 +259,7 @@ def get_snap(genes_file):
         entrezgenes.append(int(o['entrezgene']))
         mapping[int(o['entrezgene'])] = o['query']
 
-    print(mapping)
-
     A_brain_frozen = G_brain.subgraph(entrezgenes)
-    print(A_brain_frozen.nodes())
     A_brain = nx.Graph(A_brain_frozen)
     original = A_brain.number_of_nodes()
 
@@ -279,7 +272,6 @@ def get_snap(genes_file):
 
     # Remove self-loops
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
-    print(A_brain.number_of_nodes())
 
     largest = A_brain.number_of_nodes()
     lost = original - largest
@@ -326,10 +318,7 @@ def get_giant(genes_file):
 
     # Remove self-loops
     A_brain.remove_edges_from(list(nx.selfloop_edges(A_brain)))
-    print(A_brain.number_of_nodes())
-
-    
-
+  
     largest = A_brain.number_of_nodes()
     lost = original - largest
     lost_percent = round((lost/original), 4)
