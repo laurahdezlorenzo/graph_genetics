@@ -5,25 +5,25 @@ from scipy import stats
 
 def boxplot_comparison_models(target, df, metric, title):
     
-    hue_order=['Logistic Regression - Only APOE', 'Logistic Regression',
-               'SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']
+    dat_order=['Only APOE', 'AD PPT-Ohmnet','AD PPT-Ohmnet no APOE']
+    hue_order=['Baseline model', 'Logistic Regression','SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']
     colors = ["#F8766D", "#a3a500", "#00bf7d", "#00b0f6", "#E76BF3"]
     custom = sns.set_palette(sns.color_palette(colors))
 
     plt.figure(figsize=(8, 8))
-    ax = sns.boxplot(x = 'dataset', hue='model', y = metric, data = df, palette = custom, hue_order=hue_order)
+    ax = sns.boxplot(x='dataset', hue='model', y=metric, data=df, palette=custom, order=dat_order, hue_order=hue_order)
 
-    plt.ylim(0.5, 1.0)
-    plt.xticks(fontsize=0)
+    plt.ylim(0.3, 1.0)
+    plt.xticks(fontsize=14)
     plt.yticks(fontsize=16)
-    ax.xaxis.label.set_visible(False)
+#     ax.xaxis.label.set_visible(False)
     plt.ylabel(f'{metric.upper()}', fontsize=16)
     plt.title(title, fontsize=16)
     plt.tight_layout()
 #     plt.show()
     
     # plt.savefig(f'figures/figure3{title}.pdf', dpi=500)
-    plt.savefig(f'figures/figure3{title}.png', dpi=500)
+#     plt.savefig(f'figures/figure3{title}.png', dpi=500)
 
 def violinplot_comparison_models(target, df, metric, title):
     
@@ -71,13 +71,39 @@ def barplot_comparison_models(target, df, metric, title):
 
 
 def statistics(df):
-    pvalues = {}
-    for d in df['dataset'].unique():
-        tmp = df.loc[df['dataset'] == d]['auc'].values
-        bas = df.loc[df['model'] == 'Logistic Regression']['auc'].values
-        t, pval = stats.ttest_ind(tmp, bas, alternative='greater')
-        pvalues[d] = pval
-    
-    pvalues_sorted = {k: v for k, v in sorted(pvalues.items(), key=lambda item: item[1])}
 
-    return pvalues_sorted
+    pvalues_bas = {}
+    pvalues_ran = {}
+
+    bas = df.loc[df['model'] == 'Baseline model']['auc'].values
+    ran = [0.5]*10
+
+    for d in ['AD PPT-Ohmnet', 'AD PPT-Ohmnet no APOE']: 
+        for m in ['Logistic Regression', 'SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']: # when GG results no APOE
+            tmp = df.loc[(df['dataset'] == d) & (df['model'] == m)]['auc'].values
+            t_bas, pval_bas = stats.ttest_ind(tmp, bas, alternative='greater')
+            t_ran, pval_ran = stats.ttest_ind(tmp, ran, alternative='greater')
+            pvalues_bas[f'{d} - {m}'] = (pval_bas)
+            pvalues_ran[f'{d} - {m}']  = pval_ran
+
+        pvalues_bas_sorted = {k: v for k, v in sorted(pvalues_bas.items(), key=lambda item: item[1])}
+        pvalues_ran_sorted = {k: v for k, v in sorted(pvalues_ran.items(), key=lambda item: item[1])}
+
+    print('Against baseline:')
+    for k in pvalues_bas_sorted:
+        p = pvalues_bas_sorted[k]
+        if p < 0.05:
+            print('(*)', '{:0.4e}'.format(p), k)
+        else:
+            print('( )', '{:0.4e}'.format(p), k)
+    print()
+
+    print('Against random:')
+    for k in pvalues_ran_sorted:
+        p = pvalues_ran_sorted[k]
+        if p < 0.05:
+            print('(*)', '{:0.4e}'.format(p), k)
+        else:
+            print('( )', '{:0.4e}'.format(p), k)
+            
+    return pvalues_bas, pvalues_ran

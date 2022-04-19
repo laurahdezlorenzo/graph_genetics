@@ -71,10 +71,19 @@ def statistics(df):
     pvalues = {}
     for d in df['dataset'].unique():
         tmp = df.loc[df['dataset'] == d]['auc'].values
-        bas = df.loc[df['model'] == 'Logistic Regression']['auc'].values
+        bas = df.loc[df['model'] == 'Baseline model']['auc'].values
         t, pval = stats.ttest_ind(tmp, bas, alternative='greater')
         pvalues[d] = pval
     
     pvalues_sorted = {k: v for k, v in sorted(pvalues.items(), key=lambda item: item[1])}
+    
+    print('Against baseline:')
+    for k in pvalues_sorted:
+        p = pvalues_sorted[k]
+        if p < 0.05:
+            print('(*)', '{:0.4e}'.format(p), k)
+        else:
+            print('( )', '{:0.4e}'.format(p), k)
+    print()
 
     return pvalues_sorted

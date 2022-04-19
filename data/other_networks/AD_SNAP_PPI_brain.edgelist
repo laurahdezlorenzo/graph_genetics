@@ -1,52 +1,52 @@
-A2M NOS3 {'tissue': 'brain'}
-A2M APP {'tissue': 'brain'}
-A2M ADAMTS1 {'tissue': 'brain'}
-A2M APOE {'tissue': 'brain'}
-IGF1 IGF1R {'tissue': 'brain'}
-IGF1 TF {'tissue': 'brain'}
-IGF1R INSR {'tissue': 'brain'}
-IGF1R IGF2 {'tissue': 'brain'}
-IGF1R APP {'tissue': 'brain'}
-IGF2 TF {'tissue': 'brain'}
-IGF2 INSR {'tissue': 'brain'}
-WWOX ENO1 {'tissue': 'brain'}
-PSEN1 NOS3 {'tissue': 'brain'}
-PSEN1 APOE {'tissue': 'brain'}
-PSEN1 APP {'tissue': 'brain'}
-PSEN1 MAPT {'tissue': 'brain'}
-PSEN1 PSEN2 {'tissue': 'brain'}
-PSEN1 CASP3 {'tissue': 'brain'}
-PSEN1 GSK3B {'tissue': 'brain'}
-PSEN2 APP {'tissue': 'brain'}
-PSEN2 NOS3 {'tissue': 'brain'}
-PSEN2 CASP3 {'tissue': 'brain'}
-CALM1 MAPT {'tissue': 'brain'}
-CALM1 INSR {'tissue': 'brain'}
-CALM1 NOS3 {'tissue': 'brain'}
-ADAMTS1 VEGFA {'tissue': 'brain'}
-CLU APP {'tissue': 'brain'}
-CLU BAX {'tissue': 'brain'}
-CLU PRNP {'tissue': 'brain'}
-MAPT CASP3 {'tissue': 'brain'}
-MAPT GSK3B {'tissue': 'brain'}
-MAPT APP {'tissue': 'brain'}
-MAPT APOE {'tissue': 'brain'}
-ACHE ENO1 {'tissue': 'brain'}
-ACHE APP {'tissue': 'brain'}
-EIF2S1 CASP3 {'tissue': 'brain'}
-CASP3 APP {'tissue': 'brain'}
-CASP3 BAX {'tissue': 'brain'}
-CASP3 PICALM {'tissue': 'brain'}
-BAX TOMM40 {'tissue': 'brain'}
-BAX GSK3B {'tissue': 'brain'}
-TOMM40 APP {'tissue': 'brain'}
-APOE APP {'tissue': 'brain'}
-APOE PRNP {'tissue': 'brain'}
-APOE NOS3 {'tissue': 'brain'}
-APP CHRNA7 {'tissue': 'brain'}
-APP ATP5F1A {'tissue': 'brain'}
-APP PRNP {'tissue': 'brain'}
-APP SOD2 {'tissue': 'brain'}
-APP GSK3B {'tissue': 'brain'}
-APP NOS3 {'tissue': 'brain'}
-ENO1 ATP5F1A {'tissue': 'brain'}
+A2M NOS3
+A2M APP
+A2M ADAMTS1
+A2M APOE
+IGF1 IGF1R
+IGF1 TF
+IGF1R INSR
+IGF1R IGF2
+IGF1R APP
+IGF2 TF
+IGF2 INSR
+WWOX ENO1
+PSEN1 NOS3
+PSEN1 APOE
+PSEN1 APP
+PSEN1 MAPT
+PSEN1 PSEN2
+PSEN1 CASP3
+PSEN1 GSK3B
+PSEN2 APP
+PSEN2 NOS3
+PSEN2 CASP3
+CALM1 MAPT
+CALM1 INSR
+CALM1 NOS3
+ADAMTS1 VEGFA
+CLU APP
+CLU BAX
+CLU PRNP
+MAPT CASP3
+MAPT GSK3B
+MAPT APP
+MAPT APOE
+ACHE ENO1
+ACHE APP
+EIF2S1 CASP3
+CASP3 APP
+CASP3 BAX
+CASP3 PICALM
+BAX TOMM40
+BAX GSK3B
+TOMM40 APP
+APOE APP
+APOE PRNP
+APOE NOS3
+APP CHRNA7
+APP ATP5F1A
+APP PRNP
+APP SOD2
+APP GSK3B
+APP NOS3
+ENO1 ATP5F1A

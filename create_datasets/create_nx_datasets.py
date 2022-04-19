@@ -209,7 +209,7 @@ def create_samples_graphs(mode, nodes_matrix, edges_matrix, original_graph, diag
         # Add node and edge features (depending on the mode)
         if mode == 'missense':
             for n in nodes:
-                sample_graph.nodes[n]['node_attr'] = torch.tensor([nodes_matrix.loc[n][sample]]) # missense
+                sample_graph.nodes[n]['node_feature'] = torch.tensor([nodes_matrix.loc[n][sample]]) # missense
 
         graphs_list.append(sample_graph)
         # print('Sample graph used:', '# nodes =', nx.number_of_nodes(sample_graph), '# edges =', nx.number_of_edges(sample_graph))
@@ -242,7 +242,7 @@ def main(indir, dataset, target, disease, network, mode, number):
     '''
     1. Select the scaffold network to use and load network data
         - original: PPI from STRING
-        - noAPOE: PPI from STRING without APOE gene
+        - noAPOE: PPI without APOE gene
         - biogrid: PPI from BioGRID
         - huri: PPI from HuRI
         - snap_brain: brain-specific PPI from PPT-Ohmnet
