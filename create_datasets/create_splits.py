@@ -30,13 +30,21 @@ def create_folds_stratified_cv(target, n):
     for train_idx, test_idx in skf.split(df, y):
         print(f'Fold -  {k}   |   train -  {np.bincount(y[train_idx])}   |   test -  {np.bincount(y[test_idx])}')
 
+        val_samples = list(df.iloc[test_idx].index)
+
+        data = pd.read_csv('data/ADNI/ADNIMERGE_metadata.csv', index_col=0)
+        tmp = data.loc[val_samples]
+        tmp.to_csv(f'data/splits/10Fold_CV_{target}/fold{k}_val_samples.csv')
+
         split_dict = {}
         split_dict['train'] = list(train_idx)
         split_dict['valid'] = list(test_idx)
 
-        f = open(f'data/splits/{n}Fold_CV_{target}/k{k}_{target}.pkl', 'wb')
-        pkl.dump(split_dict, f)
-        f.close()
+        # print(split_dict['valid'])
+
+        # f = open(f'data/splits/{n}Fold_CV_{target}/k{k}_{target}.pkl', 'wb')
+        # pkl.dump(split_dict, f)
+        # f.close()
 
         k += 1
     
@@ -46,5 +54,5 @@ def create_folds_stratified_cv(target, n):
 if __name__ == '__main__':
 
     create_folds_stratified_cv('PET', 10)
-    create_folds_stratified_cv('PETandDX', 10)
+    # create_folds_stratified_cv('PETandDX', 10)
     # create_folds_stratified_cv('LOAD', 10)
