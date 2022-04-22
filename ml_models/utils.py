@@ -5,7 +5,11 @@ from scipy import stats
 
 def boxplot_comparison_models(target, df, metric, title):
     
-    dat_order=['Only APOE', 'AD PPT-Ohmnet','AD PPT-Ohmnet no APOE']
+    if title == 'LOAD':
+        dat_order=['Only APOE', 'AD PPT-Ohmnet']
+    else:
+        dat_order=['Only APOE', 'AD PPT-Ohmnet','AD PPT-Ohmnet no APOE']
+        
     hue_order=['Baseline model', 'Logistic Regression','SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']
     colors = ["#F8766D", "#a3a500", "#00bf7d", "#00b0f6", "#E76BF3"]
     custom = sns.set_palette(sns.color_palette(colors))

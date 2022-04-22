@@ -250,23 +250,23 @@ def main(indir, dataset, target, disease, network, mode, number):
     '''
 
     if network == 'string':
-        ppin_file_path      = f'{indir}/{disease}_STRING_PPI_edgelist.txt'
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_STRING_PPI.edgelist'
         print(ppin_file_path)
 
     elif network == 'snap_brain_noAPOE':
-        ppin_file_path      = f'{indir}/other_networks/{disease}_SNAP_PPI_brain_noAPOE.edgelist'
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_SNAP_PPI_brain_noAPOE.edgelist'
     
     elif network == 'biogrid':
-        ppin_file_path      = f'{indir}/other_networks/{disease}_BioGrid_PPI.edgelist'
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_BioGrid_PPI.edgelist'
 
     elif network == 'huri':
-        ppin_file_path      = f'{indir}/other_networks/{disease}_HuRI_PPI.edgelist'
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_HuRI_PPI.edgelist'
 
     elif network == 'snap_brain':
-        ppin_file_path      = f'{indir}/other_networks/{disease}_SNAP_PPI_brain.edgelist'
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_SNAP_PPI_brain.edgelist'
 
     elif network == 'giant_brain':
-        ppin_file_path      = f'{indir}/other_networks/{disease}_GIANT_brain.edgelist' # it is not simply a PPI
+        ppin_file_path      = f'{indir}/bio_networks/{disease}_GIANT_brain.edgelist' # it is not simply a PPI
 
     elif network == 'shuffled':
         ppin_file_path      = f'{indir}/random_networks/shuffled/{disease}_PPI_rand{number}_edgelist.txt'
