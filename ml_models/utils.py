@@ -52,26 +52,29 @@ def violinplot_comparison_models(target, df, metric, title):
 
 def barplot_comparison_models(target, df, metric, title):
     
-    hue_order=['Logistic Regression - Only APOE', 'Logistic Regression',
-               'SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']
-    
+    if title == 'LOAD':
+        dat_order=['Only APOE', 'AD PPT-Ohmnet']
+    else:
+        dat_order=['Only APOE', 'AD PPT-Ohmnet','AD PPT-Ohmnet no APOE']
+        
+    hue_order=['Baseline model', 'Logistic Regression','SVM Linear', 'SVM RBF', 'Random Forest', 'GNN GraphGym']
     colors = ["#F8766D", "#a3a500", "#00bf7d", "#00b0f6", "#E76BF3"]
     custom = sns.set_palette(sns.color_palette(colors))
 
     plt.figure(figsize=(8, 8))
-    ax = sns.barplot(x = 'dataset', hue='model', y = metric, data = df, palette = custom, ci='sd', hue_order=hue_order )
+    ax = sns.barplot(x='dataset', hue='model', y=metric, data=df, palette=custom, order=dat_order, ci='sd',hue_order=hue_order )
 
-    plt.ylim(0.5, 1.0)
-    plt.xticks(fontsize=16, rotation=40)
+    plt.ylim(0.3, 1.0)
+    plt.xticks(fontsize=14)
     plt.yticks(fontsize=16)
-    ax.xaxis.label.set_visible(False)
-    plt.ylabel(f'{metric} obtained in test set', fontsize=16)
+#     ax.xaxis.label.set_visible(False)
+    plt.ylabel(f'{metric.upper()}', fontsize=16)
     plt.title(title, fontsize=16)
     plt.tight_layout()
     plt.show()
     
-    # plt.savefig(f'figures/figure3{title}.pdf', dpi=500)
-    # plt.savefig(f'figures/figure3{title}.png', dpi=500)
+    # plt.savefig(f'figures/figure3{title}_barplot.pdf', dpi=500)
+    plt.savefig(f'figures/figure3{title}_barplot.png', dpi=500)
 
 
 def statistics(df):
