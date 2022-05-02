@@ -273,6 +273,10 @@ def main(indir, dataset, target, disease, network, mode, number):
     
     elif network == 'rewired':
         ppin_file_path      = f'{indir}/random_networks/rewired/{disease}_PPI_rand{number}_edgelist.txt'
+        
+    else:
+        ppin_file_path = f'{indir}/sensitivity_analysis/{network}' # for sensitivity analysis
+        print(ppin_file_path)
     
     ppi_graph = nx.read_edgelist(ppin_file_path)
     nodes = list(ppi_graph)
