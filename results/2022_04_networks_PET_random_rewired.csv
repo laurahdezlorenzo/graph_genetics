@@ -1,4 +1,4 @@
-fold,target,dataset,model,accuracy,precision,recall,f1,auc
+fold,target,dataset,model,acc,pre,rec,f1,auc
 1,PET,AD_PPI_rewired1_missense,GNN GraphGym,0.6666,0.7286,0.6504,0.6868,0.7123
 1,PET,AD_PPI_rewired2_missense,GNN GraphGym,0.6758,0.7466,0.6422,0.69,0.6803
 1,PET,AD_PPI_rewired3_missense,GNN GraphGym,0.6575,0.7105,0.6585,0.6835,0.707
