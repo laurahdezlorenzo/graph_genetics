@@ -1,0 +1,43 @@
+# The recommended basic settings for GNN
+out_dir: results
+dataset:
+  dir: '/home/laura/Documents/DATASETS/graph_datasets/PET/random'
+  format: custom_split
+  name: AD_PPI_snap_brain_missense
+  task: graph
+  task_type: classification
+  transductive: False
+  split: [0.0, 0.0, 0.0]
+  augment_feature: []
+  augment_feature_dims: [0]
+  augment_feature_repr: position
+  augment_label: ''
+  augment_label_dims: 0
+  transform: none
+train:
+  batch_size: 32
+  eval_period: 20
+  ckpt_period: 100
+model:
+  type: gnn
+  loss_fun: cross_entropy
+  edge_decoding: dot
+  graph_pooling: max
+gnn:
+  layers_pre_mp: 2
+  layers_mp: 2
+  layers_post_mp: 2
+  dim_inner: 256
+  layer_type: generalconv
+  stage_type: skipsum
+  batchnorm: True
+  act: prelu
+  dropout: 0.0
+  agg: add
+  normalize_adj: False
+  l2norm: True
+optim:
+  optimizer: adam
+  base_lr: 0.01
+  max_epoch: 200
+num_threads: 1
