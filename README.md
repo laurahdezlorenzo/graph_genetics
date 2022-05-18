@@ -47,6 +47,8 @@ The code in this work was built using:
 
 We provide an [Anaconda environment](graphgenetics.yml) including all the dependencies.
 
+More information about the project can be found at this [AIMe report](https://aime.report/thfKRo).
+
 ## Contact
 Please refer any questions to:
 Laura Hernández-Lorenzo - [GitHub](https://github.com/laurahdezlorenzo) - [email](laurahl@ucm.es)
