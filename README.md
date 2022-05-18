@@ -3,7 +3,8 @@
 
 ## Description
 
-This is the code repository for the paper entitled *Benchmarking Graph Neural Networks for phenotype prediction through genotype in Alzheimer’s Disease*. The repository follows the methodology and results presented in the abovementioned work. 
+This is the code repository for the paper entitled *On the limits of graph neural networks for the early diagnosis of Alzheimer’s
+Disease*. The repository follows the methodology and results presented in the abovementioned work. 
 
 ![Image](figures/figure1a.png)
 ![Image](figures/figure1b.png)
@@ -11,9 +12,9 @@ This is the code repository for the paper entitled *Benchmarking Graph Neural Ne
 The results obtained for the manuscript are organized in the following notebooks:
 
 * [1_ADNI_GNNs_networks](1_ADNI_GNNs_networks.ipynb) - for Section *3.1. Comparing results using different input networks*
-* [2_ADNI_GNNs_vs_nonGNNs](2_ADNI_GNNs_vs_nonGNNs.ipynb)  - for Section *3.2. Benchmarking GNNs performance vs. other non-GNN models*
-* [3_ADNI_GNNs_random_networks](3_ADNI_GNNs_random_networks.ipynb)  - for Section *3.3. Using random networks as input*
-* [4_LOAD_GNNs](4_LOAD_GNNs.ipynb)  - for Section *3.4. Using randomized networks as input*
+* [2_ADNI_GNNs_vs_nonGNNs](2_ADNI_GNNs_vs_nonGNNs.ipynb)  - for Section *3.2. Benchmarking GNNs performance vs. canonical machine learning models*
+* [3_ADNI_GNNs_random_networks](3_ADNI_GNNs_random_networks.ipynb)  - for Section *3.3. Using randomized networks as input*
+* [4_LOAD_GNNs](4_LOAD_GNNs.ipynb)  - for Section *3.4. Using another dataset as input*
 
 
 These notebooks use information from several scripts, organized in the following subdirectories:
@@ -26,9 +27,11 @@ These notebooks use information from several scripts, organized in the following
 
 Other subdirectories present in this repository:
 
-* [data](data) contains several data files used in this work. Please note genetic data coming from the cohorts employed is not available due to privacy reasons.
+* [data](data) contains several data files used in this work.
 * [results](results) CSV files with the results presented in this work.
 * [figures](figures)
+
+Please note that several files such as raw genetic data, graph and table datasets build from it, and metadata files for cohorts' description are not available in this repository due to privacy reasons.
 
 ## Implementation
 
@@ -41,6 +44,8 @@ The code in this work was built using:
 * [GraphGym](https://github.com/snap-stanford/GraphGym) for evaluating and testing GNN models on graph datasets.
 * [Scikit-Learn](https://scikit-learn.org/stable/) for building non-GNN models.
 * [SciPy](https://scipy.org/) for statistical analyses.
+
+We provide an [Anaconda environment](graphgenetics.yml) including all the dependencies.
 
 ## Contact
 Please refer any questions to:
