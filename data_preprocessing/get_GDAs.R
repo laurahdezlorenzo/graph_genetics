@@ -4,8 +4,8 @@
 library(disgenet2r)
 
 disgenet_api_key <- get_disgenet_api_key(
-        email = "laurahl@ucm.es", 
-        password = "GraphGene21" ) 
+        email = "", 
+        password = "" ) 
 
 Sys.setenv(DISGENET_API_KEY= disgenet_api_key)
 
