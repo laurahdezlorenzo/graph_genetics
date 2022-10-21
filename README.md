@@ -3,8 +3,8 @@
 
 ## Description
 
-This is the code repository for the paper entitled *On the limits of graph neural networks for the early diagnosis of Alzheimer’s
-Disease*. The repository follows the methodology and results presented in the abovementioned work. 
+This is the code repository for the paper entitled [On the limits of graph neural networks for the early diagnosis of Alzheimer’s
+Disease](https://www.nature.com/articles/s41598-022-21491-y#article-info). The repository follows the methodology and results presented in the abovementioned work. 
 
 ![Image](figures/figure1.png)
 
